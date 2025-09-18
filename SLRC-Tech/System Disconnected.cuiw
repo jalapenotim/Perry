@@ -1,0 +1,156 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.601.10.0"
+Created = 2025-09-18 11:11:58.441443-05:00
+LastModifiedByAppHost = "2.601.10.0"
+Modified = 2025-09-18 11:11:58.441439-05:00
+CreatedByProjectApp = "1.4201.17.0"
+LastModifiedByProjectApp = "1.4201.17.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{Html}
+<div categoryname="Widget Components" id="ij998b3pbs" defaultwidth="1280px" defaultheight="800px" class="widget-container" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]"><ch5-image numberofmodes="0" refreshrate="0" customvstheme="custom" assetid="2ade6ef1-901f-4504-b580-66cb08ac12fb" id="i1a4" componentname="ONULogo" ccid_linksendreceive="True" oldid="iokk" allowpositiondatatobesent="false" allowvaluesonmove="false" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]">
+              </ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Control Processor Disconnected" id="ismp" componentname="DisconnectedText" ccid_linksendreceive="True" ccid_themecssset="true" oldid="ijfx" ccid_label="Control Processor Disconnected" ccid_activefont="'Roboto'" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]">
+              </ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Please Wait" id="i6yq" componentname="PleaseWaitText" ccid_linksendreceive="True" ccid_themecssset="true" oldid="i02tlh5f8j" ccid_label="Please Wait" ccid_activefont="'Roboto'" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]"></ch5-text><ch5-background scale="fill" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="i75s" componentname="Background" ccid_linksendreceive="True" imgbackgroundcolor="transparent" backgroundcolor="#000000" componentwasresized="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]">
+              </ch5-background></div>
+
+
+
+
+
+
+
+{Css}
+@media (max-width: 99999px) { #wrapper { background-color: 0xffffff } #i75s { width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; z-index: -99; display: block; overflow: hidden } #i6yq { Label_color: #ffffff; --ch5-text--font-color: #ffffff; Label_font-size: 60px; --ch5-text--font-size: 60px; width: 1280px; --ch5-text--width: 1280px; height: 79px; --ch5-text--height: 79px; display: block; left: 0px; top: 591px; position: absolute; z-index: 1 } #i6yq .ch5-text { min-height: 10px; min-width: 10px; padding: 0px } #i6yq .ch5-text :not(i):not(svg) { font-family: "Roboto" } #ismp { Label_color: #ffffff; --ch5-text--font-color: #ffffff; Label_font-size: 60px; --ch5-text--font-size: 60px; width: 1280px; --ch5-text--width: 1280px; height: 79px; --ch5-text--height: 79px; display: block; left: 0px; top: 501px; position: absolute; z-index: 2 } #ismp .ch5-text { min-height: 10px; min-width: 10px; padding: 0px } #ismp .ch5-text :not(i):not(svg) { font-family: "Roboto" } #i1a4 { Appearance_border-color: black; --ch5-image--border-color: black; Appearance_object-fit: contain; --ch5-image--object-fit: contain; width: 600px; --ch5-image--width: 600px; height: 400px; --ch5-image--height: 400px; display: block; left: 340px; top: 65px; position: absolute; z-index: 3 } #ij998b3pbs { width: 1280px; height: 800px; left: 0; top: 0; position: absolute } .widget-container { background-image: linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%); background-size: 20px 20px; background-position: 0 0, 0 10px, 10px -10px, -10px 0px; z-index: 0 } }
+@media (orientation: landscape) and (max-width: 1181px) and (max-height: 777px), (orientation: landscape) and (max-width: 1179px) { #i6yq { Label_color: #ffffff; --ch5-text--font-color: #ffffff; Label_font-size: 60px; --ch5-text--font-size: 60px; left: 0px; width: 1180px; --ch5-text--width: 1180px } #ismp { Label_color: #ffffff; --ch5-text--font-color: #ffffff; Label_font-size: 60px; --ch5-text--font-size: 60px; left: 0px; width: 1180px; --ch5-text--width: 1180px } #i1a4 { left: 290px } #ij998b3pbs { width: 1180px; height: 776px; left: 0; top: 0; position: absolute } }
+@media (orientation: portrait) and (max-height: 1137px) and (max-width: 821px), (orientation: portrait) and (max-height: 1135px) { #i6yq { Label_font-size: 50px; --ch5-text--font-size: 50px; width: 820px; --ch5-text--width: 820px; top: 558px; left: 0px; position: absolute } #ismp { Label_font-size: 50px; --ch5-text--font-size: 50px; width: 820px; --ch5-text--width: 820px; left: 0px; top: 489px; position: absolute; height: 79px; --ch5-text--height: 79px } #i1a4 { left: 110px; top: 43px; position: absolute } #ij998b3pbs { width: 820px; top: 0; left: 0; position: absolute; height: 1136px } }
+
+{PageAttributes}
+
+[Attributes]
+Name = "System Disconnected"
+PageMode = "absolute"
+Id = "570ea423-91dc-4f29-bcf9-a6d83ce1ec05"
+DisplayBackgroundColor = "False"
+
+[[Elements]]
+Name = ""
+Type = "widgetContainer"
+Status = ""
+Content = ""
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Name = ""
+Type = "Ch5 Image"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Components.Attributes]
+numberofmodes = "0"
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "2ade6ef1-901f-4504-b580-66cb08ac12fb"
+id = "i1a4"
+componentName = "ONULogo"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+url = "StaticFiles/c469f9b4-1434-4537-b876-7254eee8d4c8/2ade6ef1-901f-4504-b580-66cb08ac12fb/shtql1rx.png"
+oldID = "iokk"
+allowpositiondatatobesent = "false"
+allowvaluesonmove = "false"
+[[Elements.Components]]
+Name = ""
+Type = "Ch5 Text"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Control Processor Disconnected"
+id = "ismp"
+componentName = "DisconnectedText"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+ccid_themeCSSSet = "true"
+oldID = "ijfx"
+ccid_Label = "Control Processor Disconnected"
+ccid_ActiveFont = "'Roboto'"
+[[Elements.Components]]
+Name = ""
+Type = "Ch5 Text"
+Status = ""
+Content = ""
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Please Wait"
+id = "i6yq"
+componentName = "PleaseWaitText"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+ccid_themeCSSSet = "true"
+oldID = "i02tlh5f8j"
+ccid_Label = "Please Wait"
+ccid_ActiveFont = "'Roboto'"
+[[Elements.Components]]
+Name = ""
+Type = "Ch5 Background"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Components.Attributes]
+scale = "fill"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "0"
+id = "i75s"
+componentName = "Background"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+imgbackgroundcolor = "transparent"
+backgroundcolor = "#000000"
+componentWasResized = "true"
+url = ""
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+id = "ij998b3pbs"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+defaultWidth = "1280px"
+defaultHeight = "800px"
+

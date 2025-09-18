@@ -1,0 +1,368 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.601.10.0"
+Created = 2025-09-17 16:37:28.996835-05:00
+LastModifiedByAppHost = "2.601.10.0"
+Modified = 2025-09-17 16:37:28.996832-05:00
+CreatedByProjectApp = "1.4201.17.0"
+LastModifiedByProjectApp = "1.4201.17.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{Html}
+<div categoryname="Widget Components" id="izf7fij2px" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" defaultwidth="500px" defaultheight="500px" class="widget-container"><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ikgpwkxz355on" componentname="Right Room Label" ccid_activefont="'Roboto'" ccid_label="SLRC 226" labelinnerhtml="SLRC 226" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" pd-receivestatescriptlabelhtml="Contract Enabled" oldid="imoz3"></ch5-text><ch5-tab-button numberofitems="2" usecontractforcustomstyle="false" usecontractforcustomclass="false" orientation="horizontal" previewstate="buttonnormal" indexid="idx" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="top" buttonshape="rounded-rectangle" buttontype="default" pd-receivestateenable="" pd-receivestateshow="" affectedbypreviewstate="True" customvstheme="custom" id="ixmhuh8jigmrh" componentname="Right Input Tab Button" ccid_activefont="'Roboto'" ccid_label="" ccid_linksendreceive="True" assetid="0" ccid_imageicontype="iconclass" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" oldid="in78cnthlf" pd-buttonreceivestateselected="Contract Enabled" buttonsendeventonclick="Contract Enabled" buttonselected="false"><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1" id="irnk-2-3" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="HDMI" labelinnerhtml="HDMI"></ch5-tab-button-individual-button><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2" id="is7r-2-3" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="VGA" labelinnerhtml="VGA"></ch5-tab-button-individual-button></ch5-tab-button><ch5-tab-button numberofitems="2" usecontractforcustomstyle="false" usecontractforcustomclass="false" orientation="horizontal" previewstate="buttonnormal" indexid="idx" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="top" buttonshape="rounded-rectangle" buttontype="default" pd-receivestateenable="" pd-receivestateshow="" affectedbypreviewstate="True" customvstheme="custom" id="ir1nllq0umblp" componentname="Right Power Tab Button" ccid_activefont="'Roboto'" ccid_label="" ccid_linksendreceive="True" assetid="0" ccid_imageicontype="iconclass" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" oldid="iifhawvkzd" pd-buttonreceivestateselected="Contract Enabled" buttonsendeventonclick="Contract Enabled" buttonselected="false"><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1" id="irnk-3" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="ON" labelinnerhtml="ON"></ch5-tab-button-individual-button><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2" id="is7r-3" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="OFF" labelinnerhtml="OFF"></ch5-tab-button-individual-button></ch5-tab-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="imoz3" componentname="Left Room Label" ccid_activefont="'Roboto'" ccid_label="SLRC 222" labelinnerhtml="SLRC 222" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" pd-receivestatescriptlabelhtml="Contract Enabled">
+              </ch5-text><ch5-tab-button numberofitems="2" usecontractforcustomstyle="false" usecontractforcustomclass="false" orientation="horizontal" previewstate="buttonnormal" indexid="idx" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="top" buttonshape="rounded-rectangle" buttontype="default" pd-receivestateenable="" pd-receivestateshow="" affectedbypreviewstate="True" customvstheme="custom" id="iifhawvkzd" componentname="Left Power Tab Button" ccid_activefont="'Roboto'" ccid_label="" ccid_linksendreceive="True" assetid="0" ccid_imageicontype="iconclass" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" oldid="ivj3ew4fvl" pd-buttonreceivestateselected="Contract Enabled" buttonsendeventonclick="Contract Enabled" buttonselected="false"><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1" id="irnk" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="ON" labelinnerhtml="ON"></ch5-tab-button-individual-button><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2" id="is7r" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="OFF" labelinnerhtml="OFF"></ch5-tab-button-individual-button></ch5-tab-button><ch5-tab-button numberofitems="2" usecontractforcustomstyle="false" usecontractforcustomclass="false" orientation="horizontal" previewstate="buttonnormal" indexid="idx" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="top" buttonshape="rounded-rectangle" buttontype="default" pd-receivestateenable="" pd-receivestateshow="" affectedbypreviewstate="True" customvstheme="custom" id="in78cnthlf" componentname="Left Input Tab Button" ccid_activefont="'Roboto'" ccid_label="" ccid_linksendreceive="True" assetid="0" ccid_imageicontype="iconclass" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" oldid="iifhawvkzd" pd-buttonreceivestateselected="Contract Enabled" buttonsendeventonclick="Contract Enabled" buttonselected="false"><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1" id="irnk-2" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="HDMI" labelinnerhtml="HDMI"></ch5-tab-button-individual-button><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2" id="is7r-2" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="VGA" labelinnerhtml="VGA"></ch5-tab-button-individual-button></ch5-tab-button><ch5-tab-button numberofitems="2" usecontractforcustomstyle="false" usecontractforcustomclass="false" orientation="vertical" previewstate="buttonnormal" indexid="idx" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="top" buttonshape="rounded-rectangle" buttontype="default" pd-receivestateenable="" pd-receivestateshow="" affectedbypreviewstate="True" customvstheme="custom" id="ivdvo7iv1q7cw" componentname="Combine Separate Tab Button" ccid_activefont="'Crestron AV'" ccid_label="" ccid_linksendreceive="True" assetid="0" ccid_imageicontype="iconclass" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" oldid="in78cnthlf" pd-buttonreceivestateselected="Contract Enabled" buttonsendeventonclick="Contract Enabled" buttonselected="false"><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1" id="irnk-2-2" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="Y" labelinnerhtml="Y"></ch5-tab-button-individual-button><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2" id="is7r-2-2" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="E" labelinnerhtml="E"></ch5-tab-button-individual-button></ch5-tab-button></div>
+
+{Css}
+@media (max-width: 99999px){#izf7fij2px{width:438px;height:246px;left:0;top:0;position:absolute;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#iifhawvkzd .ch5-tab-button :not(i):not(svg){font-family:'Roboto';}#iifhawvkzd ch5-button{--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;--ch5-button--regular-font-size:25px;--ch5-button--label-margin-top:0;Label_margin-top:0;--ch5-button--label-margin-bottom:0;--ch5-button--regular-icon-size:25px;--ch5-button--regular-pressed-font-size:22px;--ch5-button--pressed-label-margin-top:4px;pressedLabel_margin-top:2px;--ch5-button--pressed-label-margin-bottom:0;--ch5-button--regular-pressed-icon-size:22px;--ch5-button--default-selected-border-color:#000000;--ch5-button--default-selected-background-color:#003cfb;--ch5-button--selected-label-margin-top:4px;selectedLabel_margin-top:2px;--ch5-button--selected-label-margin-bottom:0;--ch5-button--regular-selected-icon-size:25px;--ch5-button--regular-selected-font-size:25px;--ch5-button--default-pressed-border-color:#000000;custom-normal-icon-font-size:25px;Icon_font-size:25px;custom-normal-label-font-size:25px;Label_font-size:25px;custom-pressed-label-font-size:22px;pressedLabel_font-size:22px;custom-pressed-icon-font-size:22px;pressedIcon_font-size:22px;custom-selected-label-font-size:25px;selectedLabel_font-size:25px;custom-selected-icon-font-size:25px;selectedIcon_font-size:25px;}#in78cnthlf .ch5-tab-button :not(i):not(svg){font-family:'Roboto';}#in78cnthlf ch5-button{--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;--ch5-button--regular-font-size:25px;--ch5-button--label-margin-top:0;Label_margin-top:0;--ch5-button--label-margin-bottom:0;--ch5-button--regular-icon-size:25px;--ch5-button--regular-pressed-font-size:22px;--ch5-button--pressed-label-margin-top:4px;pressedLabel_margin-top:2px;--ch5-button--pressed-label-margin-bottom:0;--ch5-button--regular-pressed-icon-size:22px;--ch5-button--default-selected-border-color:#000000;--ch5-button--default-selected-background-color:#003cfb;--ch5-button--selected-label-margin-top:4px;selectedLabel_margin-top:2px;--ch5-button--selected-label-margin-bottom:0;--ch5-button--regular-selected-icon-size:25px;--ch5-button--regular-selected-font-size:25px;--ch5-button--default-pressed-border-color:#000000;custom-normal-icon-font-size:25px;Icon_font-size:25px;custom-normal-label-font-size:25px;Label_font-size:25px;custom-pressed-label-font-size:22px;pressedLabel_font-size:22px;custom-pressed-icon-font-size:22px;pressedIcon_font-size:22px;custom-selected-label-font-size:25px;selectedLabel_font-size:25px;custom-selected-icon-font-size:25px;selectedIcon_font-size:25px;}#ivdvo7iv1q7cw .ch5-tab-button :not(i):not(svg){font-family:'Crestron AV';}#ivdvo7iv1q7cw ch5-button{--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;--ch5-button--regular-font-size:40px;--ch5-button--label-margin-top:4px;Label_margin-top:2px;--ch5-button--label-margin-bottom:0;--ch5-button--regular-icon-size:40px;--ch5-button--regular-pressed-font-size:36px;--ch5-button--pressed-label-margin-top:4px;pressedLabel_margin-top:2px;--ch5-button--pressed-label-margin-bottom:0;--ch5-button--regular-pressed-icon-size:36px;--ch5-button--default-selected-border-color:#000000;--ch5-button--default-selected-background-color:#003cfb;--ch5-button--selected-label-margin-top:4px;selectedLabel_margin-top:2px;--ch5-button--selected-label-margin-bottom:0;--ch5-button--regular-selected-icon-size:40px;--ch5-button--regular-selected-font-size:40px;--ch5-button--default-pressed-border-color:#000000;custom-normal-icon-font-size:40px;Icon_font-size:40px;custom-normal-label-font-size:40px;Label_font-size:40px;custom-pressed-label-font-size:36px;pressedLabel_font-size:36px;custom-pressed-icon-font-size:36px;pressedIcon_font-size:36px;custom-selected-label-font-size:40px;selectedLabel_font-size:40px;custom-selected-icon-font-size:40px;selectedIcon_font-size:40px;}#imoz3 .ch5-text :not(i):not(svg){font-family:'Roboto';}#imoz3 .ch5-text{min-height:10px;min-width:10px;padding:0px;}#ir1nllq0umblp .ch5-tab-button :not(i):not(svg){font-family:'Roboto';}#ir1nllq0umblp ch5-button{--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;--ch5-button--regular-font-size:25px;--ch5-button--label-margin-top:0;Label_margin-top:0;--ch5-button--label-margin-bottom:0;--ch5-button--regular-icon-size:25px;--ch5-button--regular-pressed-font-size:22px;--ch5-button--pressed-label-margin-top:4px;pressedLabel_margin-top:2px;--ch5-button--pressed-label-margin-bottom:0;--ch5-button--regular-pressed-icon-size:22px;--ch5-button--default-selected-border-color:#000000;--ch5-button--default-selected-background-color:#003cfb;--ch5-button--selected-label-margin-top:4px;selectedLabel_margin-top:2px;--ch5-button--selected-label-margin-bottom:0;--ch5-button--regular-selected-icon-size:25px;--ch5-button--regular-selected-font-size:25px;--ch5-button--default-pressed-border-color:#000000;custom-normal-icon-font-size:25px;Icon_font-size:25px;custom-normal-label-font-size:25px;Label_font-size:25px;custom-pressed-label-font-size:22px;pressedLabel_font-size:22px;custom-pressed-icon-font-size:22px;pressedIcon_font-size:22px;custom-selected-label-font-size:25px;selectedLabel_font-size:25px;custom-selected-icon-font-size:25px;selectedIcon_font-size:25px;}#ixmhuh8jigmrh .ch5-tab-button :not(i):not(svg){font-family:'Roboto';}#ixmhuh8jigmrh ch5-button{--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;--ch5-button--regular-font-size:25px;--ch5-button--label-margin-top:0;Label_margin-top:0;--ch5-button--label-margin-bottom:0;--ch5-button--regular-icon-size:25px;--ch5-button--regular-pressed-font-size:22px;--ch5-button--pressed-label-margin-top:4px;pressedLabel_margin-top:2px;--ch5-button--pressed-label-margin-bottom:0;--ch5-button--regular-pressed-icon-size:22px;--ch5-button--default-selected-border-color:#000000;--ch5-button--default-selected-background-color:#003cfb;--ch5-button--selected-label-margin-top:4px;selectedLabel_margin-top:2px;--ch5-button--selected-label-margin-bottom:0;--ch5-button--regular-selected-icon-size:25px;--ch5-button--regular-selected-font-size:25px;--ch5-button--default-pressed-border-color:#000000;custom-normal-icon-font-size:25px;Icon_font-size:25px;custom-normal-label-font-size:25px;Label_font-size:25px;custom-pressed-label-font-size:22px;pressedLabel_font-size:22px;custom-pressed-icon-font-size:22px;pressedIcon_font-size:22px;custom-selected-label-font-size:25px;selectedLabel_font-size:25px;custom-selected-icon-font-size:25px;selectedIcon_font-size:25px;}#ikgpwkxz355on .ch5-text :not(i):not(svg){font-family:'Roboto';}#ikgpwkxz355on .ch5-text{min-height:10px;min-width:10px;padding:0px;}#wrapper{background-color:#ffffff;}#imoz3{display:block;left:10px;top:0;position:absolute;z-index:10;width:165px;height:50px;--ch5-text--width:165px;--ch5-text--height:50px;--ch5-text--font-size:25px;Label_font-size:25px;custom-normal-font-size:25px;}#ikgpwkxz355on{display:block;left:264px;top:0;position:absolute;z-index:15;width:165px;height:50px;--ch5-text--width:165px;--ch5-text--height:50px;--ch5-text--font-size:25px;Label_font-size:25px;custom-normal-font-size:25px;}#ixmhuh8jigmrh{width:165px;--ch5-tab-button--button-container-width:165px;height:68px;--ch5-tab-button--button-container-height:68px;display:block;left:264px;top:147px;position:absolute;z-index:13;Appearance_background-color:#262829;Appearance_border-color:#000000;--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;Label_font-size:25px;Label_margin-top:0;Label_margin-bottom:0;Icon_font-size:25px;pressedLabel_font-size:22px;pressedLabel_margin-top:2px;pressedLabel_margin-bottom:0;pressedIcon_font-size:22px;selectedAppearance_border-color:#000000;selectedAppearance_background-color:#003cfb;selectedLabel_margin-top:2px;selectedLabel_margin-bottom:0;selectedIcon_font-size:25px;selectedLabel_font-size:25px;pressedAppearance_border-color:#000000;--ch5-button--label-margin-top:0;--ch5-button--label-margin-bottom:0;}#ir1nllq0umblp{width:165px;--ch5-tab-button--button-container-width:165px;height:68px;--ch5-tab-button--button-container-height:68px;display:block;left:264px;top:50px;position:absolute;z-index:11;Appearance_background-color:#262829;Appearance_border-color:#000000;--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;Label_font-size:25px;Label_margin-top:0;Label_margin-bottom:0;Icon_font-size:25px;pressedLabel_font-size:22px;pressedLabel_margin-top:2px;pressedLabel_margin-bottom:0;pressedIcon_font-size:22px;selectedAppearance_border-color:#000000;selectedAppearance_background-color:#003cfb;selectedLabel_margin-top:2px;selectedLabel_margin-bottom:0;selectedIcon_font-size:25px;selectedLabel_font-size:25px;pressedAppearance_border-color:#000000;--ch5-button--regular-icon-size:25px;--ch5-button--regular-font-size:25px;--ch5-button--regular-pressed-font-size:22px;--ch5-button--regular-pressed-icon-size:22px;--ch5-button--regular-selected-font-size:25px;--ch5-button--regular-selected-icon-size:25px;--ch5-button--label-margin-top:0;--ch5-button--label-margin-bottom:0;}#iifhawvkzd{width:165px;--ch5-tab-button--button-container-width:165px;height:68px;--ch5-tab-button--button-container-height:68px;display:block;left:10px;top:50px;position:absolute;z-index:9;Appearance_background-color:#262829;Appearance_border-color:#000000;--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;Label_font-size:25px;Label_margin-top:0;Label_margin-bottom:0;Icon_font-size:25px;pressedLabel_font-size:22px;pressedLabel_margin-top:2px;pressedLabel_margin-bottom:0;pressedIcon_font-size:22px;selectedAppearance_border-color:#000000;selectedAppearance_background-color:#003cfb;selectedLabel_margin-top:2px;selectedLabel_margin-bottom:0;selectedIcon_font-size:25px;selectedLabel_font-size:25px;pressedAppearance_border-color:#000000;--ch5-button--regular-icon-size:25px;--ch5-button--regular-font-size:25px;--ch5-button--regular-pressed-font-size:22px;--ch5-button--regular-pressed-icon-size:22px;--ch5-button--regular-selected-font-size:25px;--ch5-button--regular-selected-icon-size:25px;--ch5-button--label-margin-top:0;--ch5-button--label-margin-bottom:0;}#in78cnthlf{width:165px;--ch5-tab-button--button-container-width:165px;height:68px;--ch5-tab-button--button-container-height:68px;display:block;left:10px;top:147px;position:absolute;z-index:8;Appearance_background-color:#262829;Appearance_border-color:#000000;--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;Label_font-size:25px;Label_margin-top:0;Label_margin-bottom:0;Icon_font-size:25px;pressedLabel_font-size:22px;pressedLabel_margin-top:2px;pressedLabel_margin-bottom:0;pressedIcon_font-size:22px;selectedAppearance_border-color:#000000;selectedAppearance_background-color:#003cfb;selectedLabel_margin-top:2px;selectedLabel_margin-bottom:0;selectedIcon_font-size:25px;selectedLabel_font-size:25px;pressedAppearance_border-color:#000000;--ch5-button--label-margin-top:0;--ch5-button--label-margin-bottom:0;}#ivdvo7iv1q7cw{width:68px;--ch5-tab-button--button-container-width:68px;height:165px;--ch5-tab-button--button-container-height:165px;display:block;left:186px;top:50px;position:absolute;z-index:7;Appearance_background-color:#262829;Appearance_border-color:#000000;--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;Label_font-size:40px;Label_margin-top:2px;Label_margin-bottom:0;Icon_font-size:40px;pressedLabel_font-size:36px;pressedLabel_margin-top:2px;pressedLabel_margin-bottom:0;pressedIcon_font-size:36px;selectedAppearance_border-color:#000000;selectedAppearance_background-color:#003cfb;selectedLabel_margin-top:2px;selectedLabel_margin-bottom:0;selectedIcon_font-size:40px;selectedLabel_font-size:40px;pressedAppearance_border-color:#000000;--ch5-button--regular-font-size:40px;--ch5-button--regular-icon-size:40px;--ch5-button--label-margin-top:4px;--ch5-button--label-margin-bottom:0;--ch5-button--regular-pressed-font-size:36px;--ch5-button--regular-pressed-icon-size:36px;--ch5-button--regular-selected-font-size:40px;--ch5-button--regular-selected-icon-size:40px;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#izf7fij2px{width:438px;height:246px;left:0;top:0;position:absolute;}#imoz3{display:block;left:10px;top:0;position:absolute;z-index:10;width:165px;height:50px;--ch5-text--width:165px;--ch5-text--height:50px;Label_font-size:25px;--ch5-text--font-size:25px;}#ikgpwkxz355on{left:264px;top:0;position:absolute;width:165px;height:50px;}#ixmhuh8jigmrh{left:264px;top:147px;position:absolute;width:165px;height:68px;--ch5-tab-button--button-container-width:165px;}#ir1nllq0umblp{left:264px;top:50px;position:absolute;width:165px;height:68px;--ch5-tab-button--button-container-width:165px;}#iifhawvkzd{left:10px;top:50px;position:absolute;width:165px;height:68px;--ch5-tab-button--button-container-width:165px;--ch5-tab-button--button-container-height:68px;z-index:9;Icon_font-size:25px;--ch5-button--regular-icon-size:25px;Label_font-size:25px;--ch5-button--regular-font-size:25px;pressedLabel_font-size:22px;--ch5-button--regular-pressed-font-size:22px;pressedIcon_font-size:22px;--ch5-button--regular-pressed-icon-size:22px;selectedLabel_font-size:25px;--ch5-button--regular-selected-font-size:25px;selectedIcon_font-size:25px;--ch5-button--regular-selected-icon-size:25px;Label_margin-top:0;--ch5-button--label-margin-top:0;--ch5-button--label-margin-bottom:0;}#in78cnthlf{left:10px;top:147px;position:absolute;width:165px;height:68px;z-index:8;Label_margin-top:0;--ch5-button--label-margin-top:0;--ch5-button--label-margin-bottom:0;--ch5-tab-button--button-container-width:165px;}#ivdvo7iv1q7cw{left:186px;top:50px;position:absolute;width:68px;height:165px;z-index:7;Label_font-size:40px;--ch5-button--regular-font-size:40px;Icon_font-size:40px;--ch5-button--regular-icon-size:40px;Label_margin-top:2px;--ch5-button--label-margin-top:4px;--ch5-button--label-margin-bottom:0;--ch5-tab-button--button-container-width:68px;pressedLabel_font-size:36px;--ch5-button--regular-pressed-font-size:36px;pressedIcon_font-size:36px;--ch5-button--regular-pressed-icon-size:36px;selectedLabel_font-size:40px;--ch5-button--regular-selected-font-size:40px;selectedIcon_font-size:40px;--ch5-button--regular-selected-icon-size:40px;--ch5-tab-button--button-container-height:165px;}}@media (orientation: landscape) and (max-width: 1181px) and (max-height: 777px), (orientation: landscape) and (max-width: 1179px){#ixmhuh8jigmrh{z-index:8;}#ir1nllq0umblp{z-index:9;}#iifhawvkzd{z-index:9;}#in78cnthlf{z-index:8;}#ivdvo7iv1q7cw{z-index:7;}}@media (orientation: portrait) and (max-height: 1137px) and (max-width: 821px), (orientation: portrait) and (max-height: 1135px){#ixmhuh8jigmrh{z-index:8;}#ir1nllq0umblp{z-index:9;}#iifhawvkzd{z-index:9;}#in78cnthlf{z-index:8;}#ivdvo7iv1q7cw{z-index:7;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "Classroom Controls"
+PageMode = "absolute"
+Id = "21c3e9d4-c2b2-4528-b9db-ccb5b779f054"
+DisplayBackgroundColor = "False"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "ikgpwkxz355on"
+componentName = "Right Room Label"
+ccid_ActiveFont = "'Roboto'"
+ccid_Label = "SLRC 226"
+labelinnerhtml = "SLRC 226"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+ccid_themeCSSSet = "true"
+pd-receivestatescriptlabelhtml = "Contract Enabled"
+oldID = "imoz3"
+[[Elements.Components]]
+Type = "Ch5 Tab Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+id = "irnk-2-3"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "HDMI"
+labelinnerhtml = "HDMI"
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+id = "is7r-2-3"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "VGA"
+labelinnerhtml = "VGA"
+
+[Elements.Components.Attributes]
+numberofitems = "2"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+orientation = "horizontal"
+previewstate = "buttonnormal"
+indexid = "idx"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "top"
+buttonshape = "rounded-rectangle"
+buttontype = "default"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+affectedByPreviewState = "True"
+customvstheme = "custom"
+id = "ixmhuh8jigmrh"
+componentName = "Right Input Tab Button"
+ccid_ActiveFont = "'Roboto'"
+ccid_Label = ""
+ccid_linkSendReceive = "True"
+assetid = "0"
+ccid_imageIconType = "iconclass"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+oldID = "in78cnthlf"
+pd-buttonreceivestateselected = "Contract Enabled"
+buttonsendeventonclick = "Contract Enabled"
+buttonselected = "false"
+[[Elements.Components]]
+Type = "Ch5 Tab Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+id = "irnk-3"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "ON"
+labelinnerhtml = "ON"
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+id = "is7r-3"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "OFF"
+labelinnerhtml = "OFF"
+
+[Elements.Components.Attributes]
+numberofitems = "2"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+orientation = "horizontal"
+previewstate = "buttonnormal"
+indexid = "idx"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "top"
+buttonshape = "rounded-rectangle"
+buttontype = "default"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+affectedByPreviewState = "True"
+customvstheme = "custom"
+id = "ir1nllq0umblp"
+componentName = "Right Power Tab Button"
+ccid_ActiveFont = "'Roboto'"
+ccid_Label = ""
+ccid_linkSendReceive = "True"
+assetid = "0"
+ccid_imageIconType = "iconclass"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+oldID = "iifhawvkzd"
+pd-buttonreceivestateselected = "Contract Enabled"
+buttonsendeventonclick = "Contract Enabled"
+buttonselected = "false"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "imoz3"
+componentName = "Left Room Label"
+ccid_ActiveFont = "'Roboto'"
+ccid_Label = "SLRC 222"
+labelinnerhtml = "SLRC 222"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+ccid_themeCSSSet = "true"
+pd-receivestatescriptlabelhtml = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Tab Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+id = "irnk"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "ON"
+labelinnerhtml = "ON"
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+id = "is7r"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "OFF"
+labelinnerhtml = "OFF"
+
+[Elements.Components.Attributes]
+numberofitems = "2"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+orientation = "horizontal"
+previewstate = "buttonnormal"
+indexid = "idx"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "top"
+buttonshape = "rounded-rectangle"
+buttontype = "default"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+affectedByPreviewState = "True"
+customvstheme = "custom"
+id = "iifhawvkzd"
+componentName = "Left Power Tab Button"
+ccid_ActiveFont = "'Roboto'"
+ccid_Label = ""
+ccid_linkSendReceive = "True"
+assetid = "0"
+ccid_imageIconType = "iconclass"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+oldID = "ivj3ew4fvl"
+pd-buttonreceivestateselected = "Contract Enabled"
+buttonsendeventonclick = "Contract Enabled"
+buttonselected = "false"
+[[Elements.Components]]
+Type = "Ch5 Tab Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+id = "irnk-2"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "HDMI"
+labelinnerhtml = "HDMI"
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+id = "is7r-2"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "VGA"
+labelinnerhtml = "VGA"
+
+[Elements.Components.Attributes]
+numberofitems = "2"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+orientation = "horizontal"
+previewstate = "buttonnormal"
+indexid = "idx"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "top"
+buttonshape = "rounded-rectangle"
+buttontype = "default"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+affectedByPreviewState = "True"
+customvstheme = "custom"
+id = "in78cnthlf"
+componentName = "Left Input Tab Button"
+ccid_ActiveFont = "'Roboto'"
+ccid_Label = ""
+ccid_linkSendReceive = "True"
+assetid = "0"
+ccid_imageIconType = "iconclass"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+oldID = "iifhawvkzd"
+pd-buttonreceivestateselected = "Contract Enabled"
+buttonsendeventonclick = "Contract Enabled"
+buttonselected = "false"
+[[Elements.Components]]
+Type = "Ch5 Tab Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+id = "irnk-2-2"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "Y"
+labelinnerhtml = "Y"
+[[Elements.Components.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+id = "is7r-2-2"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "E"
+labelinnerhtml = "E"
+
+[Elements.Components.Attributes]
+numberofitems = "2"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+orientation = "vertical"
+previewstate = "buttonnormal"
+indexid = "idx"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "top"
+buttonshape = "rounded-rectangle"
+buttontype = "default"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+affectedByPreviewState = "True"
+customvstheme = "custom"
+id = "ivdvo7iv1q7cw"
+componentName = "Combine Separate Tab Button"
+ccid_ActiveFont = "'Crestron AV'"
+ccid_Label = ""
+ccid_linkSendReceive = "True"
+assetid = "0"
+ccid_imageIconType = "iconclass"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+oldID = "in78cnthlf"
+pd-buttonreceivestateselected = "Contract Enabled"
+buttonsendeventonclick = "Contract Enabled"
+buttonselected = "false"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+id = "izf7fij2px"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+defaultWidth = "500px"
+defaultHeight = "500px"
+

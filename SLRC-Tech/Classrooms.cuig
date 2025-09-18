@@ -1,0 +1,70 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.601.10.0"
+Created = 2025-09-17 16:38:28.251727-05:00
+LastModifiedByAppHost = "2.601.10.0"
+Modified = 2025-09-17 16:38:28.251722-05:00
+CreatedByProjectApp = "1.4201.17.0"
+LastModifiedByProjectApp = "1.4201.17.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{Html}
+<ch5-template transitionduration="1s" transitiondelay="0s" templateid="w7c29f6dc-771c-4378-9748-929714185184" id="i2j9" componentName="Header" devicesVisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]"></ch5-template><ch5-template transitionduration="1s" transitiondelay="0s" templateid="w21c3e9d4-c2b2-4528-b9db-ccb5b779f054" id="ijx9" componentName="Second Floor Classroom" devicesVisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]"></ch5-template><ch5-template transitionduration="1s" transitiondelay="0s" templateid="w21c3e9d4-c2b2-4528-b9db-ccb5b779f054" id="iem1" componentName="Third Floor Classroom" devicesVisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]"></ch5-template><ch5-template transitionduration="1s" transitiondelay="0s" templateid="we0cbe849-0eab-4c89-8ea4-88600d0c02a6" id="i6ht" componentName="Building Mute" devicesVisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]"></ch5-template>
+
+{Css}
+@media (max-width: 99999px){#i2j9{display:block;left:0;top:0;position:absolute;z-index:10;}#i6ht{display:block;left:0;top:676px;position:absolute;z-index:1;}#ijx9{display:block;left:371px;top:128px;position:absolute;z-index:9;width:auto;height:auto;}#iem1{display:block;left:371px;top:402px;position:absolute;z-index:8;}#wrapper{background-color:#000000;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#ijx9{top:128px;}#iem1{top:402px;}}@media (orientation: portrait) and (max-height: 1137px) and (max-width: 821px), (orientation: portrait) and (max-height: 1135px){#i6ht{top:1036px;z-index:1;}#i2j9{z-index:10;}#ijx9{left:191px;top:248px;}#iem1{left:191px;top:642px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "Classrooms"
+PageMode = "absolute"
+Id = "a6dacad3-f6dc-414b-8b45-b81ebf4e06ae"
+StartPage = "False"
+PreloadPage = "True"
+CachePage = "False"
+VisibilityJoin = "VisibilityJoin"
+DisplayBackgroundColor = "False"
+
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "w7c29f6dc-771c-4378-9748-929714185184"
+id = "i2j9"
+componentName = "Header"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "w21c3e9d4-c2b2-4528-b9db-ccb5b779f054"
+id = "ijx9"
+componentName = "Second Floor Classroom"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "w21c3e9d4-c2b2-4528-b9db-ccb5b779f054"
+id = "iem1"
+componentName = "Third Floor Classroom"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "we0cbe849-0eab-4c89-8ea4-88600d0c02a6"
+id = "i6ht"
+componentName = "Building Mute"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+

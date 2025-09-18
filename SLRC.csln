@@ -1,0 +1,20 @@
+{
+  "_fileMetadata": {
+    "_schema": "1.0.0.0",
+    "_createdByAppHost": "2.501.6.0",
+    "_created": "2025-09-02T16:50:28.4201313-05:00",
+    "_lastModifiedByAppHost": "2.501.6.0",
+    "_minimumAppHost": "2.0.0",
+    "_modified": "2025-09-02T16:50:28.420122-05:00"
+  },
+  "_solution": {
+    "_name": "SLRC",
+    "_projects": [
+      {
+        "_name": "SLRC-Tech",
+        "_filename": "SLRC-Tech/SLRC-Tech.cuip",
+        "_datetime": "2025-09-02T21:50:28.2635722Z"
+      }
+    ]
+  }
+}
