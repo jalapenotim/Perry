@@ -278,9 +278,9 @@ namespace SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Items_0_ = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.Items_0_(ComponentMediator, 121, 2);
-            Items_1_ = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.Items_1_(ComponentMediator, 122, 2);
-            Item = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.Item(ComponentMediator, 121, 2);
+            Items_0_ = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.Items_0_(ComponentMediator, 119, 2);
+            Items_1_ = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.Items_1_(ComponentMediator, 120, 2);
+            Item = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.Item(ComponentMediator, 119, 2);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

@@ -183,14 +183,14 @@ namespace SLRCTech.FieldhouseAudio
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            FloorboxesOuterWidgetList = new SLRCTech.FieldhouseAudio.FloorboxesOuterWidgetList.FloorboxesOuterWidgetList(ComponentMediator, 69);
-            SpeakerConfigTabButton = new SLRCTech.FieldhouseAudio.SpeakerConfigTabButton(ComponentMediator, 75);
-            FloorboxesInnerWidgetList = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.FloorboxesInnerWidgetList(ComponentMediator, 76);
-            Header = new SLRCTech.FieldhouseAudio.Header(ComponentMediator, 85);
-            BuildingMute = new SLRCTech.FieldhouseAudio.BuildingMute(ComponentMediator, 86);
-            ZonesTabButton = new SLRCTech.FieldhouseAudio.ZonesTabButton(ComponentMediator, 87);
-            BoothWidgetList = new SLRCTech.FieldhouseAudio.BoothWidgetList.BoothWidgetList(ComponentMediator, 88);
-            WirelessWidgetList = new SLRCTech.FieldhouseAudio.WirelessWidgetList.WirelessWidgetList(ComponentMediator, 91);
+            FloorboxesOuterWidgetList = new SLRCTech.FieldhouseAudio.FloorboxesOuterWidgetList.FloorboxesOuterWidgetList(ComponentMediator, 67);
+            SpeakerConfigTabButton = new SLRCTech.FieldhouseAudio.SpeakerConfigTabButton(ComponentMediator, 73);
+            FloorboxesInnerWidgetList = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.FloorboxesInnerWidgetList(ComponentMediator, 74);
+            Header = new SLRCTech.FieldhouseAudio.Header(ComponentMediator, 83);
+            BuildingMute = new SLRCTech.FieldhouseAudio.BuildingMute(ComponentMediator, 84);
+            ZonesTabButton = new SLRCTech.FieldhouseAudio.ZonesTabButton(ComponentMediator, 85);
+            BoothWidgetList = new SLRCTech.FieldhouseAudio.BoothWidgetList.BoothWidgetList(ComponentMediator, 86);
+            WirelessWidgetList = new SLRCTech.FieldhouseAudio.WirelessWidgetList.WirelessWidgetList(ComponentMediator, 89);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

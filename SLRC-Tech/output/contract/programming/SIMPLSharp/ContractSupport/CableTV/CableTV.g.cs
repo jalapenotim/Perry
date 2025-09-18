@@ -213,15 +213,15 @@ namespace SLRCTech.CableTV
  
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PowerOffButton_PressEvent, onPowerOffButton_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PowerOnButton_PressEvent, onPowerOnButton_Press);
-            MenuTabButton = new SLRCTech.CableTV.MenuTabButton(ComponentMediator, 59);
-            VolumeTabButton = new SLRCTech.CableTV.VolumeTabButton(ComponentMediator, 60);
-            Keypad = new SLRCTech.CableTV.Keypad(ComponentMediator, 61);
-            BuildingMute = new SLRCTech.CableTV.BuildingMute(ComponentMediator, 62);
-            Dpad = new SLRCTech.CableTV.Dpad(ComponentMediator, 63);
-            TunerSelectTabButton = new SLRCTech.CableTV.TunerSelectTabButton(ComponentMediator, 64);
-            CATVPresets = new SLRCTech.CableTV.CATVPresets(ComponentMediator, 65);
-            ChannelTabButton = new SLRCTech.CableTV.ChannelTabButton(ComponentMediator, 66);
-            Header = new SLRCTech.CableTV.Header(ComponentMediator, 67);
+            MenuTabButton = new SLRCTech.CableTV.MenuTabButton(ComponentMediator, 57);
+            VolumeTabButton = new SLRCTech.CableTV.VolumeTabButton(ComponentMediator, 58);
+            Keypad = new SLRCTech.CableTV.Keypad(ComponentMediator, 59);
+            BuildingMute = new SLRCTech.CableTV.BuildingMute(ComponentMediator, 60);
+            Dpad = new SLRCTech.CableTV.Dpad(ComponentMediator, 61);
+            TunerSelectTabButton = new SLRCTech.CableTV.TunerSelectTabButton(ComponentMediator, 62);
+            CATVPresets = new SLRCTech.CableTV.CATVPresets(ComponentMediator, 63);
+            ChannelTabButton = new SLRCTech.CableTV.ChannelTabButton(ComponentMediator, 64);
+            Header = new SLRCTech.CableTV.Header(ComponentMediator, 65);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

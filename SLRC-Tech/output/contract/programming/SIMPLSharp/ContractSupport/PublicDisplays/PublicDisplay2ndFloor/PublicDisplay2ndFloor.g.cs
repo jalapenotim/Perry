@@ -149,7 +149,7 @@ namespace SLRCTech.PublicDisplays.PublicDisplay2ndFloor
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            SecondFloorWidgetList = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.SecondFloorWidgetList(ComponentMediator, 120);
+            SecondFloorWidgetList = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.SecondFloorWidgetList(ComponentMediator, 118);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

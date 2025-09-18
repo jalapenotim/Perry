@@ -128,9 +128,9 @@ namespace SLRCTech.FieldhouseAudio.BoothWidgetList
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Items_0_ = new SLRCTech.FieldhouseAudio.BoothWidgetList.Items_0_(ComponentMediator, 89, 2);
-            Items_1_ = new SLRCTech.FieldhouseAudio.BoothWidgetList.Items_1_(ComponentMediator, 90, 2);
-            Item = new SLRCTech.FieldhouseAudio.BoothWidgetList.Item(ComponentMediator, 89, 2);
+            Items_0_ = new SLRCTech.FieldhouseAudio.BoothWidgetList.Items_0_(ComponentMediator, 87, 2);
+            Items_1_ = new SLRCTech.FieldhouseAudio.BoothWidgetList.Items_1_(ComponentMediator, 88, 2);
+            Item = new SLRCTech.FieldhouseAudio.BoothWidgetList.Item(ComponentMediator, 87, 2);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

@@ -2146,7 +2146,7 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Source7Button_PressEvent, onSource7Button_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Source8Button_PressEvent, onSource8Button_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Source9Button_PressEvent, onSource9Button_Press);
-            ResetLevelsTabButton = new SLRCTech.BackgroundMusic.AudioRouting.ResetLevelsTabButton(ComponentMediator, 56);
+            ResetLevelsTabButton = new SLRCTech.BackgroundMusic.AudioRouting.ResetLevelsTabButton(ComponentMediator, 54);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

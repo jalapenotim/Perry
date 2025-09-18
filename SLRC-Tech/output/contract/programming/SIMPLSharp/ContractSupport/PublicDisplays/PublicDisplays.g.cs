@@ -214,14 +214,14 @@ namespace SLRCTech.PublicDisplays
             _devices = new List<BasicTriListWithSmartObject>(); 
  
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.RS232Button_PressEvent, onRS232Button_Press);
-            PageSelectTabButton = new SLRCTech.PublicDisplays.PageSelectTabButton(ComponentMediator, 96);
-            PublicDisplay1stFloor = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.PublicDisplay1stFloor(ComponentMediator, 97);
-            PublicDisplay3rdFl = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.PublicDisplay3rdFl(ComponentMediator, 105);
-            PublicDisplayLowerLevel = new SLRCTech.PublicDisplays.PublicDisplayLowerLevel.PublicDisplayLowerLevel(ComponentMediator, 110);
-            PublicDisplayRouting = new SLRCTech.PublicDisplays.PublicDisplayRouting(ComponentMediator, 117);
-            BuildingMute = new SLRCTech.PublicDisplays.BuildingMute(ComponentMediator, 118);
-            PublicDisplay2ndFloor = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.PublicDisplay2ndFloor(ComponentMediator, 119);
-            Header = new SLRCTech.PublicDisplays.Header(ComponentMediator, 123);
+            PageSelectTabButton = new SLRCTech.PublicDisplays.PageSelectTabButton(ComponentMediator, 94);
+            PublicDisplay1stFloor = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.PublicDisplay1stFloor(ComponentMediator, 95);
+            PublicDisplay3rdFl = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.PublicDisplay3rdFl(ComponentMediator, 103);
+            PublicDisplayLowerLevel = new SLRCTech.PublicDisplays.PublicDisplayLowerLevel.PublicDisplayLowerLevel(ComponentMediator, 108);
+            PublicDisplayRouting = new SLRCTech.PublicDisplays.PublicDisplayRouting(ComponentMediator, 115);
+            BuildingMute = new SLRCTech.PublicDisplays.BuildingMute(ComponentMediator, 116);
+            PublicDisplay2ndFloor = new SLRCTech.PublicDisplays.PublicDisplay2ndFloor.PublicDisplay2ndFloor(ComponentMediator, 117);
+            Header = new SLRCTech.PublicDisplays.Header(ComponentMediator, 121);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

@@ -370,13 +370,13 @@ namespace SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Items_0_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_0_(ComponentMediator, 99, 6);
-            Items_1_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_1_(ComponentMediator, 100, 6);
-            Items_2_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_2_(ComponentMediator, 101, 6);
-            Items_3_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_3_(ComponentMediator, 102, 6);
-            Items_4_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_4_(ComponentMediator, 103, 6);
-            Items_5_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_5_(ComponentMediator, 104, 6);
-            Item = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Item(ComponentMediator, 99, 6);
+            Items_0_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_0_(ComponentMediator, 97, 6);
+            Items_1_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_1_(ComponentMediator, 98, 6);
+            Items_2_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_2_(ComponentMediator, 99, 6);
+            Items_3_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_3_(ComponentMediator, 100, 6);
+            Items_4_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_4_(ComponentMediator, 101, 6);
+            Items_5_ = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Items_5_(ComponentMediator, 102, 6);
+            Item = new SLRCTech.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.Item(ComponentMediator, 97, 6);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

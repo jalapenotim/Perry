@@ -34,14 +34,14 @@ namespace SLRCTech.Settings
         object UserObject { get; set; }
 
         /// <summary>
-        /// Event Clear PasswordButton.Press (from panel to Control System)
+        /// Event Password Clear Button.Press (from panel to Control System)
         /// </summary>
-        event EventHandler<UIEventArgs> ClearPasswordButton_PressEvent;
+        event EventHandler<UIEventArgs> PasswordClearButton_PressEvent;
 
         /// <summary>
-        /// Event Save Password Button.Press (from panel to Control System)
+        /// Event Password Save Button.Press (from panel to Control System)
         /// </summary>
-        event EventHandler<UIEventArgs> SavePasswordButton_PressEvent;
+        event EventHandler<UIEventArgs> PasswordSaveButton_PressEvent;
 
         /// <summary>
         /// Settings.VisibilityJoin Feedback
@@ -56,6 +56,18 @@ namespace SLRCTech.Settings
         void Settings_VisibilityJoin(bool digital);
 
         /// <summary>
+        /// Password Text.Indirect Rich Text Feedback
+        /// </summary>
+        /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
+        void PasswordText_IndirectRichText(SettingsStringInputSigDelegate callback);
+
+        /// <summary>
+        /// Password Text.Indirect Rich Text Feedback
+        /// </summary>
+        /// <param name="serial">The <see cref="string"/> to update the panel.</param>
+        void PasswordText_IndirectRichText(string serial);
+
+        /// <summary>
         /// User Password Instructions.Indirect Rich Text Feedback
         /// </summary>
         /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
@@ -68,16 +80,29 @@ namespace SLRCTech.Settings
         void UserPasswordInstructions_IndirectRichText(string serial);
 
         /// <summary>
-        /// User Password Text.Indirect Rich Text Feedback
+        /// ComplexComponent ON Time 2 Button List
         /// </summary>
-        /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void UserPasswordText_IndirectRichText(SettingsStringInputSigDelegate callback);
+        SLRCTech.Settings.IONTime2ButtonList ONTime2ButtonList { get; }
 
         /// <summary>
-        /// User Password Text.Indirect Rich Text Feedback
+        /// ComplexComponent OFF Time 2 Button List
         /// </summary>
-        /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void UserPasswordText_IndirectRichText(string serial);
+        SLRCTech.Settings.IOFFTime2ButtonList OFFTime2ButtonList { get; }
+
+        /// <summary>
+        /// ComplexComponent OFF Time 1 Button List
+        /// </summary>
+        SLRCTech.Settings.IOFFTime1ButtonList OFFTime1ButtonList { get; }
+
+        /// <summary>
+        /// ComplexComponent Day Select Tab Button
+        /// </summary>
+        SLRCTech.Settings.IDaySelectTabButton DaySelectTabButton { get; }
+
+        /// <summary>
+        /// ComplexComponent ON Time 1 Button List
+        /// </summary>
+        SLRCTech.Settings.IONTime1ButtonList ONTime1ButtonList { get; }
 
         /// <summary>
         /// ComplexComponent Building Mute
@@ -85,9 +110,9 @@ namespace SLRCTech.Settings
         SLRCTech.Settings.IBuildingMute BuildingMute { get; }
 
         /// <summary>
-        /// ComplexComponent User Password Set Keypad
+        /// ComplexComponent Password Set Keypad
         /// </summary>
-        SLRCTech.Settings.IUserPasswordSetKeypad UserPasswordSetKeypad { get; }
+        SLRCTech.Settings.IPasswordSetKeypad PasswordSetKeypad { get; }
 
         /// <summary>
         /// ComplexComponent Header
@@ -143,16 +168,16 @@ namespace SLRCTech.Settings
             internal static class Booleans
             {
                 /// <summary>
-                /// Output or Event digital joinInfo from panel to Control System: Settings.ClearPasswordButton.Press
-                /// Clear PasswordButton.Press
+                /// Output or Event digital joinInfo from panel to Control System: Settings.PasswordClearButton.Press
+                /// Password Clear Button.Press
                 /// </summary>
-                public const uint ClearPasswordButton_PressEvent = 3;
+                public const uint PasswordClearButton_PressEvent = 3;
 
                 /// <summary>
-                /// Output or Event digital joinInfo from panel to Control System: Settings.SavePasswordButton.Press
-                /// Save Password Button.Press
+                /// Output or Event digital joinInfo from panel to Control System: Settings.PasswordSaveButton.Press
+                /// Password Save Button.Press
                 /// </summary>
-                public const uint SavePasswordButton_PressEvent = 4;
+                public const uint PasswordSaveButton_PressEvent = 4;
 
 
                 /// <summary>
@@ -169,15 +194,15 @@ namespace SLRCTech.Settings
             {
 
                 /// <summary>
+                /// Input or Feedback serial joinInfo from Control System to panel: Settings.PasswordText.IndirectRichText
+                /// Password Text.Indirect Rich Text
+                /// </summary>
+                public const uint PasswordText_IndirectRichTextState = 1;
+                /// <summary>
                 /// Input or Feedback serial joinInfo from Control System to panel: Settings.UserPasswordInstructions.IndirectRichText
                 /// User Password Instructions.Indirect Rich Text
                 /// </summary>
-                public const uint UserPasswordInstructions_IndirectRichTextState = 1;
-                /// <summary>
-                /// Input or Feedback serial joinInfo from Control System to panel: Settings.UserPasswordText.IndirectRichText
-                /// User Password Text.Indirect Rich Text
-                /// </summary>
-                public const uint UserPasswordText_IndirectRichTextState = 2;
+                public const uint UserPasswordInstructions_IndirectRichTextState = 2;
             }
         }
 
@@ -228,11 +253,16 @@ namespace SLRCTech.Settings
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.ClearPasswordButton_PressEvent, onClearPasswordButton_Press);
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.SavePasswordButton_PressEvent, onSavePasswordButton_Press);
-            BuildingMute = new SLRCTech.Settings.BuildingMute(ComponentMediator, 125);
-            UserPasswordSetKeypad = new SLRCTech.Settings.UserPasswordSetKeypad(ComponentMediator, 126);
-            Header = new SLRCTech.Settings.Header(ComponentMediator, 127);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PasswordClearButton_PressEvent, onPasswordClearButton_Press);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PasswordSaveButton_PressEvent, onPasswordSaveButton_Press);
+            ONTime2ButtonList = new SLRCTech.Settings.ONTime2ButtonList(ComponentMediator, 123);
+            OFFTime2ButtonList = new SLRCTech.Settings.OFFTime2ButtonList(ComponentMediator, 124);
+            OFFTime1ButtonList = new SLRCTech.Settings.OFFTime1ButtonList(ComponentMediator, 125);
+            DaySelectTabButton = new SLRCTech.Settings.DaySelectTabButton(ComponentMediator, 126);
+            ONTime1ButtonList = new SLRCTech.Settings.ONTime1ButtonList(ComponentMediator, 127);
+            BuildingMute = new SLRCTech.Settings.BuildingMute(ComponentMediator, 128);
+            PasswordSetKeypad = new SLRCTech.Settings.PasswordSetKeypad(ComponentMediator, 129);
+            Header = new SLRCTech.Settings.Header(ComponentMediator, 130);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -240,9 +270,19 @@ namespace SLRCTech.Settings
             Devices.Add(device);
             ComponentMediator.HookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
 
+            ((SLRCTech.Settings.ONTime2ButtonList)ONTime2ButtonList).AddDevice(device);
+
+            ((SLRCTech.Settings.OFFTime2ButtonList)OFFTime2ButtonList).AddDevice(device);
+
+            ((SLRCTech.Settings.OFFTime1ButtonList)OFFTime1ButtonList).AddDevice(device);
+
+            ((SLRCTech.Settings.DaySelectTabButton)DaySelectTabButton).AddDevice(device);
+
+            ((SLRCTech.Settings.ONTime1ButtonList)ONTime1ButtonList).AddDevice(device);
+
             ((SLRCTech.Settings.BuildingMute)BuildingMute).AddDevice(device);
 
-            ((SLRCTech.Settings.UserPasswordSetKeypad)UserPasswordSetKeypad).AddDevice(device);
+            ((SLRCTech.Settings.PasswordSetKeypad)PasswordSetKeypad).AddDevice(device);
 
             ((SLRCTech.Settings.Header)Header).AddDevice(device);
         }
@@ -252,9 +292,19 @@ namespace SLRCTech.Settings
             Devices.Remove(device);
             ComponentMediator.UnHookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
 
+            ((SLRCTech.Settings.ONTime2ButtonList)ONTime2ButtonList).RemoveDevice(device);
+
+            ((SLRCTech.Settings.OFFTime2ButtonList)OFFTime2ButtonList).RemoveDevice(device);
+
+            ((SLRCTech.Settings.OFFTime1ButtonList)OFFTime1ButtonList).RemoveDevice(device);
+
+            ((SLRCTech.Settings.DaySelectTabButton)DaySelectTabButton).RemoveDevice(device);
+
+            ((SLRCTech.Settings.ONTime1ButtonList)ONTime1ButtonList).RemoveDevice(device);
+
             ((SLRCTech.Settings.BuildingMute)BuildingMute).RemoveDevice(device);
 
-            ((SLRCTech.Settings.UserPasswordSetKeypad)UserPasswordSetKeypad).RemoveDevice(device);
+            ((SLRCTech.Settings.PasswordSetKeypad)PasswordSetKeypad).RemoveDevice(device);
 
             ((SLRCTech.Settings.Header)Header).RemoveDevice(device);
         }
@@ -264,19 +314,19 @@ namespace SLRCTech.Settings
         #region CH5 Contract
 
         /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> ClearPasswordButton_PressEvent;
-        private void onClearPasswordButton_Press(SmartObjectEventArgs eventArgs)
+        public event EventHandler<UIEventArgs> PasswordClearButton_PressEvent;
+        private void onPasswordClearButton_Press(SmartObjectEventArgs eventArgs)
         {
-            EventHandler<UIEventArgs> handler = ClearPasswordButton_PressEvent;
+            EventHandler<UIEventArgs> handler = PasswordClearButton_PressEvent;
             if (handler != null)
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
         /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> SavePasswordButton_PressEvent;
-        private void onSavePasswordButton_Press(SmartObjectEventArgs eventArgs)
+        public event EventHandler<UIEventArgs> PasswordSaveButton_PressEvent;
+        private void onPasswordSaveButton_Press(SmartObjectEventArgs eventArgs)
         {
-            EventHandler<UIEventArgs> handler = SavePasswordButton_PressEvent;
+            EventHandler<UIEventArgs> handler = PasswordSaveButton_PressEvent;
             if (handler != null)
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
@@ -298,6 +348,20 @@ namespace SLRCTech.Settings
 
 
         /// <inheritdoc/>
+        public void PasswordText_IndirectRichText(SettingsStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.PasswordText_IndirectRichTextState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void PasswordText_IndirectRichText(string serial)
+        {
+            PasswordText_IndirectRichText((sig, component) => sig.StringValue = serial);
+        }
+        /// <inheritdoc/>
         public void UserPasswordInstructions_IndirectRichText(SettingsStringInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -311,20 +375,31 @@ namespace SLRCTech.Settings
         {
             UserPasswordInstructions_IndirectRichText((sig, component) => sig.StringValue = serial);
         }
-        /// <inheritdoc/>
-        public void UserPasswordText_IndirectRichText(SettingsStringInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.UserPasswordText_IndirectRichTextState], this);
-            }
-        }
 
-        /// <inheritdoc/>
-        public void UserPasswordText_IndirectRichText(string serial)
-        {
-            UserPasswordText_IndirectRichText((sig, component) => sig.StringValue = serial);
-        }
+        /// <summary>
+        /// ComplexComponent ON Time 2 Button List
+        /// </summary>
+        public SLRCTech.Settings.IONTime2ButtonList ONTime2ButtonList { get; private set; }
+
+        /// <summary>
+        /// ComplexComponent OFF Time 2 Button List
+        /// </summary>
+        public SLRCTech.Settings.IOFFTime2ButtonList OFFTime2ButtonList { get; private set; }
+
+        /// <summary>
+        /// ComplexComponent OFF Time 1 Button List
+        /// </summary>
+        public SLRCTech.Settings.IOFFTime1ButtonList OFFTime1ButtonList { get; private set; }
+
+        /// <summary>
+        /// ComplexComponent Day Select Tab Button
+        /// </summary>
+        public SLRCTech.Settings.IDaySelectTabButton DaySelectTabButton { get; private set; }
+
+        /// <summary>
+        /// ComplexComponent ON Time 1 Button List
+        /// </summary>
+        public SLRCTech.Settings.IONTime1ButtonList ONTime1ButtonList { get; private set; }
 
         /// <summary>
         /// ComplexComponent BuildingMute
@@ -332,9 +407,9 @@ namespace SLRCTech.Settings
         public SLRCTech.Settings.IBuildingMute BuildingMute { get; private set; }
 
         /// <summary>
-        /// ComplexComponent User Password Set Keypad
+        /// ComplexComponent Password Set Keypad
         /// </summary>
-        public SLRCTech.Settings.IUserPasswordSetKeypad UserPasswordSetKeypad { get; private set; }
+        public SLRCTech.Settings.IPasswordSetKeypad PasswordSetKeypad { get; private set; }
 
         /// <summary>
         /// ComplexComponent Header
@@ -368,8 +443,8 @@ namespace SLRCTech.Settings
 
             IsDisposed = true;
 
-            ClearPasswordButton_PressEvent = null;
-            SavePasswordButton_PressEvent = null;
+            PasswordClearButton_PressEvent = null;
+            PasswordSaveButton_PressEvent = null;
         }
 
         #endregion

@@ -199,11 +199,11 @@ namespace SLRCTech.BackgroundMusic
             _devices = new List<BasicTriListWithSmartObject>(); 
  
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.ResetLevelsButton_PressEvent, onResetLevelsButton_Press);
-            BackgroundMusicZoneLevels = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.BackgroundMusicZoneLevels(ComponentMediator, 34);
-            Header = new SLRCTech.BackgroundMusic.Header(ComponentMediator, 53);
-            BuildingMute = new SLRCTech.BackgroundMusic.BuildingMute(ComponentMediator, 54);
-            AudioRouting = new SLRCTech.BackgroundMusic.AudioRouting.AudioRouting(ComponentMediator, 55);
-            PageSelectTabButton = new SLRCTech.BackgroundMusic.PageSelectTabButton(ComponentMediator, 57);
+            BackgroundMusicZoneLevels = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.BackgroundMusicZoneLevels(ComponentMediator, 32);
+            Header = new SLRCTech.BackgroundMusic.Header(ComponentMediator, 51);
+            BuildingMute = new SLRCTech.BackgroundMusic.BuildingMute(ComponentMediator, 52);
+            AudioRouting = new SLRCTech.BackgroundMusic.AudioRouting.AudioRouting(ComponentMediator, 53);
+            PageSelectTabButton = new SLRCTech.BackgroundMusic.PageSelectTabButton(ComponentMediator, 55);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

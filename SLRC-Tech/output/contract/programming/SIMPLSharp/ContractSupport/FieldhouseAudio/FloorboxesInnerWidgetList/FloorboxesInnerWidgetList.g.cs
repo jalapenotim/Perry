@@ -158,15 +158,15 @@ namespace SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Items_0_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_0_(ComponentMediator, 77, 8);
-            Items_1_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_1_(ComponentMediator, 78, 8);
-            Items_2_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_2_(ComponentMediator, 79, 8);
-            Items_3_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_3_(ComponentMediator, 80, 8);
-            Items_4_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_4_(ComponentMediator, 81, 8);
-            Items_5_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_5_(ComponentMediator, 82, 8);
-            Items_6_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_6_(ComponentMediator, 83, 8);
-            Items_7_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_7_(ComponentMediator, 84, 8);
-            Item = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Item(ComponentMediator, 77, 8);
+            Items_0_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_0_(ComponentMediator, 75, 8);
+            Items_1_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_1_(ComponentMediator, 76, 8);
+            Items_2_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_2_(ComponentMediator, 77, 8);
+            Items_3_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_3_(ComponentMediator, 78, 8);
+            Items_4_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_4_(ComponentMediator, 79, 8);
+            Items_5_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_5_(ComponentMediator, 80, 8);
+            Items_6_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_6_(ComponentMediator, 81, 8);
+            Items_7_ = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Items_7_(ComponentMediator, 82, 8);
+            Item = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.Item(ComponentMediator, 75, 8);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

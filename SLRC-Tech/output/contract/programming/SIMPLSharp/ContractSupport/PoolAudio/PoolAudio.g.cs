@@ -289,11 +289,11 @@ namespace SLRCTech.PoolAudio
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BleachersOnButton_PressEvent, onBleachersOnButton_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PerimeterOffButton_PressEvent, onPerimeterOffButton_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PerimeterOnButton_PressEvent, onPerimeterOnButton_Press);
-            BoothWidgetList = new SLRCTech.PoolAudio.BoothWidgetList.BoothWidgetList(ComponentMediator, 9);
-            BuildingMute = new SLRCTech.PoolAudio.BuildingMute(ComponentMediator, 12);
-            OfficeWidgetList = new SLRCTech.PoolAudio.OfficeWidgetList.OfficeWidgetList(ComponentMediator, 13);
-            BuildingProgramWidget = new SLRCTech.PoolAudio.BuildingProgramWidget(ComponentMediator, 16);
-            Header = new SLRCTech.PoolAudio.Header(ComponentMediator, 17);
+            BoothWidgetList = new SLRCTech.PoolAudio.BoothWidgetList.BoothWidgetList(ComponentMediator, 7);
+            BuildingMute = new SLRCTech.PoolAudio.BuildingMute(ComponentMediator, 10);
+            OfficeWidgetList = new SLRCTech.PoolAudio.OfficeWidgetList.OfficeWidgetList(ComponentMediator, 11);
+            BuildingProgramWidget = new SLRCTech.PoolAudio.BuildingProgramWidget(ComponentMediator, 14);
+            Header = new SLRCTech.PoolAudio.Header(ComponentMediator, 15);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

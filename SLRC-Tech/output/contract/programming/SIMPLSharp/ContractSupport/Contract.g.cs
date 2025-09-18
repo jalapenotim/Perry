@@ -99,21 +99,21 @@ namespace SLRCTech
 
             InternalLocked = new SLRCTech.Locked.Locked(ComponentMediator, 1);
 
-            InternalMain = new SLRCTech.Main.Main(ComponentMediator, 4);
+            InternalMain = new SLRCTech.Main.Main(ComponentMediator, 3);
 
-            InternalPoolAudio = new SLRCTech.PoolAudio.PoolAudio(ComponentMediator, 8);
+            InternalPoolAudio = new SLRCTech.PoolAudio.PoolAudio(ComponentMediator, 6);
 
-            InternalClassrooms = new SLRCTech.Classrooms.Classrooms(ComponentMediator, 18);
+            InternalClassrooms = new SLRCTech.Classrooms.Classrooms(ComponentMediator, 16);
 
-            InternalBackgroundMusic = new SLRCTech.BackgroundMusic.BackgroundMusic(ComponentMediator, 33);
+            InternalBackgroundMusic = new SLRCTech.BackgroundMusic.BackgroundMusic(ComponentMediator, 31);
 
-            InternalCableTV = new SLRCTech.CableTV.CableTV(ComponentMediator, 58);
+            InternalCableTV = new SLRCTech.CableTV.CableTV(ComponentMediator, 56);
 
-            InternalFieldhouseAudio = new SLRCTech.FieldhouseAudio.FieldhouseAudio(ComponentMediator, 68);
+            InternalFieldhouseAudio = new SLRCTech.FieldhouseAudio.FieldhouseAudio(ComponentMediator, 66);
 
-            InternalPublicDisplays = new SLRCTech.PublicDisplays.PublicDisplays(ComponentMediator, 95);
+            InternalPublicDisplays = new SLRCTech.PublicDisplays.PublicDisplays(ComponentMediator, 93);
 
-            InternalSettings = new SLRCTech.Settings.Settings(ComponentMediator, 124);
+            InternalSettings = new SLRCTech.Settings.Settings(ComponentMediator, 122);
 
 
             for (int index = 0; index < devices.Length; index++)

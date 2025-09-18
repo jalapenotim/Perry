@@ -128,9 +128,9 @@ namespace SLRCTech.PoolAudio.BoothWidgetList
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Items_0_ = new SLRCTech.PoolAudio.BoothWidgetList.Items_0_(ComponentMediator, 10, 2);
-            Items_1_ = new SLRCTech.PoolAudio.BoothWidgetList.Items_1_(ComponentMediator, 11, 2);
-            Item = new SLRCTech.PoolAudio.BoothWidgetList.Item(ComponentMediator, 10, 2);
+            Items_0_ = new SLRCTech.PoolAudio.BoothWidgetList.Items_0_(ComponentMediator, 8, 2);
+            Items_1_ = new SLRCTech.PoolAudio.BoothWidgetList.Items_1_(ComponentMediator, 9, 2);
+            Item = new SLRCTech.PoolAudio.BoothWidgetList.Item(ComponentMediator, 8, 2);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
