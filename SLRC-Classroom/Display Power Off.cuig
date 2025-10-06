@@ -1,0 +1,90 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.601.10.0"
+Created = 2025-10-06 13:03:10.06386-05:00
+LastModifiedByAppHost = "2.601.10.0"
+Modified = 2025-10-06 13:03:10.063856-05:00
+CreatedByProjectApp = "1.4201.17.0"
+LastModifiedByProjectApp = "1.4201.17.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{Html}
+<ch5-slider nohandle="true" size="custom" orientation="horizontal" tapsettable="false" handleshape="rounded-rectangle" handlesize="regular" tooltipshowtype="off" tooltipdisplaytype="%" value="50" slidertype="gauge" min="0" max="65535" step="1" id="iah5xairsc" componentName="Display Off Gauge" ccid_linkSendReceive="False" range="false" valueHigh="70" affectedByPreviewState="True" ccid_themeCSSSet="true" devicesVisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" previousSliderType="fader" showtickvalues="false" oldID="iqg3hgi0gv" pd-receivestatevalue="Contract Enabled" customvstheme="custom"></ch5-slider><ch5-text clearLabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Display Powering Off" id="i2rmfiydfj" componentName="Display Off Text" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themeCSSSet="true" oldID="iwj8smkfol" ccid_Label="Display Powering Off" ccid_ActiveFont="'Roboto'">
+              </ch5-text>
+
+{Css}
+@media (max-width: 99999px){#i2rmfiydfj{Label_font-size:60px;--ch5-text--font-size:60px;Label_color:#0080ff;--ch5-text--font-color:#0080ff;display:block;width:600px;--ch5-text--width:600px;height:79px;--ch5-text--height:79px;z-index:5;left:350px;top:300px;position:absolute;}#iqg3hgi0gv .noUi-touch-area{slidertouchareapadding_padding:0px;}#i2rmfiydfj .ch5-text :not(i):not(svg){font-family:"Roboto";}#i2rmfiydfj .ch5-text{min-height:10px;min-width:10px;padding:0px;}#iah5xairsc{Appearance_handle_border-color:#efefef;--ch5-slider--handle-border-color:#efefef;Appearance_handle_background-color:#efefef;--ch5-slider--handle-background-color:#efefef;Appearance_handle_border-width:1px;--ch5-slider--handle-border-width:1px;Appearance_handle_border-style:solid;--ch5-slider--handle-border-style:solid;Appearance_active_border-color:black;--ch5-slider--connect-border-color:black;Appearance_active_background-color:#0080ff;--ch5-slider--connect-background-color:#0080ff;Appearance_active_border-style:solid;--ch5-slider--connect-border-style:solid;Appearance_active_border-width:0;--ch5-slider--connect-border-width:0;Appearance_border-color:#ffffff00;--ch5-slider--target-border-color:#ffffff00;Appearance_background-color:#767676;--ch5-slider--target-background-color:#767676;Appearance_border-width:0;--ch5-slider--target-border-width:0;Appearance_border-style:solid;--ch5-slider--target-border-style:solid;display:block;width:800px;--ch5-slider--width-regular:800px;left:240px;top:410px;position:absolute;z-index:6;sliderActiveTarget_border-style:solid;sliderActiveTarget_background-color:#0080ff;sliderTarget_border-width:0;sliderTarget_background-color:#767676;sliderTarget_border-style:solid;sliderActiveTarget_border-width:0;sliderTarget_border-color:#ffffff00;height:30px;}#wrapper{background-color:#000000;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#iah5xairsc{Appearance_handle_border-color:#efefef;--ch5-slider--handle-border-color:#efefef;Appearance_handle_background-color:#efefef;--ch5-slider--handle-background-color:#efefef;Appearance_handle_border-width:1px;--ch5-slider--handle-border-width:1px;Appearance_handle_border-style:solid;--ch5-slider--handle-border-style:solid;Appearance_active_border-color:black;--ch5-slider--connect-border-color:black;Appearance_active_background-color:#0080ff;--ch5-slider--connect-background-color:#0080ff;Appearance_active_border-style:solid;--ch5-slider--connect-border-style:solid;Appearance_active_border-width:0;--ch5-slider--connect-border-width:0;Appearance_border-color:#ffffff00;--ch5-slider--target-border-color:#ffffff00;Appearance_background-color:#767676;--ch5-slider--target-background-color:#767676;Appearance_border-width:0;--ch5-slider--target-border-width:0;Appearance_border-style:solid;--ch5-slider--target-border-style:solid;display:block;width:800px;--ch5-slider--width-regular:800px;left:240px;top:410px;position:absolute;z-index:6;sliderActiveTarget_border-style:solid;sliderActiveTarget_background-color:#0080ff;sliderTarget_border-width:0;sliderTarget_background-color:#767676;sliderTarget_border-style:solid;sliderActiveTarget_border-width:0;sliderTarget_border-color:#ffffff00;height:30px;}}@media (orientation: portrait) and (max-height: 1137px) and (max-width: 821px), (orientation: portrait) and (max-height: 1135px){#i2rmfiydfj{left:110px;}#iah5xairsc{width:700px;--ch5-slider--width-regular:700px;left:60px;height:30px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "Display Power Off"
+PageMode = "absolute"
+Id = "21bf58f7-04b7-473d-a014-c2b77a89285e"
+StartPage = "False"
+PreloadPage = "True"
+CachePage = "True"
+VisibilityJoin = "VisibilityJoin"
+DisplayBackgroundColor = "False"
+TransitionIn = ""
+TransitionOut = ""
+TransitionDuration = "1.00s"
+TransitionDelay = "0.00s"
+
+[[Elements]]
+Type = "Ch5 Slider"
+Editable = true
+
+[Elements.Attributes]
+nohandle = "true"
+size = "custom"
+orientation = "horizontal"
+tapsettable = "false"
+handleshape = "rounded-rectangle"
+handlesize = "regular"
+tooltipshowtype = "off"
+tooltipdisplaytype = "%"
+value = "50"
+slidertype = "gauge"
+min = "0"
+max = "65535"
+step = "1"
+id = "iah5xairsc"
+componentName = "Display Off Gauge"
+ccid_linkSendReceive = "False"
+range = "false"
+valueHigh = "70"
+affectedByPreviewState = "True"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+previousSliderType = "fader"
+showtickvalues = "false"
+oldID = "iqg3hgi0gv"
+pd-receivestatevalue = "Contract Enabled"
+customvstheme = "custom"
+[[Elements]]
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Display Powering Off"
+id = "i2rmfiydfj"
+componentName = "Display Off Text"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+ccid_themeCSSSet = "true"
+oldID = "iwj8smkfol"
+ccid_Label = "Display Powering Off"
+ccid_ActiveFont = "'Roboto'"
+

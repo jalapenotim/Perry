@@ -3,17 +3,37 @@
     "_schema": "1.0.0.0",
     "_createdByAppHost": "2.501.6.0",
     "_created": "2025-09-02T16:50:28.4201313-05:00",
-    "_lastModifiedByAppHost": "2.501.6.0",
+    "_lastModifiedByAppHost": "2.601.10.0",
     "_minimumAppHost": "2.0.0",
-    "_modified": "2025-09-02T16:50:28.420122-05:00"
+    "_modified": "2025-10-06T13:15:10.9833261-05:00"
   },
   "_solution": {
     "_name": "SLRC",
     "_projects": [
       {
+        "_name": "SLRC-Fieldhouse",
+        "_filename": "SLRC-Fieldhouse/SLRC-Fieldhouse.cuip",
+        "_datetime": "2025-10-06T18:15:10.9832026Z"
+      },
+      {
+        "_name": "SLRC-Pool",
+        "_filename": "SLRC-Pool/SLRC-Pool.cuip",
+        "_datetime": "2025-10-06T18:14:46.9447259Z"
+      },
+      {
         "_name": "SLRC-Tech",
         "_filename": "SLRC-Tech/SLRC-Tech.cuip",
         "_datetime": "2025-09-02T21:50:28.2635722Z"
+      },
+      {
+        "_name": "SLRC-Classroom",
+        "_filename": "SLRC-Classroom/SLRC-Classroom.cuip",
+        "_datetime": "2025-09-19T19:18:12.3925531Z"
+      },
+      {
+        "_name": "SLRC-User",
+        "_filename": "SLRC-User/SLRC-User.cuip",
+        "_datetime": "2025-10-06T17:55:06.0725822Z"
       }
     ]
   }

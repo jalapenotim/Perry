@@ -1,0 +1,522 @@
+{
+  "name": "SLRC-Fieldhouse",
+  "timestamp": "2025-10-06T18:24:20.851252+00:00",
+  "version": "1.0.0.0",
+  "schema_version": 1,
+  "extra_value": "",
+  "signals": {
+    "states": {
+      "boolean": {
+        "1": {
+          "1": "FieldhouseAudioVisibilityJoin",
+          "2": "FieldhouseAudio.PleaseWaitPopup.Visibility_fb"
+        },
+        "2": {
+          "1": "FieldhouseAudio.SpeakerConfigTabButton.Visible",
+          "18": "FieldhouseAudio.SpeakerConfigTabButton.Tab1_Selected",
+          "19": "FieldhouseAudio.SpeakerConfigTabButton.Tab2_Selected",
+          "20": "FieldhouseAudio.SpeakerConfigTabButton.Tab3_Selected",
+          "21": "FieldhouseAudio.SpeakerConfigTabButton.Tab4_Selected",
+          "22": "FieldhouseAudio.SpeakerConfigTabButton.Tab5_Selected",
+          "23": "FieldhouseAudio.SpeakerConfigTabButton.Tab6_Selected"
+        },
+        "4": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "5": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "6": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "7": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "8": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "9": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "10": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "11": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "12": {
+          "1": "FieldhouseAudio.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "2": "FieldhouseAudio.BuildingMute.MuteOffButton.Enable",
+          "3": "FieldhouseAudio.BuildingMute.MuteOnButton.Enable",
+          "4": "FieldhouseAudio.BuildingMute.MuteOffButton.Selected",
+          "5": "FieldhouseAudio.BuildingMute.MuteOnButton.Selected"
+        },
+        "14": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "15": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "16": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "17": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "18": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "20": {
+          "1201": "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "21": {
+          "1201": "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "22": {
+          "1201": "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "24": {
+          "31": "FieldhouseAudio.ZonesTabButton.Tab1_Selected",
+          "32": "FieldhouseAudio.ZonesTabButton.Tab2_Selected",
+          "33": "FieldhouseAudio.ZonesTabButton.Tab3_Selected",
+          "34": "FieldhouseAudio.ZonesTabButton.Tab4_Selected",
+          "35": "FieldhouseAudio.ZonesTabButton.Tab5_Selected"
+        },
+        "25": {
+          "1": "FieldhouseAudio.Header.MainPageButton.Visibility_fb"
+        },
+        "27": {
+          "1201": "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "28": {
+          "1201": "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "29": {
+          "1": "SystemInitializingVisibilityJoin"
+        }
+      },
+      "numeric": {
+        "4": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "5": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "6": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "7": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "8": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "9": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "10": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "11": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "14": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "15": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "16": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "17": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "18": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "20": {
+          "1801": "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "21": {
+          "1801": "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "22": {
+          "1801": "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "27": {
+          "1801": "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "28": {
+          "1801": "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "29": {
+          "4": "SystemInitializing.SystemInitializingGauge.LowerTouchfb"
+        }
+      },
+      "string": {
+        "4": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "5": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "6": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "7": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "8": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "9": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "10": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "11": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "12": {
+          "1": "FieldhouseAudio.BuildingMute.BuildingMuteStatus.IndirectRichText",
+          "2": "FieldhouseAudio.BuildingMute.BuildingMuteText.IndirectRichText"
+        },
+        "14": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "15": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "16": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "17": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "18": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "20": {
+          "1": "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "21": {
+          "1": "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "22": {
+          "1": "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "25": {
+          "1": "FieldhouseAudio.Header.PageNameText.IndirectRichText"
+        },
+        "27": {
+          "1": "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "28": {
+          "1": "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        }
+      }
+    },
+    "events": {
+      "boolean": {
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab1_Press": {
+          "joinId": 31,
+          "smartObjectId": 2
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab2_Press": {
+          "joinId": 32,
+          "smartObjectId": 2
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab3_Press": {
+          "joinId": 33,
+          "smartObjectId": 2
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab4_Press": {
+          "joinId": 34,
+          "smartObjectId": 2
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab5_Press": {
+          "joinId": 35,
+          "smartObjectId": 2
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab6_Press": {
+          "joinId": 36,
+          "smartObjectId": 2
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 4
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 4
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 4
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 5
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 5
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 5
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 6
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 6
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 6
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 7
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 7
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 7
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 8
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 8
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 8
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 9
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 9
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 9
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 10
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 10
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 10
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 11
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 11
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 11
+        },
+        "FieldhouseAudio.BuildingMute.MuteOffButton.Press": {
+          "joinId": 1,
+          "smartObjectId": 12
+        },
+        "FieldhouseAudio.BuildingMute.MuteOnButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 12
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 14
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 14
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 14
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 15
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 15
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 15
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 16
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 16
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 16
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 17
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 17
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 17
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 18
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 18
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 18
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 20
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 20
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 20
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 21
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 21
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 21
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 22
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 22
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 22
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab1_Press": {
+          "joinId": 31,
+          "smartObjectId": 24
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab2_Press": {
+          "joinId": 32,
+          "smartObjectId": 24
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab3_Press": {
+          "joinId": 33,
+          "smartObjectId": 24
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab4_Press": {
+          "joinId": 34,
+          "smartObjectId": 24
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab5_Press": {
+          "joinId": 35,
+          "smartObjectId": 24
+        },
+        "FieldhouseAudio.Header.LockButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 25
+        },
+        "FieldhouseAudio.Header.MainPageButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 25
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 27
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 27
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 27
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 28
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 28
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 28
+        }
+      },
+      "numeric": {},
+      "string": {}
+    }
+  }
+}

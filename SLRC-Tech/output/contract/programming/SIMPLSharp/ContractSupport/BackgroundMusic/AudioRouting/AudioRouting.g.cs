@@ -540,126 +540,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         void Destination9Label_Visibility_fb(bool digital);
 
         /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 10 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination10Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 10 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination10Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 1 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination1Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 1 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination1Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 2 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination2Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 2 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination2Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 3 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination3Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 3 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination3Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 4 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination4Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 4 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination4Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 5 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination5Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 5 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination5Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 6 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination6Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 6 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination6Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 7 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination7Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 7 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination7Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 8 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination8Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 8 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination8Button_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 9 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Destination9Button_Selected(AudioRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Destination 9 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Destination9Button_Selected(bool digital);
-
-        /// <summary>
         /// BackgroundMusic.AudioRouting.Source 10 Button.Selected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -1716,136 +1596,76 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
                 public const uint Destination9Label_Visibility_fbState = 33;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination10Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 10 Button.Selected
-                /// </summary>
-                public const uint Destination10Button_SelectedState = 35;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination1Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 1 Button.Selected
-                /// </summary>
-                public const uint Destination1Button_SelectedState = 36;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination2Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 2 Button.Selected
-                /// </summary>
-                public const uint Destination2Button_SelectedState = 37;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination3Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 3 Button.Selected
-                /// </summary>
-                public const uint Destination3Button_SelectedState = 38;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination4Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 4 Button.Selected
-                /// </summary>
-                public const uint Destination4Button_SelectedState = 39;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination5Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 5 Button.Selected
-                /// </summary>
-                public const uint Destination5Button_SelectedState = 40;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination6Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 6 Button.Selected
-                /// </summary>
-                public const uint Destination6Button_SelectedState = 41;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination7Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 7 Button.Selected
-                /// </summary>
-                public const uint Destination7Button_SelectedState = 42;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination8Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 8 Button.Selected
-                /// </summary>
-                public const uint Destination8Button_SelectedState = 43;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Destination9Button.Selected
-                /// BackgroundMusic.AudioRouting.Destination 9 Button.Selected
-                /// </summary>
-                public const uint Destination9Button_SelectedState = 44;
-
-                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source10Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 10 Button.Selected
                 /// </summary>
-                public const uint Source10Button_SelectedState = 45;
+                public const uint Source10Button_SelectedState = 35;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source11Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 11 Button.Selected
                 /// </summary>
-                public const uint Source11Button_SelectedState = 46;
+                public const uint Source11Button_SelectedState = 36;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source12Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 12 Button.Selected
                 /// </summary>
-                public const uint Source12Button_SelectedState = 47;
+                public const uint Source12Button_SelectedState = 37;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source1Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 1 Button.Selected
                 /// </summary>
-                public const uint Source1Button_SelectedState = 48;
+                public const uint Source1Button_SelectedState = 38;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source2Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 2 Button.Selected
                 /// </summary>
-                public const uint Source2Button_SelectedState = 49;
+                public const uint Source2Button_SelectedState = 39;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source3Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 3 Button.Selected
                 /// </summary>
-                public const uint Source3Button_SelectedState = 50;
+                public const uint Source3Button_SelectedState = 40;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source4Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 4 Button.Selected
                 /// </summary>
-                public const uint Source4Button_SelectedState = 51;
+                public const uint Source4Button_SelectedState = 41;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source5Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 5 Button.Selected
                 /// </summary>
-                public const uint Source5Button_SelectedState = 52;
+                public const uint Source5Button_SelectedState = 42;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source6Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 6 Button.Selected
                 /// </summary>
-                public const uint Source6Button_SelectedState = 53;
+                public const uint Source6Button_SelectedState = 43;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source7Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 7 Button.Selected
                 /// </summary>
-                public const uint Source7Button_SelectedState = 54;
+                public const uint Source7Button_SelectedState = 44;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source8Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 8 Button.Selected
                 /// </summary>
-                public const uint Source8Button_SelectedState = 55;
+                public const uint Source8Button_SelectedState = 45;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.Source9Button.Selected
                 /// BackgroundMusic.AudioRouting.Source 9 Button.Selected
                 /// </summary>
-                public const uint Source9Button_SelectedState = 56;
+                public const uint Source9Button_SelectedState = 46;
 
             }
             /// <summary>
@@ -2146,7 +1966,7 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Source7Button_PressEvent, onSource7Button_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Source8Button_PressEvent, onSource8Button_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Source9Button_PressEvent, onSource9Button_Press);
-            ResetLevelsTabButton = new SLRCTech.BackgroundMusic.AudioRouting.ResetLevelsTabButton(ComponentMediator, 54);
+            ResetLevelsTabButton = new SLRCTech.BackgroundMusic.AudioRouting.ResetLevelsTabButton(ComponentMediator, 61);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -2382,20 +2202,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             AudioRouting_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Destination10Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination10Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination10Button_Selected(bool digital)
-        {
-            Destination10Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Destination10Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -2422,20 +2228,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         public void Destination10Label_Visibility_fb(bool digital)
         {
             Destination10Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Destination1Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination1Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination1Button_Selected(bool digital)
-        {
-            Destination1Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Destination1Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
@@ -2466,20 +2258,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             Destination1Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Destination2Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination2Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination2Button_Selected(bool digital)
-        {
-            Destination2Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Destination2Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -2506,20 +2284,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         public void Destination2Label_Visibility_fb(bool digital)
         {
             Destination2Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Destination3Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination3Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination3Button_Selected(bool digital)
-        {
-            Destination3Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Destination3Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
@@ -2550,20 +2314,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             Destination3Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Destination4Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination4Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination4Button_Selected(bool digital)
-        {
-            Destination4Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Destination4Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -2590,20 +2340,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         public void Destination4Label_Visibility_fb(bool digital)
         {
             Destination4Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Destination5Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination5Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination5Button_Selected(bool digital)
-        {
-            Destination5Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Destination5Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
@@ -2634,20 +2370,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             Destination5Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Destination6Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination6Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination6Button_Selected(bool digital)
-        {
-            Destination6Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Destination6Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -2674,20 +2396,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         public void Destination6Label_Visibility_fb(bool digital)
         {
             Destination6Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Destination7Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination7Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination7Button_Selected(bool digital)
-        {
-            Destination7Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Destination7Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
@@ -2718,20 +2426,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             Destination7Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Destination8Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination8Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination8Button_Selected(bool digital)
-        {
-            Destination8Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Destination8Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -2758,20 +2452,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         public void Destination8Label_Visibility_fb(bool digital)
         {
             Destination8Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Destination9Button_Selected(AudioRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Destination9Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Destination9Button_Selected(bool digital)
-        {
-            Destination9Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Destination9Button_Visibility_fb(AudioRoutingBoolInputSigDelegate callback)

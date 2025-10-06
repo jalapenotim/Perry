@@ -149,7 +149,7 @@ namespace SLRCTech.PublicDisplays.PublicDisplayLowerLevel
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            LowerLevelWidgetList = new SLRCTech.PublicDisplays.PublicDisplayLowerLevel.LowerLevelWidgetList.LowerLevelWidgetList(ComponentMediator, 109);
+            LowerLevelWidgetList = new SLRCTech.PublicDisplays.PublicDisplayLowerLevel.LowerLevelWidgetList.LowerLevelWidgetList(ComponentMediator, 118);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

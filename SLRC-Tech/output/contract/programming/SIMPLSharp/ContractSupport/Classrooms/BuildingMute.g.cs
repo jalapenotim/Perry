@@ -56,6 +56,30 @@ namespace SLRCTech.Classrooms
         void BuildingMuteStatus_Visibility_fb(bool digital);
 
         /// <summary>
+        /// Classrooms.BuildingMute.Mute Off Button.Enable Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void MuteOffButton_Enable(BuildingMuteBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Classrooms.BuildingMute.Mute Off Button.Enable Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void MuteOffButton_Enable(bool digital);
+
+        /// <summary>
+        /// Classrooms.BuildingMute.Mute On Button.Enable Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void MuteOnButton_Enable(BuildingMuteBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Classrooms.BuildingMute.Mute On Button.Enable Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void MuteOnButton_Enable(bool digital);
+
+        /// <summary>
         /// Classrooms.BuildingMute.Mute Off Button.Selected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -155,13 +179,13 @@ namespace SLRCTech.Classrooms
                 /// Output or Event digital joinInfo from panel to Control System: Classrooms.BuildingMute.MuteOffButton.Press
                 /// Classrooms.BuildingMute.Mute Off Button.Press
                 /// </summary>
-                public const uint MuteOffButton_PressEvent = 2;
+                public const uint MuteOffButton_PressEvent = 1;
 
                 /// <summary>
                 /// Output or Event digital joinInfo from panel to Control System: Classrooms.BuildingMute.MuteOnButton.Press
                 /// Classrooms.BuildingMute.Mute On Button.Press
                 /// </summary>
-                public const uint MuteOnButton_PressEvent = 3;
+                public const uint MuteOnButton_PressEvent = 2;
 
 
                 /// <summary>
@@ -171,16 +195,28 @@ namespace SLRCTech.Classrooms
                 public const uint BuildingMuteStatus_Visibility_fbState = 1;
 
                 /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Classrooms.BuildingMute.MuteOffButton.Enable
+                /// Classrooms.BuildingMute.Mute Off Button.Enable
+                /// </summary>
+                public const uint MuteOffButton_EnableState = 2;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Classrooms.BuildingMute.MuteOnButton.Enable
+                /// Classrooms.BuildingMute.Mute On Button.Enable
+                /// </summary>
+                public const uint MuteOnButton_EnableState = 3;
+
+                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Classrooms.BuildingMute.MuteOffButton.Selected
                 /// Classrooms.BuildingMute.Mute Off Button.Selected
                 /// </summary>
-                public const uint MuteOffButton_SelectedState = 3;
+                public const uint MuteOffButton_SelectedState = 4;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Classrooms.BuildingMute.MuteOnButton.Selected
                 /// Classrooms.BuildingMute.Mute On Button.Selected
                 /// </summary>
-                public const uint MuteOnButton_SelectedState = 4;
+                public const uint MuteOnButton_SelectedState = 5;
 
             }
             /// <summary>
@@ -302,6 +338,20 @@ namespace SLRCTech.Classrooms
             BuildingMuteStatus_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
+        public void MuteOffButton_Enable(BuildingMuteBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.MuteOffButton_EnableState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void MuteOffButton_Enable(bool digital)
+        {
+            MuteOffButton_Enable((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
         public void MuteOffButton_Selected(BuildingMuteBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -314,6 +364,20 @@ namespace SLRCTech.Classrooms
         public void MuteOffButton_Selected(bool digital)
         {
             MuteOffButton_Selected((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void MuteOnButton_Enable(BuildingMuteBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.MuteOnButton_EnableState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void MuteOnButton_Enable(bool digital)
+        {
+            MuteOnButton_Enable((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void MuteOnButton_Selected(BuildingMuteBoolInputSigDelegate callback)

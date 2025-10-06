@@ -1,0 +1,412 @@
+{
+  "FileMetadata": {
+    "_createdByProjectApp": "1.4201.17.0",
+    "_lastModifiedByProjectApp": "1.4201.17.0",
+    "_schema": "1.0.0.0",
+    "_createdByAppHost": "2.601.10.0",
+    "_created": "2025-09-19T14:18:12.4021231-05:00",
+    "_lastModifiedByAppHost": "2.601.10.0",
+    "_minimumAppHost": "2.0.0",
+    "_modified": "2025-09-22T17:07:23.3850993-05:00"
+  },
+  "HardButtons": [
+    {
+      "DeviceSpecId": "Project Level",
+      "Name": "Project Level",
+      "Logic": {
+        "Project Level": [
+          {
+            "ButtonIndex": 1,
+            "ButtonLabel": "Power",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-power-off",
+            "Type": 1,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 2,
+            "ButtonLabel": "Home",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-home",
+            "Type": 1,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 3,
+            "ButtonLabel": "Lights",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-lightbulb-o",
+            "Type": 1,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 4,
+            "ButtonLabel": "Up",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-up",
+            "Type": 1,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 5,
+            "ButtonLabel": "Down",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-down",
+            "Type": 1,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 6,
+            "ButtonLabel": "Mic",
+            "SendEventOnClick": "1",
+            "PageFlip": "",
+            "IconTag": "fa-microphone",
+            "Type": 1,
+            "HasModifications": true
+          }
+        ],
+        "1cda6c70-3dc1-43f7-9595-49bbd15e7cfe": [
+          {
+            "ButtonIndex": 1,
+            "ButtonLabel": "Power",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-power-off",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 2,
+            "ButtonLabel": "Home",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-home",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 3,
+            "ButtonLabel": "Lights",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-lightbulb-o",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 4,
+            "ButtonLabel": "Up",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-up",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 5,
+            "ButtonLabel": "Down",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-down",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 6,
+            "ButtonLabel": "Mic",
+            "SendEventOnClick": "1",
+            "PageFlip": "",
+            "IconTag": "fa-microphone",
+            "Type": 2,
+            "HasModifications": false
+          }
+        ],
+        "b27fbcc8-057c-4d87-8e72-d97cb90252a3": [
+          {
+            "ButtonIndex": 1,
+            "ButtonLabel": "Power",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-power-off",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 2,
+            "ButtonLabel": "Home",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-home",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 3,
+            "ButtonLabel": "Lights",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-lightbulb-o",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 4,
+            "ButtonLabel": "Up",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-up",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 5,
+            "ButtonLabel": "Down",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-down",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 6,
+            "ButtonLabel": "Mic",
+            "SendEventOnClick": "1",
+            "PageFlip": "",
+            "IconTag": "fa-microphone",
+            "Type": 2,
+            "HasModifications": false
+          }
+        ],
+        "21bf58f7-04b7-473d-a014-c2b77a89285e": [
+          {
+            "ButtonIndex": 1,
+            "ButtonLabel": "Power",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-power-off",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 2,
+            "ButtonLabel": "Home",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-home",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 3,
+            "ButtonLabel": "Lights",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-lightbulb-o",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 4,
+            "ButtonLabel": "Up",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-up",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 5,
+            "ButtonLabel": "Down",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-down",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 6,
+            "ButtonLabel": "Mic",
+            "SendEventOnClick": "1",
+            "PageFlip": "",
+            "IconTag": "fa-microphone",
+            "Type": 2,
+            "HasModifications": false
+          }
+        ],
+        "37bb0112-774d-4379-adf5-b9016dd03fad": [
+          {
+            "ButtonIndex": 1,
+            "ButtonLabel": "Power",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-power-off",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 2,
+            "ButtonLabel": "Home",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-home",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 3,
+            "ButtonLabel": "Lights",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-lightbulb-o",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 4,
+            "ButtonLabel": "Up",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-up",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 5,
+            "ButtonLabel": "Down",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-down",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 6,
+            "ButtonLabel": "Mic",
+            "SendEventOnClick": "1",
+            "PageFlip": "",
+            "IconTag": "fa-microphone",
+            "Type": 2,
+            "HasModifications": false
+          }
+        ],
+        "28399018-813e-4b5f-bf06-6bb73998b792": [
+          {
+            "ButtonIndex": 1,
+            "ButtonLabel": "Power",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-power-off",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 2,
+            "ButtonLabel": "Home",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-home",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 3,
+            "ButtonLabel": "Lights",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-lightbulb-o",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 4,
+            "ButtonLabel": "Up",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-up",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 5,
+            "ButtonLabel": "Down",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-down",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 6,
+            "ButtonLabel": "Mic",
+            "SendEventOnClick": "1",
+            "PageFlip": "",
+            "IconTag": "fa-microphone",
+            "Type": 2,
+            "HasModifications": false
+          }
+        ],
+        "ea76222d-194d-4af4-8638-5fdefb263a2b": [
+          {
+            "ButtonIndex": 1,
+            "ButtonLabel": "Power",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-power-off",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 2,
+            "ButtonLabel": "Home",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-home",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 3,
+            "ButtonLabel": "Lights",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-lightbulb-o",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 4,
+            "ButtonLabel": "Up",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-up",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 5,
+            "ButtonLabel": "Down",
+            "SendEventOnClick": "",
+            "PageFlip": "",
+            "IconTag": "fa-arrow-down",
+            "Type": 2,
+            "HasModifications": false
+          },
+          {
+            "ButtonIndex": 6,
+            "ButtonLabel": "Mic",
+            "SendEventOnClick": "1",
+            "PageFlip": "",
+            "IconTag": "fa-microphone",
+            "Type": 2,
+            "HasModifications": false
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -35,20 +35,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         /// Fires on button list presses.  Event carries <see="IndexedButtonEventArgs"/> with ButtonIndex property (0 based).
         /// </summary>
         event EventHandler<IndexedButtonEventArgs> Tab_PressEvent;
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab1._Selected Feedback
-        /// </summary>
-        /// <param name="buttonIndex">The index of the button (0 based).</param>
-        /// <param name="callback">The delegate to set the feedback.</param>
-        void Tab_Selected(ushort buttonIndex, ResetLevelsTabButtonBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Helper BackgroundMusic.AudioRouting.Tab1._Selected Feedback
-        /// </summary>
-        /// <param name="buttonIndex">The index of the button (0 based).</param>
-        /// <param name="digital">The <see="bool"/> value to set on the panel.</param>
-        void Tab_Selected(ushort buttonIndex, bool digital);
     }
 
 
@@ -67,20 +53,6 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
                 handler(this, new IndexedButtonEventArgs((SmartObjectEventArgs)eventArgs.SigArgs, eventArgs.JoinIndex));
         }
                 
-        /// <inheritdoc/>
-        public void Tab_Selected(ushort buttonIndex, ResetLevelsTabButtonBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Tab_1_Item_SelectedState + (uint) buttonIndex], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Tab_Selected(ushort buttonIndex, bool digital)
-        {
-            Tab_Selected(buttonIndex, (sig, component) => sig.BoolValue = digital);
-        }
 
         #endregion
     }
@@ -118,64 +90,14 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         event EventHandler<UIEventArgs> Tab_5_Item_PressEvent;
 
         /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab1._Selected Feedback
+        /// Event BackgroundMusic.AudioRouting.Tab6._Press (from panel to Control System)
         /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Tab_1_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback);
+        event EventHandler<UIEventArgs> Tab_6_Item_PressEvent;
 
         /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab1._Selected Feedback
+        /// Event BackgroundMusic.AudioRouting.Tab7._Press (from panel to Control System)
         /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Tab_1_Item_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab2._Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Tab_2_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab2._Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Tab_2_Item_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab3._Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Tab_3_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab3._Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Tab_3_Item_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab4._Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Tab_4_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab4._Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Tab_4_Item_Selected(bool digital);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab5._Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Tab_5_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// BackgroundMusic.AudioRouting.Tab5._Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Tab_5_Item_Selected(bool digital);
+        event EventHandler<UIEventArgs> Tab_7_Item_PressEvent;
     }
 
     /// <summary>
@@ -249,36 +171,18 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
                 /// </summary>
                 public const uint Tab_5_Item_PressEvent = 35;
 
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab6_Press
+                /// BackgroundMusic.AudioRouting.Tab6._Press
+                /// </summary>
+                public const uint Tab_6_Item_PressEvent = 36;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab1_Selected
-                /// BackgroundMusic.AudioRouting.Tab1._Selected
+                /// Output or Event digital joinInfo from panel to Control System: BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab7_Press
+                /// BackgroundMusic.AudioRouting.Tab7._Press
                 /// </summary>
-                public const uint Tab_1_Item_SelectedState = 31;
+                public const uint Tab_7_Item_PressEvent = 37;
 
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab2_Selected
-                /// BackgroundMusic.AudioRouting.Tab2._Selected
-                /// </summary>
-                public const uint Tab_2_Item_SelectedState = 32;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab3_Selected
-                /// BackgroundMusic.AudioRouting.Tab3._Selected
-                /// </summary>
-                public const uint Tab_3_Item_SelectedState = 33;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab4_Selected
-                /// BackgroundMusic.AudioRouting.Tab4._Selected
-                /// </summary>
-                public const uint Tab_4_Item_SelectedState = 34;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab5_Selected
-                /// BackgroundMusic.AudioRouting.Tab5._Selected
-                /// </summary>
-                public const uint Tab_5_Item_SelectedState = 35;
 
             }
         }
@@ -336,6 +240,8 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Tab_3_Item_PressEvent, onTab_3_Item_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Tab_4_Item_PressEvent, onTab_4_Item_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Tab_5_Item_PressEvent, onTab_5_Item_Press);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Tab_6_Item_PressEvent, onTab_6_Item_Press);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Tab_7_Item_PressEvent, onTab_7_Item_Press);
         }
 
         /// <summary>
@@ -348,7 +254,7 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         {
             if (controlJoinId == ControlJoinId &&
                 join >= Joins.Booleans.Tab_1_Item_PressEvent &&
-                join <= 35)
+                join <= 37)
             {
                 return new Indexes(0, (ushort)(join - Joins.Booleans.Tab_1_Item_PressEvent), false);
             }
@@ -418,75 +324,23 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
         }
 
         /// <inheritdoc/>
-        public void Tab_1_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback)
+        public event EventHandler<UIEventArgs> Tab_6_Item_PressEvent;
+        private void onTab_6_Item_Press(SmartObjectEventArgs eventArgs)
         {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Tab_1_Item_SelectedState], this);
-            }
+            EventHandler<UIEventArgs> handler = Tab_6_Item_PressEvent;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
         /// <inheritdoc/>
-        public void Tab_1_Item_Selected(bool digital)
+        public event EventHandler<UIEventArgs> Tab_7_Item_PressEvent;
+        private void onTab_7_Item_Press(SmartObjectEventArgs eventArgs)
         {
-            Tab_1_Item_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Tab_2_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Tab_2_Item_SelectedState], this);
-            }
+            EventHandler<UIEventArgs> handler = Tab_7_Item_PressEvent;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
-        /// <inheritdoc/>
-        public void Tab_2_Item_Selected(bool digital)
-        {
-            Tab_2_Item_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Tab_3_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Tab_3_Item_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Tab_3_Item_Selected(bool digital)
-        {
-            Tab_3_Item_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Tab_4_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Tab_4_Item_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Tab_4_Item_Selected(bool digital)
-        {
-            Tab_4_Item_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Tab_5_Item_Selected(ResetLevelsTabButtonBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Tab_5_Item_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Tab_5_Item_Selected(bool digital)
-        {
-            Tab_5_Item_Selected((sig, component) => sig.BoolValue = digital);
-        }
 
         #endregion
 
@@ -521,6 +375,8 @@ namespace SLRCTech.BackgroundMusic.AudioRouting
             Tab_3_Item_PressEvent = null;
             Tab_4_Item_PressEvent = null;
             Tab_5_Item_PressEvent = null;
+            Tab_6_Item_PressEvent = null;
+            Tab_7_Item_PressEvent = null;
         }
 
         #endregion

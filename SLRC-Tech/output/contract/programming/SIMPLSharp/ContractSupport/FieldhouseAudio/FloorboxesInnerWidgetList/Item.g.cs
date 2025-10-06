@@ -48,6 +48,20 @@ namespace SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList
         event EventHandler<ItemEventArgs> ZoneVolumeUpButton_PressEvent;
 
         /// <summary>
+        /// FieldhouseAudio.FloorboxesInnerWidgetList.Items[{0}].Zone Volume Mute Button.Selected Feedback
+        /// </summary>
+        /// <param name="itemIndex">Index of the Widget List (0 based).</param>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void ZoneVolumeMuteButton_Selected(ushort itemIndex, ItemBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// FieldhouseAudio.FloorboxesInnerWidgetList.Items[{0}].Zone Volume Mute Button.Selected Feedback
+        /// </summary>
+        /// <param name="itemIndex">Index of the Widget List (0 based).</param>
+        /// <param name="digital">The bool value to send to the panel.</param>
+        void ZoneVolumeMuteButton_Selected(ushort itemIndex, bool digital);
+
+        /// <summary>
         /// FieldhouseAudio.FloorboxesInnerWidgetList.Items[{0}].Zone Volume Gauge.Lower Touch fb Feedback
         /// </summary>
         /// <param name="itemIndex">Index of the Widget List (0 based).</param>
@@ -131,6 +145,24 @@ namespace SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList
                 handler(this, new ItemEventArgs((SmartObjectEventArgs)eventArgs.SigArgs, eventArgs.ItemIndex));
         }
 
+        /// <summary>
+        /// Boolean feedback FieldhouseAudio.FloorboxesInnerWidgetList.Items[{0}].Zone Volume Mute Button.Selected (from Control System to Panel)
+        /// </summary>
+        public void ZoneVolumeMuteButton_Selected(ushort itemIndex, ItemBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId + itemIndex].BooleanInput[Joins.Booleans.ZoneVolumeMuteButton_SelectedState], this);
+            }
+        }
+
+        /// <summary>
+        /// Boolean feedback FieldhouseAudio.FloorboxesInnerWidgetList.Items[{0}].Zone Volume Mute Button.Selected (from Control System to Panel)
+        /// </summary>
+        public void ZoneVolumeMuteButton_Selected(ushort itemIndex, bool digital)
+        {
+            ZoneVolumeMuteButton_Selected(itemIndex, (sig, component) => sig.BoolValue = digital);
+        }
 
         /// <summary>
         /// Numeric feedback FieldhouseAudio.FloorboxesInnerWidgetList.Items[{0}].Zone Volume Gauge.Lower Touch fb
@@ -208,6 +240,12 @@ namespace SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList
     /// <summary>
     /// Digital callback used in feedback events.
     /// </summary>
+    /// <param name="boolInputSig">The <see cref="BoolInputSig"/> joinInfo data.</param>
+    /// <param name="item">The <see cref="IItem"/> on which to apply the feedback.</param>
+    public delegate void ItemBoolInputSigDelegate(BoolInputSig boolInputSig, IItem item);
+    /// <summary>
+    /// Digital callback used in feedback events.
+    /// </summary>
     /// <param name="uShortInputSig">The <see cref="UShortInputSig"/> joinInfo data.</param>
     /// <param name="item">The <see cref="IItem"/> on which to apply the feedback.</param>
     public delegate void ItemUShortInputSigDelegate(UShortInputSig uShortInputSig, IItem item);
@@ -274,6 +312,12 @@ namespace SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList
                 /// </summary>
                 public const uint ZoneVolumeUpButton_PressEvent = 1203;
 
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: FieldhouseAudio.FloorboxesInnerWidgetList.Items[{0}].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected
+                /// FieldhouseAudio.FloorboxesInnerWidgetList.Items[{0}].Zone Volume Mute Button.Selected
+                /// </summary>
+                public const uint ZoneVolumeMuteButton_SelectedState = 1201;
 
             }
             /// <summary>

@@ -1,0 +1,1773 @@
+{
+  "name": "SLRC-User",
+  "timestamp": "2025-10-06T18:26:39.1482849+00:00",
+  "version": "1.0.0.0",
+  "schema_version": 1,
+  "extra_value": "",
+  "signals": {
+    "states": {
+      "boolean": {
+        "1": {
+          "1": "PoolAudioVisibilityJoin",
+          "4": "PoolAudio.BleachersOffButton.Selected",
+          "5": "PoolAudio.BleachersOnButton.Selected",
+          "6": "PoolAudio.PerimeterOffButton.Selected",
+          "7": "PoolAudio.PerimeterOnButton.Selected"
+        },
+        "2": {
+          "1": "PoolAudio.Header.MainPageButton.Visibility_fb"
+        },
+        "5": {
+          "1201": "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "6": {
+          "1201": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "7": {
+          "1": "PoolAudio.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "2": "PoolAudio.BuildingMute.MuteOffButton.Enable",
+          "3": "PoolAudio.BuildingMute.MuteOnButton.Enable",
+          "4": "PoolAudio.BuildingMute.MuteOffButton.Selected",
+          "5": "PoolAudio.BuildingMute.MuteOnButton.Selected"
+        },
+        "8": {
+          "3": "PoolAudio.BuildingProgramWidget.ZoneVolumeMuteButton.Selected"
+        },
+        "10": {
+          "1201": "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "11": {
+          "1201": "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "12": {
+          "1": "FieldhouseAudioVisibilityJoin",
+          "2": "FieldhouseAudio.PleaseWaitPopup.Visibility_fb"
+        },
+        "14": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "15": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "16": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "17": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "18": {
+          "1201": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "20": {
+          "1201": "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "21": {
+          "1201": "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "22": {
+          "1": "FieldhouseAudio.Header.MainPageButton.Visibility_fb"
+        },
+        "23": {
+          "31": "FieldhouseAudio.ZonesTabButton.Tab1_Selected",
+          "32": "FieldhouseAudio.ZonesTabButton.Tab2_Selected",
+          "33": "FieldhouseAudio.ZonesTabButton.Tab3_Selected",
+          "34": "FieldhouseAudio.ZonesTabButton.Tab4_Selected",
+          "35": "FieldhouseAudio.ZonesTabButton.Tab5_Selected"
+        },
+        "26": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "27": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "28": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "29": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "30": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "31": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "32": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "33": {
+          "1201": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "34": {
+          "1": "FieldhouseAudio.SpeakerConfigTabButton.Visible",
+          "18": "FieldhouseAudio.SpeakerConfigTabButton.Tab1_Selected",
+          "19": "FieldhouseAudio.SpeakerConfigTabButton.Tab2_Selected",
+          "20": "FieldhouseAudio.SpeakerConfigTabButton.Tab3_Selected",
+          "21": "FieldhouseAudio.SpeakerConfigTabButton.Tab4_Selected",
+          "22": "FieldhouseAudio.SpeakerConfigTabButton.Tab5_Selected",
+          "23": "FieldhouseAudio.SpeakerConfigTabButton.Tab6_Selected"
+        },
+        "36": {
+          "1201": "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "37": {
+          "1201": "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "38": {
+          "1201": "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "39": {
+          "1": "FieldhouseAudio.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "2": "FieldhouseAudio.BuildingMute.MuteOffButton.Enable",
+          "3": "FieldhouseAudio.BuildingMute.MuteOnButton.Enable",
+          "4": "FieldhouseAudio.BuildingMute.MuteOffButton.Selected",
+          "5": "FieldhouseAudio.BuildingMute.MuteOnButton.Selected"
+        },
+        "40": {
+          "1": "BackgroundMusic.ResetLevelsButton.Visibility_fb",
+          "2": "BackgroundMusicVisibilityJoin"
+        },
+        "41": {
+          "31": "BackgroundMusic.PageSelectTabButton.Tab1_Selected",
+          "32": "BackgroundMusic.PageSelectTabButton.Tab2_Selected"
+        },
+        "42": {
+          "1": "BackgroundMusic.Header.MainPageButton.Visibility_fb"
+        },
+        "44": {
+          "1": "BackgroundMusic.AudioRouting.Destination10Button.Visibility_fb",
+          "2": "BackgroundMusic.AudioRouting.Destination1Button.Visibility_fb",
+          "3": "BackgroundMusic.AudioRouting.Destination2Button.Visibility_fb",
+          "4": "BackgroundMusic.AudioRouting.Destination3Button.Visibility_fb",
+          "5": "BackgroundMusic.AudioRouting.Destination4Button.Visibility_fb",
+          "6": "BackgroundMusic.AudioRouting.Destination5Button.Visibility_fb",
+          "7": "BackgroundMusic.AudioRouting.Destination6Button.Visibility_fb",
+          "8": "BackgroundMusic.AudioRouting.Destination7Button.Visibility_fb",
+          "9": "BackgroundMusic.AudioRouting.Destination8Button.Visibility_fb",
+          "10": "BackgroundMusic.AudioRouting.Destination9Button.Visibility_fb",
+          "11": "BackgroundMusic.AudioRouting.Source10Button.Visibility_fb",
+          "12": "BackgroundMusic.AudioRouting.Source11Button.Visibility_fb",
+          "13": "BackgroundMusic.AudioRouting.Source12Button.Visibility_fb",
+          "14": "BackgroundMusic.AudioRouting.Source1Button.Visibility_fb",
+          "15": "BackgroundMusic.AudioRouting.Source2Button.Visibility_fb",
+          "16": "BackgroundMusic.AudioRouting.Source3Button.Visibility_fb",
+          "17": "BackgroundMusic.AudioRouting.Source4Button.Visibility_fb",
+          "18": "BackgroundMusic.AudioRouting.Source5Button.Visibility_fb",
+          "19": "BackgroundMusic.AudioRouting.Source6Button.Visibility_fb",
+          "20": "BackgroundMusic.AudioRouting.Source7Button.Visibility_fb",
+          "21": "BackgroundMusic.AudioRouting.Source8Button.Visibility_fb",
+          "22": "BackgroundMusic.AudioRouting.Source9Button.Visibility_fb",
+          "23": "BackgroundMusic.AudioRouting.Visibility_fb",
+          "24": "BackgroundMusic.AudioRouting.Destination10Label.Visibility_fb",
+          "25": "BackgroundMusic.AudioRouting.Destination1Label.Visibility_fb",
+          "26": "BackgroundMusic.AudioRouting.Destination2Label.Visibility_fb",
+          "27": "BackgroundMusic.AudioRouting.Destination3Label.Visibility_fb",
+          "28": "BackgroundMusic.AudioRouting.Destination4Label.Visibility_fb",
+          "29": "BackgroundMusic.AudioRouting.Destination5Label.Visibility_fb",
+          "30": "BackgroundMusic.AudioRouting.Destination6Label.Visibility_fb",
+          "31": "BackgroundMusic.AudioRouting.Destination7Label.Visibility_fb",
+          "32": "BackgroundMusic.AudioRouting.Destination8Label.Visibility_fb",
+          "33": "BackgroundMusic.AudioRouting.Destination9Label.Visibility_fb",
+          "35": "BackgroundMusic.AudioRouting.Source10Button.Selected",
+          "36": "BackgroundMusic.AudioRouting.Source11Button.Selected",
+          "37": "BackgroundMusic.AudioRouting.Source12Button.Selected",
+          "38": "BackgroundMusic.AudioRouting.Source1Button.Selected",
+          "39": "BackgroundMusic.AudioRouting.Source2Button.Selected",
+          "40": "BackgroundMusic.AudioRouting.Source3Button.Selected",
+          "41": "BackgroundMusic.AudioRouting.Source4Button.Selected",
+          "42": "BackgroundMusic.AudioRouting.Source5Button.Selected",
+          "43": "BackgroundMusic.AudioRouting.Source6Button.Selected",
+          "44": "BackgroundMusic.AudioRouting.Source7Button.Selected",
+          "45": "BackgroundMusic.AudioRouting.Source8Button.Selected",
+          "46": "BackgroundMusic.AudioRouting.Source9Button.Selected"
+        },
+        "46": {
+          "1": "BackgroundMusic.BackgroundMusicZoneLevels.Visibility_fb"
+        },
+        "47": {
+          "1": "BackgroundMusic.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "2": "BackgroundMusic.BuildingMute.MuteOffButton.Enable",
+          "3": "BackgroundMusic.BuildingMute.MuteOnButton.Enable",
+          "4": "BackgroundMusic.BuildingMute.MuteOffButton.Selected",
+          "5": "BackgroundMusic.BuildingMute.MuteOnButton.Selected"
+        },
+        "48": {
+          "1": "Locked.PasscodeIncorrect.Visibility_fb",
+          "2": "LockedVisibilityJoin"
+        },
+        "51": {
+          "1": "Main.BackgroundMusicButton.Visibility_fb",
+          "2": "Main.CATVButton.Visibility_fb",
+          "3": "Main.ClassroomsButton.Visibility_fb",
+          "4": "Main.FieldhouseAudioButton.Visibility_fb",
+          "5": "Main.PoolAudioButton.Visibility_fb",
+          "6": "Main.PublicDisplaysButton.Visibility_fb",
+          "7": "Main.SettingsButton.Visibility_fb",
+          "8": "MainVisibilityJoin"
+        },
+        "53": {
+          "1": "Main.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "2": "Main.BuildingMute.MuteOffButton.Enable",
+          "3": "Main.BuildingMute.MuteOnButton.Enable",
+          "4": "Main.BuildingMute.MuteOffButton.Selected",
+          "5": "Main.BuildingMute.MuteOnButton.Selected"
+        },
+        "54": {
+          "1": "Main.Header.MainPageButton.Visibility_fb"
+        },
+        "55": {
+          "1": "CableTVVisibilityJoin"
+        },
+        "56": {
+          "1": "CableTV.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "2": "CableTV.BuildingMute.MuteOffButton.Enable",
+          "3": "CableTV.BuildingMute.MuteOnButton.Enable",
+          "4": "CableTV.BuildingMute.MuteOffButton.Selected",
+          "5": "CableTV.BuildingMute.MuteOnButton.Selected"
+        },
+        "57": {
+          "1": "CableTV.Header.MainPageButton.Visibility_fb"
+        },
+        "58": {
+          "1001": "CableTV.CATVPresets.Button1ItemSelected",
+          "1002": "CableTV.CATVPresets.Button2ItemSelected",
+          "1003": "CableTV.CATVPresets.Button3ItemSelected",
+          "1004": "CableTV.CATVPresets.Button4ItemSelected",
+          "1005": "CableTV.CATVPresets.Button5ItemSelected",
+          "1006": "CableTV.CATVPresets.Button6ItemSelected",
+          "1007": "CableTV.CATVPresets.Button7ItemSelected",
+          "1008": "CableTV.CATVPresets.Button8ItemSelected",
+          "1009": "CableTV.CATVPresets.Button9ItemSelected",
+          "1010": "CableTV.CATVPresets.Button10ItemSelected",
+          "1011": "CableTV.CATVPresets.Button11ItemSelected",
+          "1012": "CableTV.CATVPresets.Button12ItemSelected",
+          "1013": "CableTV.CATVPresets.Button13ItemSelected",
+          "1014": "CableTV.CATVPresets.Button14ItemSelected",
+          "1015": "CableTV.CATVPresets.Button15ItemSelected",
+          "1016": "CableTV.CATVPresets.Button16ItemSelected",
+          "1017": "CableTV.CATVPresets.Button17ItemSelected",
+          "1018": "CableTV.CATVPresets.Button18ItemSelected",
+          "1019": "CableTV.CATVPresets.Button19ItemSelected",
+          "1020": "CableTV.CATVPresets.Button20ItemSelected",
+          "1021": "CableTV.CATVPresets.Button21ItemSelected",
+          "1022": "CableTV.CATVPresets.Button22ItemSelected",
+          "1023": "CableTV.CATVPresets.Button23ItemSelected",
+          "1024": "CableTV.CATVPresets.Button24ItemSelected",
+          "1025": "CableTV.CATVPresets.Button25ItemSelected",
+          "1026": "CableTV.CATVPresets.Button26ItemSelected",
+          "1027": "CableTV.CATVPresets.Button27ItemSelected",
+          "1028": "CableTV.CATVPresets.Button28ItemSelected",
+          "1029": "CableTV.CATVPresets.Button29ItemSelected",
+          "1030": "CableTV.CATVPresets.Button30ItemSelected",
+          "1031": "CableTV.CATVPresets.Button31ItemSelected",
+          "1032": "CableTV.CATVPresets.Button32ItemSelected",
+          "1033": "CableTV.CATVPresets.Button33ItemSelected",
+          "1034": "CableTV.CATVPresets.Button34ItemSelected",
+          "1035": "CableTV.CATVPresets.Button35ItemSelected",
+          "1036": "CableTV.CATVPresets.Button36ItemSelected",
+          "1037": "CableTV.CATVPresets.Button37ItemSelected",
+          "1038": "CableTV.CATVPresets.Button38ItemSelected",
+          "1039": "CableTV.CATVPresets.Button39ItemSelected",
+          "1040": "CableTV.CATVPresets.Button40ItemSelected",
+          "1041": "CableTV.CATVPresets.Button41ItemSelected",
+          "1042": "CableTV.CATVPresets.Button42ItemSelected",
+          "1043": "CableTV.CATVPresets.Button43ItemSelected",
+          "1044": "CableTV.CATVPresets.Button44ItemSelected",
+          "1045": "CableTV.CATVPresets.Button45ItemSelected",
+          "1046": "CableTV.CATVPresets.Button46ItemSelected",
+          "1047": "CableTV.CATVPresets.Button47ItemSelected",
+          "1048": "CableTV.CATVPresets.Button48ItemSelected",
+          "1049": "CableTV.CATVPresets.Button49ItemSelected",
+          "1050": "CableTV.CATVPresets.Button50ItemSelected"
+        },
+        "60": {
+          "31": "CableTV.TunerSelectTabButton.Tab1_Selected",
+          "32": "CableTV.TunerSelectTabButton.Tab2_Selected",
+          "33": "CableTV.TunerSelectTabButton.Tab3_Selected"
+        },
+        "61": {
+          "1": "PublicDisplays.RS232Button.Visibility_fb",
+          "2": "PublicDisplaysVisibilityJoin"
+        },
+        "62": {
+          "1": "PublicDisplays.Header.MainPageButton.Visibility_fb"
+        },
+        "63": {
+          "1": "PublicDisplays.PublicDisplay3rdFl.Visibility_fb"
+        },
+        "64": {
+          "31": "PublicDisplays.PageSelectTabButton.Tab1_Selected",
+          "32": "PublicDisplays.PageSelectTabButton.Tab2_Selected",
+          "33": "PublicDisplays.PageSelectTabButton.Tab3_Selected",
+          "34": "PublicDisplays.PageSelectTabButton.Tab4_Selected",
+          "35": "PublicDisplays.PageSelectTabButton.Tab5_Selected"
+        },
+        "65": {
+          "1": "PublicDisplays.PublicDisplayLowerLevel.Visibility_fb"
+        },
+        "66": {
+          "1": "PublicDisplays.PublicDisplayRouting.Display10Button.Visibility_fb",
+          "2": "PublicDisplays.PublicDisplayRouting.Display11Button.Visibility_fb",
+          "3": "PublicDisplays.PublicDisplayRouting.Display12Button.Visibility_fb",
+          "4": "PublicDisplays.PublicDisplayRouting.Display13Button.Visibility_fb",
+          "5": "PublicDisplays.PublicDisplayRouting.Display14Button.Visibility_fb",
+          "6": "PublicDisplays.PublicDisplayRouting.Display15Button.Visibility_fb",
+          "7": "PublicDisplays.PublicDisplayRouting.Display16Button.Visibility_fb",
+          "8": "PublicDisplays.PublicDisplayRouting.Display17Button.Visibility_fb",
+          "9": "PublicDisplays.PublicDisplayRouting.Display18Button.Visibility_fb",
+          "10": "PublicDisplays.PublicDisplayRouting.Display19Button.Visibility_fb",
+          "11": "PublicDisplays.PublicDisplayRouting.Display1Button.Visibility_fb",
+          "12": "PublicDisplays.PublicDisplayRouting.Display20Button.Visibility_fb",
+          "13": "PublicDisplays.PublicDisplayRouting.Display2Button.Visibility_fb",
+          "14": "PublicDisplays.PublicDisplayRouting.Display3Button.Visibility_fb",
+          "15": "PublicDisplays.PublicDisplayRouting.Display4Button.Visibility_fb",
+          "16": "PublicDisplays.PublicDisplayRouting.Display5Button.Visibility_fb",
+          "17": "PublicDisplays.PublicDisplayRouting.Display6Button.Visibility_fb",
+          "18": "PublicDisplays.PublicDisplayRouting.Display7Button.Visibility_fb",
+          "19": "PublicDisplays.PublicDisplayRouting.Display8Button.Visibility_fb",
+          "20": "PublicDisplays.PublicDisplayRouting.Display9Button.Visibility_fb",
+          "21": "PublicDisplays.PublicDisplayRouting.Source1Button.Visibility_fb",
+          "22": "PublicDisplays.PublicDisplayRouting.Source2Button.Visibility_fb",
+          "23": "PublicDisplays.PublicDisplayRouting.Source3Button.Visibility_fb",
+          "24": "PublicDisplays.PublicDisplayRouting.Source4Button.Visibility_fb",
+          "25": "PublicDisplays.PublicDisplayRouting.Source5Button.Visibility_fb",
+          "26": "PublicDisplays.PublicDisplayRouting.Source6Button.Visibility_fb",
+          "27": "PublicDisplays.PublicDisplayRouting.Source7Button.Visibility_fb",
+          "28": "PublicDisplays.PublicDisplayRouting.Source8Button.Visibility_fb",
+          "29": "PublicDisplays.PublicDisplayRouting.Source9Button.Visibility_fb",
+          "30": "PublicDisplays.PublicDisplayRouting.SourceClearButton.Visibility_fb",
+          "31": "PublicDisplays.PublicDisplayRouting.Display10Label.Visibility_fb",
+          "32": "PublicDisplays.PublicDisplayRouting.Display11Label.Visibility_fb",
+          "33": "PublicDisplays.PublicDisplayRouting.Display12Label.Visibility_fb",
+          "34": "PublicDisplays.PublicDisplayRouting.Display13Label.Visibility_fb",
+          "35": "PublicDisplays.PublicDisplayRouting.Display14Label.Visibility_fb",
+          "36": "PublicDisplays.PublicDisplayRouting.Display15Label.Visibility_fb",
+          "37": "PublicDisplays.PublicDisplayRouting.Display16Label.Visibility_fb",
+          "38": "PublicDisplays.PublicDisplayRouting.Display17Label.Visibility_fb",
+          "39": "PublicDisplays.PublicDisplayRouting.Display18Label.Visibility_fb",
+          "40": "PublicDisplays.PublicDisplayRouting.Display19Label.Visibility_fb",
+          "41": "PublicDisplays.PublicDisplayRouting.Display1Label.Visibility_fb",
+          "42": "PublicDisplays.PublicDisplayRouting.Display20Label.Visibility_fb",
+          "43": "PublicDisplays.PublicDisplayRouting.Display2Label.Visibility_fb",
+          "44": "PublicDisplays.PublicDisplayRouting.Display3Label.Visibility_fb",
+          "45": "PublicDisplays.PublicDisplayRouting.Display4Label.Visibility_fb",
+          "46": "PublicDisplays.PublicDisplayRouting.Display5Label.Visibility_fb",
+          "47": "PublicDisplays.PublicDisplayRouting.Display6Label.Visibility_fb",
+          "48": "PublicDisplays.PublicDisplayRouting.Display7Label.Visibility_fb",
+          "49": "PublicDisplays.PublicDisplayRouting.Display8Label.Visibility_fb",
+          "50": "PublicDisplays.PublicDisplayRouting.Display9Label.Visibility_fb",
+          "51": "PublicDisplays.PublicDisplayRouting.Visibility_fb",
+          "53": "PublicDisplays.PublicDisplayRouting.Source1Button.Selected",
+          "54": "PublicDisplays.PublicDisplayRouting.Source2Button.Selected",
+          "55": "PublicDisplays.PublicDisplayRouting.Source3Button.Selected",
+          "56": "PublicDisplays.PublicDisplayRouting.Source4Button.Selected",
+          "57": "PublicDisplays.PublicDisplayRouting.Source5Button.Selected",
+          "58": "PublicDisplays.PublicDisplayRouting.Source6Button.Selected",
+          "59": "PublicDisplays.PublicDisplayRouting.Source7Button.Selected",
+          "60": "PublicDisplays.PublicDisplayRouting.Source8Button.Selected",
+          "61": "PublicDisplays.PublicDisplayRouting.Source9Button.Selected",
+          "62": "PublicDisplays.PublicDisplayRouting.SourceClearButton.Selected"
+        },
+        "68": {
+          "1": "PublicDisplays.PublicDisplay1stFloor.Visibility_fb"
+        },
+        "69": {
+          "1": "PublicDisplays.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "2": "PublicDisplays.BuildingMute.MuteOffButton.Enable",
+          "3": "PublicDisplays.BuildingMute.MuteOnButton.Enable",
+          "4": "PublicDisplays.BuildingMute.MuteOffButton.Selected",
+          "5": "PublicDisplays.BuildingMute.MuteOnButton.Selected"
+        },
+        "70": {
+          "1": "PublicDisplays.PublicDisplay2ndFloor.Visibility_fb"
+        },
+        "71": {
+          "1": "SystemInitializingVisibilityJoin"
+        }
+      },
+      "numeric": {
+        "5": {
+          "1801": "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "6": {
+          "1801": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "8": {
+          "4": "PoolAudio.BuildingProgramWidget.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "10": {
+          "1801": "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "11": {
+          "1801": "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "14": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "15": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "16": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "17": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "18": {
+          "1801": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "20": {
+          "1801": "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "21": {
+          "1801": "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "26": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "27": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "28": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "29": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "30": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "31": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "32": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "33": {
+          "1801": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "36": {
+          "1801": "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "37": {
+          "1801": "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "38": {
+          "1801": "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "71": {
+          "4": "SystemInitializing.SystemInitializingGauge.LowerTouchfb"
+        }
+      },
+      "string": {
+        "2": {
+          "1": "PoolAudio.Header.PageNameText.IndirectRichText"
+        },
+        "5": {
+          "1": "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "6": {
+          "1": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "7": {
+          "1": "PoolAudio.BuildingMute.BuildingMuteStatus.IndirectRichText",
+          "2": "PoolAudio.BuildingMute.BuildingMuteText.IndirectRichText"
+        },
+        "8": {
+          "1": "PoolAudio.BuildingProgramWidget.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.BuildingProgramWidget.ZoneVolumeMuteButton.Icon"
+        },
+        "10": {
+          "1": "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "11": {
+          "1": "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "14": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "15": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "16": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "17": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "18": {
+          "1": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "20": {
+          "1": "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "21": {
+          "1": "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "22": {
+          "1": "FieldhouseAudio.Header.PageNameText.IndirectRichText"
+        },
+        "26": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "27": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "28": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "29": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "30": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "31": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "32": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "33": {
+          "1": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "36": {
+          "1": "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "37": {
+          "1": "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "38": {
+          "1": "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "39": {
+          "1": "FieldhouseAudio.BuildingMute.BuildingMuteStatus.IndirectRichText",
+          "2": "FieldhouseAudio.BuildingMute.BuildingMuteText.IndirectRichText"
+        },
+        "42": {
+          "1": "BackgroundMusic.Header.PageNameText.IndirectRichText"
+        },
+        "44": {
+          "1": "BackgroundMusic.AudioRouting.Destination10Button.IndirectRichText",
+          "2": "BackgroundMusic.AudioRouting.Destination10Label.IndirectRichText",
+          "3": "BackgroundMusic.AudioRouting.Destination1Button.IndirectRichText",
+          "4": "BackgroundMusic.AudioRouting.Destination1Label.IndirectRichText",
+          "5": "BackgroundMusic.AudioRouting.Destination2Button.IndirectRichText",
+          "6": "BackgroundMusic.AudioRouting.Destination2Label.IndirectRichText",
+          "7": "BackgroundMusic.AudioRouting.Destination3Button.IndirectRichText",
+          "8": "BackgroundMusic.AudioRouting.Destination3Label.IndirectRichText",
+          "9": "BackgroundMusic.AudioRouting.Destination4Button.IndirectRichText",
+          "10": "BackgroundMusic.AudioRouting.Destination4Label.IndirectRichText",
+          "11": "BackgroundMusic.AudioRouting.Destination5Button.IndirectRichText",
+          "12": "BackgroundMusic.AudioRouting.Destination5Label.IndirectRichText",
+          "13": "BackgroundMusic.AudioRouting.Destination6Button.IndirectRichText",
+          "14": "BackgroundMusic.AudioRouting.Destination6Label.IndirectRichText",
+          "15": "BackgroundMusic.AudioRouting.Destination7Button.IndirectRichText",
+          "16": "BackgroundMusic.AudioRouting.Destination7Label.IndirectRichText",
+          "17": "BackgroundMusic.AudioRouting.Destination8Button.IndirectRichText",
+          "18": "BackgroundMusic.AudioRouting.Destination8Label.IndirectRichText",
+          "19": "BackgroundMusic.AudioRouting.Destination9Button.IndirectRichText",
+          "20": "BackgroundMusic.AudioRouting.Destination9Label.IndirectRichText",
+          "21": "BackgroundMusic.AudioRouting.Source10Button.IndirectRichText",
+          "22": "BackgroundMusic.AudioRouting.Source11Button.IndirectRichText",
+          "23": "BackgroundMusic.AudioRouting.Source12Button.IndirectRichText",
+          "24": "BackgroundMusic.AudioRouting.Source1Button.IndirectRichText",
+          "25": "BackgroundMusic.AudioRouting.Source2Button.IndirectRichText",
+          "26": "BackgroundMusic.AudioRouting.Source3Button.IndirectRichText",
+          "27": "BackgroundMusic.AudioRouting.Source4Button.IndirectRichText",
+          "28": "BackgroundMusic.AudioRouting.Source5Button.IndirectRichText",
+          "29": "BackgroundMusic.AudioRouting.Source6Button.IndirectRichText",
+          "30": "BackgroundMusic.AudioRouting.Source7Button.IndirectRichText",
+          "31": "BackgroundMusic.AudioRouting.Source8Button.IndirectRichText",
+          "32": "BackgroundMusic.AudioRouting.Source9Button.IndirectRichText",
+          "33": "BackgroundMusic.AudioRouting.Source10Button.Icon",
+          "34": "BackgroundMusic.AudioRouting.Source11Button.Icon",
+          "35": "BackgroundMusic.AudioRouting.Source12Button.Icon",
+          "36": "BackgroundMusic.AudioRouting.Source1Button.Icon",
+          "37": "BackgroundMusic.AudioRouting.Source2Button.Icon",
+          "38": "BackgroundMusic.AudioRouting.Source3Button.Icon",
+          "39": "BackgroundMusic.AudioRouting.Source4Button.Icon",
+          "40": "BackgroundMusic.AudioRouting.Source5Button.Icon",
+          "41": "BackgroundMusic.AudioRouting.Source6Button.Icon",
+          "42": "BackgroundMusic.AudioRouting.Source7Button.Icon",
+          "43": "BackgroundMusic.AudioRouting.Source8Button.Icon",
+          "44": "BackgroundMusic.AudioRouting.Source9Button.Icon"
+        },
+        "47": {
+          "1": "BackgroundMusic.BuildingMute.BuildingMuteStatus.IndirectRichText",
+          "2": "BackgroundMusic.BuildingMute.BuildingMuteText.IndirectRichText"
+        },
+        "48": {
+          "1": "Locked.PasscodeText.IndirectRichText"
+        },
+        "53": {
+          "1": "Main.BuildingMute.BuildingMuteStatus.IndirectRichText",
+          "2": "Main.BuildingMute.BuildingMuteText.IndirectRichText"
+        },
+        "54": {
+          "1": "Main.Header.PageNameText.IndirectRichText"
+        },
+        "56": {
+          "1": "CableTV.BuildingMute.BuildingMuteStatus.IndirectRichText",
+          "2": "CableTV.BuildingMute.BuildingMuteText.IndirectRichText"
+        },
+        "57": {
+          "1": "CableTV.Header.PageNameText.IndirectRichText"
+        },
+        "58": {
+          "1": "CableTV.CATVPresets.Button1Text",
+          "2": "CableTV.CATVPresets.Button2Text",
+          "3": "CableTV.CATVPresets.Button3Text",
+          "4": "CableTV.CATVPresets.Button4Text",
+          "5": "CableTV.CATVPresets.Button5Text",
+          "6": "CableTV.CATVPresets.Button6Text",
+          "7": "CableTV.CATVPresets.Button7Text",
+          "8": "CableTV.CATVPresets.Button8Text",
+          "9": "CableTV.CATVPresets.Button9Text",
+          "10": "CableTV.CATVPresets.Button10Text",
+          "11": "CableTV.CATVPresets.Button11Text",
+          "12": "CableTV.CATVPresets.Button12Text",
+          "13": "CableTV.CATVPresets.Button13Text",
+          "14": "CableTV.CATVPresets.Button14Text",
+          "15": "CableTV.CATVPresets.Button15Text",
+          "16": "CableTV.CATVPresets.Button16Text",
+          "17": "CableTV.CATVPresets.Button17Text",
+          "18": "CableTV.CATVPresets.Button18Text",
+          "19": "CableTV.CATVPresets.Button19Text",
+          "20": "CableTV.CATVPresets.Button20Text",
+          "21": "CableTV.CATVPresets.Button21Text",
+          "22": "CableTV.CATVPresets.Button22Text",
+          "23": "CableTV.CATVPresets.Button23Text",
+          "24": "CableTV.CATVPresets.Button24Text",
+          "25": "CableTV.CATVPresets.Button25Text",
+          "26": "CableTV.CATVPresets.Button26Text",
+          "27": "CableTV.CATVPresets.Button27Text",
+          "28": "CableTV.CATVPresets.Button28Text",
+          "29": "CableTV.CATVPresets.Button29Text",
+          "30": "CableTV.CATVPresets.Button30Text",
+          "31": "CableTV.CATVPresets.Button31Text",
+          "32": "CableTV.CATVPresets.Button32Text",
+          "33": "CableTV.CATVPresets.Button33Text",
+          "34": "CableTV.CATVPresets.Button34Text",
+          "35": "CableTV.CATVPresets.Button35Text",
+          "36": "CableTV.CATVPresets.Button36Text",
+          "37": "CableTV.CATVPresets.Button37Text",
+          "38": "CableTV.CATVPresets.Button38Text",
+          "39": "CableTV.CATVPresets.Button39Text",
+          "40": "CableTV.CATVPresets.Button40Text",
+          "41": "CableTV.CATVPresets.Button41Text",
+          "42": "CableTV.CATVPresets.Button42Text",
+          "43": "CableTV.CATVPresets.Button43Text",
+          "44": "CableTV.CATVPresets.Button44Text",
+          "45": "CableTV.CATVPresets.Button45Text",
+          "46": "CableTV.CATVPresets.Button46Text",
+          "47": "CableTV.CATVPresets.Button47Text",
+          "48": "CableTV.CATVPresets.Button48Text",
+          "49": "CableTV.CATVPresets.Button49Text",
+          "50": "CableTV.CATVPresets.Button50Text"
+        },
+        "62": {
+          "1": "PublicDisplays.Header.PageNameText.IndirectRichText"
+        },
+        "66": {
+          "1": "PublicDisplays.PublicDisplayRouting.Display10Button.IndirectRichText",
+          "2": "PublicDisplays.PublicDisplayRouting.Display10Label.IndirectRichText",
+          "3": "PublicDisplays.PublicDisplayRouting.Display11Button.IndirectRichText",
+          "4": "PublicDisplays.PublicDisplayRouting.Display11Label.IndirectRichText",
+          "5": "PublicDisplays.PublicDisplayRouting.Display12Button.IndirectRichText",
+          "6": "PublicDisplays.PublicDisplayRouting.Display12Label.IndirectRichText",
+          "7": "PublicDisplays.PublicDisplayRouting.Display13Button.IndirectRichText",
+          "8": "PublicDisplays.PublicDisplayRouting.Display13Label.IndirectRichText",
+          "9": "PublicDisplays.PublicDisplayRouting.Display14Button.IndirectRichText",
+          "10": "PublicDisplays.PublicDisplayRouting.Display14Label.IndirectRichText",
+          "11": "PublicDisplays.PublicDisplayRouting.Display15Button.IndirectRichText",
+          "12": "PublicDisplays.PublicDisplayRouting.Display15Label.IndirectRichText",
+          "13": "PublicDisplays.PublicDisplayRouting.Display16Button.IndirectRichText",
+          "14": "PublicDisplays.PublicDisplayRouting.Display16Label.IndirectRichText",
+          "15": "PublicDisplays.PublicDisplayRouting.Display17Button.IndirectRichText",
+          "16": "PublicDisplays.PublicDisplayRouting.Display17Label.IndirectRichText",
+          "17": "PublicDisplays.PublicDisplayRouting.Display18Button.IndirectRichText",
+          "18": "PublicDisplays.PublicDisplayRouting.Display18Label.IndirectRichText",
+          "19": "PublicDisplays.PublicDisplayRouting.Display19Button.IndirectRichText",
+          "20": "PublicDisplays.PublicDisplayRouting.Display19Label.IndirectRichText",
+          "21": "PublicDisplays.PublicDisplayRouting.Display1Button.IndirectRichText",
+          "22": "PublicDisplays.PublicDisplayRouting.Display1Label.IndirectRichText",
+          "23": "PublicDisplays.PublicDisplayRouting.Display20Button.IndirectRichText",
+          "24": "PublicDisplays.PublicDisplayRouting.Display20Label.IndirectRichText",
+          "25": "PublicDisplays.PublicDisplayRouting.Display2Button.IndirectRichText",
+          "26": "PublicDisplays.PublicDisplayRouting.Display2Label.IndirectRichText",
+          "27": "PublicDisplays.PublicDisplayRouting.Display3Button.IndirectRichText",
+          "28": "PublicDisplays.PublicDisplayRouting.Display3Label.IndirectRichText",
+          "29": "PublicDisplays.PublicDisplayRouting.Display4Button.IndirectRichText",
+          "30": "PublicDisplays.PublicDisplayRouting.Display4Label.IndirectRichText",
+          "31": "PublicDisplays.PublicDisplayRouting.Display5Button.IndirectRichText",
+          "32": "PublicDisplays.PublicDisplayRouting.Display5Label.IndirectRichText",
+          "33": "PublicDisplays.PublicDisplayRouting.Display6Button.IndirectRichText",
+          "34": "PublicDisplays.PublicDisplayRouting.Display6Label.IndirectRichText",
+          "35": "PublicDisplays.PublicDisplayRouting.Display7Button.IndirectRichText",
+          "36": "PublicDisplays.PublicDisplayRouting.Display7Label.IndirectRichText",
+          "37": "PublicDisplays.PublicDisplayRouting.Display8Button.IndirectRichText",
+          "38": "PublicDisplays.PublicDisplayRouting.Display8Label.IndirectRichText",
+          "39": "PublicDisplays.PublicDisplayRouting.Display9Button.IndirectRichText",
+          "40": "PublicDisplays.PublicDisplayRouting.Display9Label.IndirectRichText",
+          "41": "PublicDisplays.PublicDisplayRouting.Source1Button.IndirectRichText",
+          "42": "PublicDisplays.PublicDisplayRouting.Source2Button.IndirectRichText",
+          "43": "PublicDisplays.PublicDisplayRouting.Source3Button.IndirectRichText",
+          "44": "PublicDisplays.PublicDisplayRouting.Source4Button.IndirectRichText",
+          "45": "PublicDisplays.PublicDisplayRouting.Source5Button.IndirectRichText",
+          "46": "PublicDisplays.PublicDisplayRouting.Source6Button.IndirectRichText",
+          "47": "PublicDisplays.PublicDisplayRouting.Source7Button.IndirectRichText",
+          "48": "PublicDisplays.PublicDisplayRouting.Source8Button.IndirectRichText",
+          "49": "PublicDisplays.PublicDisplayRouting.Source9Button.IndirectRichText",
+          "50": "PublicDisplays.PublicDisplayRouting.SourceClearButton.IndirectRichText",
+          "51": "PublicDisplays.PublicDisplayRouting.Source1Button.Icon",
+          "52": "PublicDisplays.PublicDisplayRouting.Source2Button.Icon",
+          "53": "PublicDisplays.PublicDisplayRouting.Source3Button.Icon",
+          "54": "PublicDisplays.PublicDisplayRouting.Source4Button.Icon",
+          "55": "PublicDisplays.PublicDisplayRouting.Source5Button.Icon",
+          "56": "PublicDisplays.PublicDisplayRouting.Source6Button.Icon",
+          "57": "PublicDisplays.PublicDisplayRouting.Source7Button.Icon",
+          "58": "PublicDisplays.PublicDisplayRouting.Source8Button.Icon",
+          "59": "PublicDisplays.PublicDisplayRouting.Source9Button.Icon",
+          "60": "PublicDisplays.PublicDisplayRouting.SourceClearButton.Icon"
+        },
+        "69": {
+          "1": "PublicDisplays.BuildingMute.BuildingMuteStatus.IndirectRichText",
+          "2": "PublicDisplays.BuildingMute.BuildingMuteText.IndirectRichText"
+        }
+      }
+    },
+    "events": {
+      "boolean": {
+        "PoolAudio.BleachersOffButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 1
+        },
+        "PoolAudio.BleachersOnButton.Press": {
+          "joinId": 4,
+          "smartObjectId": 1
+        },
+        "PoolAudio.PerimeterOffButton.Press": {
+          "joinId": 5,
+          "smartObjectId": 1
+        },
+        "PoolAudio.PerimeterOnButton.Press": {
+          "joinId": 6,
+          "smartObjectId": 1
+        },
+        "PoolAudio.Header.LockButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 2
+        },
+        "PoolAudio.Header.MainPageButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 2
+        },
+        "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 5
+        },
+        "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 5
+        },
+        "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 5
+        },
+        "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 6
+        },
+        "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 6
+        },
+        "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 6
+        },
+        "PoolAudio.BuildingMute.MuteOffButton.Press": {
+          "joinId": 1,
+          "smartObjectId": 7
+        },
+        "PoolAudio.BuildingMute.MuteOnButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 7
+        },
+        "PoolAudio.BuildingProgramWidget.ZoneVolumeDownButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 8
+        },
+        "PoolAudio.BuildingProgramWidget.ZoneVolumeMuteButton.Press": {
+          "joinId": 4,
+          "smartObjectId": 8
+        },
+        "PoolAudio.BuildingProgramWidget.ZoneVolumeUpButton.Press": {
+          "joinId": 5,
+          "smartObjectId": 8
+        },
+        "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 10
+        },
+        "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 10
+        },
+        "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 10
+        },
+        "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 11
+        },
+        "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 11
+        },
+        "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 11
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 14
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 14
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 14
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 15
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 15
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 15
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 16
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 16
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 16
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 17
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 17
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 17
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 18
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 18
+        },
+        "FieldhouseAudio.FloorboxesOuterWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 18
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 20
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 20
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 20
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 21
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 21
+        },
+        "FieldhouseAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 21
+        },
+        "FieldhouseAudio.Header.LockButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 22
+        },
+        "FieldhouseAudio.Header.MainPageButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 22
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab1_Press": {
+          "joinId": 31,
+          "smartObjectId": 23
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab2_Press": {
+          "joinId": 32,
+          "smartObjectId": 23
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab3_Press": {
+          "joinId": 33,
+          "smartObjectId": 23
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab4_Press": {
+          "joinId": 34,
+          "smartObjectId": 23
+        },
+        "FieldhouseAudio.ZonesTabButton.Tab5_Press": {
+          "joinId": 35,
+          "smartObjectId": 23
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 26
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 26
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 26
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 27
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 27
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 27
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 28
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 28
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 28
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 29
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 29
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[3].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 29
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 30
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 30
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[4].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 30
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 31
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 31
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[5].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 31
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 32
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 32
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[6].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 32
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 33
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 33
+        },
+        "FieldhouseAudio.FloorboxesInnerWidgetList.Items[7].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 33
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab1_Press": {
+          "joinId": 31,
+          "smartObjectId": 34
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab2_Press": {
+          "joinId": 32,
+          "smartObjectId": 34
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab3_Press": {
+          "joinId": 33,
+          "smartObjectId": 34
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab4_Press": {
+          "joinId": 34,
+          "smartObjectId": 34
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab5_Press": {
+          "joinId": 35,
+          "smartObjectId": 34
+        },
+        "FieldhouseAudio.SpeakerConfigTabButton.Tab6_Press": {
+          "joinId": 36,
+          "smartObjectId": 34
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 36
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 36
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 36
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 37
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 37
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 37
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 38
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 38
+        },
+        "FieldhouseAudio.WirelessWidgetList.Items[2].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 38
+        },
+        "FieldhouseAudio.BuildingMute.MuteOffButton.Press": {
+          "joinId": 1,
+          "smartObjectId": 39
+        },
+        "FieldhouseAudio.BuildingMute.MuteOnButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 39
+        },
+        "BackgroundMusic.ResetLevelsButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 40
+        },
+        "BackgroundMusic.PageSelectTabButton.Tab1_Press": {
+          "joinId": 31,
+          "smartObjectId": 41
+        },
+        "BackgroundMusic.PageSelectTabButton.Tab2_Press": {
+          "joinId": 32,
+          "smartObjectId": 41
+        },
+        "BackgroundMusic.Header.LockButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 42
+        },
+        "BackgroundMusic.Header.MainPageButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 42
+        },
+        "BackgroundMusic.AudioRouting.Destination10Button.Press": {
+          "joinId": 2,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination1Button.Press": {
+          "joinId": 3,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination2Button.Press": {
+          "joinId": 4,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination3Button.Press": {
+          "joinId": 5,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination4Button.Press": {
+          "joinId": 6,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination5Button.Press": {
+          "joinId": 7,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination6Button.Press": {
+          "joinId": 8,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination7Button.Press": {
+          "joinId": 9,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination8Button.Press": {
+          "joinId": 10,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Destination9Button.Press": {
+          "joinId": 11,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source10Button.Press": {
+          "joinId": 12,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source11Button.Press": {
+          "joinId": 13,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source12Button.Press": {
+          "joinId": 14,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source1Button.Press": {
+          "joinId": 15,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source2Button.Press": {
+          "joinId": 16,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source3Button.Press": {
+          "joinId": 17,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source4Button.Press": {
+          "joinId": 18,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source5Button.Press": {
+          "joinId": 19,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source6Button.Press": {
+          "joinId": 20,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source7Button.Press": {
+          "joinId": 21,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source8Button.Press": {
+          "joinId": 22,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.Source9Button.Press": {
+          "joinId": 23,
+          "smartObjectId": 44
+        },
+        "BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab1_Press": {
+          "joinId": 31,
+          "smartObjectId": 45
+        },
+        "BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab2_Press": {
+          "joinId": 32,
+          "smartObjectId": 45
+        },
+        "BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab3_Press": {
+          "joinId": 33,
+          "smartObjectId": 45
+        },
+        "BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab4_Press": {
+          "joinId": 34,
+          "smartObjectId": 45
+        },
+        "BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab5_Press": {
+          "joinId": 35,
+          "smartObjectId": 45
+        },
+        "BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab6_Press": {
+          "joinId": 36,
+          "smartObjectId": 45
+        },
+        "BackgroundMusic.AudioRouting.ResetLevelsTabButton.Tab7_Press": {
+          "joinId": 37,
+          "smartObjectId": 45
+        },
+        "BackgroundMusic.BuildingMute.MuteOffButton.Press": {
+          "joinId": 1,
+          "smartObjectId": 47
+        },
+        "BackgroundMusic.BuildingMute.MuteOnButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 47
+        },
+        "Locked.ClearButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 48
+        },
+        "Locked.EnterButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 48
+        },
+        "Locked.Keypad.Press1": {
+          "joinId": 3,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press2": {
+          "joinId": 4,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press3": {
+          "joinId": 5,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press4": {
+          "joinId": 6,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press5": {
+          "joinId": 7,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press6": {
+          "joinId": 8,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press7": {
+          "joinId": 9,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press8": {
+          "joinId": 10,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press9": {
+          "joinId": 11,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.Press0": {
+          "joinId": 12,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.PressStar": {
+          "joinId": 13,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.PressHash": {
+          "joinId": 14,
+          "smartObjectId": 50
+        },
+        "Locked.Keypad.PressExtraButton": {
+          "joinId": 15,
+          "smartObjectId": 50
+        },
+        "Main.BackgroundMusicButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 51
+        },
+        "Main.CATVButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 51
+        },
+        "Main.ClassroomsButton.Press": {
+          "joinId": 4,
+          "smartObjectId": 51
+        },
+        "Main.FieldhouseAudioButton.Press": {
+          "joinId": 5,
+          "smartObjectId": 51
+        },
+        "Main.PoolAudioButton.Press": {
+          "joinId": 6,
+          "smartObjectId": 51
+        },
+        "Main.PublicDisplaysButton.Press": {
+          "joinId": 7,
+          "smartObjectId": 51
+        },
+        "Main.SettingsButton.Press": {
+          "joinId": 8,
+          "smartObjectId": 51
+        },
+        "Main.BuildingMute.MuteOffButton.Press": {
+          "joinId": 1,
+          "smartObjectId": 53
+        },
+        "Main.BuildingMute.MuteOnButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 53
+        },
+        "Main.Header.LockButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 54
+        },
+        "Main.Header.MainPageButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 54
+        },
+        "CableTV.BuildingMute.MuteOffButton.Press": {
+          "joinId": 1,
+          "smartObjectId": 56
+        },
+        "CableTV.BuildingMute.MuteOnButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 56
+        },
+        "CableTV.Header.LockButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 57
+        },
+        "CableTV.Header.MainPageButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 57
+        },
+        "CableTV.CATVPresets.Button1ItemPress": {
+          "joinId": 1001,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button2ItemPress": {
+          "joinId": 1002,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button3ItemPress": {
+          "joinId": 1003,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button4ItemPress": {
+          "joinId": 1004,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button5ItemPress": {
+          "joinId": 1005,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button6ItemPress": {
+          "joinId": 1006,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button7ItemPress": {
+          "joinId": 1007,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button8ItemPress": {
+          "joinId": 1008,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button9ItemPress": {
+          "joinId": 1009,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button10ItemPress": {
+          "joinId": 1010,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button11ItemPress": {
+          "joinId": 1011,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button12ItemPress": {
+          "joinId": 1012,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button13ItemPress": {
+          "joinId": 1013,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button14ItemPress": {
+          "joinId": 1014,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button15ItemPress": {
+          "joinId": 1015,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button16ItemPress": {
+          "joinId": 1016,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button17ItemPress": {
+          "joinId": 1017,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button18ItemPress": {
+          "joinId": 1018,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button19ItemPress": {
+          "joinId": 1019,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button20ItemPress": {
+          "joinId": 1020,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button21ItemPress": {
+          "joinId": 1021,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button22ItemPress": {
+          "joinId": 1022,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button23ItemPress": {
+          "joinId": 1023,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button24ItemPress": {
+          "joinId": 1024,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button25ItemPress": {
+          "joinId": 1025,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button26ItemPress": {
+          "joinId": 1026,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button27ItemPress": {
+          "joinId": 1027,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button28ItemPress": {
+          "joinId": 1028,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button29ItemPress": {
+          "joinId": 1029,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button30ItemPress": {
+          "joinId": 1030,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button31ItemPress": {
+          "joinId": 1031,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button32ItemPress": {
+          "joinId": 1032,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button33ItemPress": {
+          "joinId": 1033,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button34ItemPress": {
+          "joinId": 1034,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button35ItemPress": {
+          "joinId": 1035,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button36ItemPress": {
+          "joinId": 1036,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button37ItemPress": {
+          "joinId": 1037,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button38ItemPress": {
+          "joinId": 1038,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button39ItemPress": {
+          "joinId": 1039,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button40ItemPress": {
+          "joinId": 1040,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button41ItemPress": {
+          "joinId": 1041,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button42ItemPress": {
+          "joinId": 1042,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button43ItemPress": {
+          "joinId": 1043,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button44ItemPress": {
+          "joinId": 1044,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button45ItemPress": {
+          "joinId": 1045,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button46ItemPress": {
+          "joinId": 1046,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button47ItemPress": {
+          "joinId": 1047,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button48ItemPress": {
+          "joinId": 1048,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button49ItemPress": {
+          "joinId": 1049,
+          "smartObjectId": 58
+        },
+        "CableTV.CATVPresets.Button50ItemPress": {
+          "joinId": 1050,
+          "smartObjectId": 58
+        },
+        "CableTV.TunerSelectTabButton.Tab1_Press": {
+          "joinId": 31,
+          "smartObjectId": 60
+        },
+        "CableTV.TunerSelectTabButton.Tab2_Press": {
+          "joinId": 32,
+          "smartObjectId": 60
+        },
+        "CableTV.TunerSelectTabButton.Tab3_Press": {
+          "joinId": 33,
+          "smartObjectId": 60
+        },
+        "PublicDisplays.RS232Button.Press": {
+          "joinId": 2,
+          "smartObjectId": 61
+        },
+        "PublicDisplays.Header.LockButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 62
+        },
+        "PublicDisplays.Header.MainPageButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 62
+        },
+        "PublicDisplays.PageSelectTabButton.Tab1_Press": {
+          "joinId": 31,
+          "smartObjectId": 64
+        },
+        "PublicDisplays.PageSelectTabButton.Tab2_Press": {
+          "joinId": 32,
+          "smartObjectId": 64
+        },
+        "PublicDisplays.PageSelectTabButton.Tab3_Press": {
+          "joinId": 33,
+          "smartObjectId": 64
+        },
+        "PublicDisplays.PageSelectTabButton.Tab4_Press": {
+          "joinId": 34,
+          "smartObjectId": 64
+        },
+        "PublicDisplays.PageSelectTabButton.Tab5_Press": {
+          "joinId": 35,
+          "smartObjectId": 64
+        },
+        "PublicDisplays.PublicDisplayRouting.Display10Button.Press": {
+          "joinId": 2,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display11Button.Press": {
+          "joinId": 3,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display12Button.Press": {
+          "joinId": 4,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display13Button.Press": {
+          "joinId": 5,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display14Button.Press": {
+          "joinId": 6,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display15Button.Press": {
+          "joinId": 7,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display16Button.Press": {
+          "joinId": 8,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display17Button.Press": {
+          "joinId": 9,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display18Button.Press": {
+          "joinId": 10,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display19Button.Press": {
+          "joinId": 11,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display1Button.Press": {
+          "joinId": 12,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display20Button.Press": {
+          "joinId": 13,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display2Button.Press": {
+          "joinId": 14,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display3Button.Press": {
+          "joinId": 15,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display4Button.Press": {
+          "joinId": 16,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display5Button.Press": {
+          "joinId": 17,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display6Button.Press": {
+          "joinId": 18,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display7Button.Press": {
+          "joinId": 19,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display8Button.Press": {
+          "joinId": 20,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Display9Button.Press": {
+          "joinId": 21,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source1Button.Press": {
+          "joinId": 22,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source2Button.Press": {
+          "joinId": 23,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source3Button.Press": {
+          "joinId": 24,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source4Button.Press": {
+          "joinId": 25,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source5Button.Press": {
+          "joinId": 26,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source6Button.Press": {
+          "joinId": 27,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source7Button.Press": {
+          "joinId": 28,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source8Button.Press": {
+          "joinId": 29,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.Source9Button.Press": {
+          "joinId": 30,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.PublicDisplayRouting.SourceClearButton.Press": {
+          "joinId": 31,
+          "smartObjectId": 66
+        },
+        "PublicDisplays.BuildingMute.MuteOffButton.Press": {
+          "joinId": 1,
+          "smartObjectId": 69
+        },
+        "PublicDisplays.BuildingMute.MuteOnButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 69
+        }
+      },
+      "numeric": {},
+      "string": {}
+    }
+  }
+}

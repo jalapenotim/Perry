@@ -49,6 +49,18 @@ namespace SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetLis
         event EventHandler<UIEventArgs> ZoneVolumeUpButton_PressEvent;
 
         /// <summary>
+        /// BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetList.Items[2].Zone Volume Mute Button.Selected Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void ZoneVolumeMuteButton_Selected(Items_2_BoolInputSigDelegate callback);
+
+        /// <summary>
+        /// BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetList.Items[2].Zone Volume Mute Button.Selected Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void ZoneVolumeMuteButton_Selected(bool digital);
+
+        /// <summary>
         /// BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetList.Items[2].Zone Volume Gauge.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The ushort delegate to update the panel.</param>
@@ -162,6 +174,12 @@ namespace SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetLis
                 /// </summary>
                 public const uint ZoneVolumeUpButton_PressEvent = 1203;
 
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetList.Items[2].ZoneControlsCONTRACT.ZoneVolumeMuteButton.Selected
+                /// BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetList.Items[2].Zone Volume Mute Button.Selected
+                /// </summary>
+                public const uint ZoneVolumeMuteButton_SelectedState = 1201;
 
             }
             /// <summary>
@@ -302,6 +320,20 @@ namespace SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetLis
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
+        /// <inheritdoc/>
+        public void ZoneVolumeMuteButton_Selected(Items_2_BoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.ZoneVolumeMuteButton_SelectedState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void ZoneVolumeMuteButton_Selected(bool digital)
+        {
+            ZoneVolumeMuteButton_Selected((sig, component) => sig.BoolValue = digital);
+        }
 
         /// <inheritdoc/>
         public void ZoneVolumeGauge_LowerTouchfb(Items_2_UShortInputSigDelegate callback)

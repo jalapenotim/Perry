@@ -44,6 +44,18 @@ namespace SLRCTech.Settings
         event EventHandler<UIEventArgs> PasswordSaveButton_PressEvent;
 
         /// <summary>
+        /// Password Saved Text.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void PasswordSavedText_Visibility_fb(SettingsBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Password Saved Text.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void PasswordSavedText_Visibility_fb(bool digital);
+
+        /// <summary>
         /// Settings.VisibilityJoin Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -66,18 +78,6 @@ namespace SLRCTech.Settings
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
         void PasswordText_IndirectRichText(string serial);
-
-        /// <summary>
-        /// User Password Instructions.Indirect Rich Text Feedback
-        /// </summary>
-        /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void UserPasswordInstructions_IndirectRichText(SettingsStringInputSigDelegate callback);
-
-        /// <summary>
-        /// User Password Instructions.Indirect Rich Text Feedback
-        /// </summary>
-        /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void UserPasswordInstructions_IndirectRichText(string serial);
 
         /// <summary>
         /// ComplexComponent ON Time 2 Button List
@@ -171,20 +171,26 @@ namespace SLRCTech.Settings
                 /// Output or Event digital joinInfo from panel to Control System: Settings.PasswordClearButton.Press
                 /// Password Clear Button.Press
                 /// </summary>
-                public const uint PasswordClearButton_PressEvent = 3;
+                public const uint PasswordClearButton_PressEvent = 2;
 
                 /// <summary>
                 /// Output or Event digital joinInfo from panel to Control System: Settings.PasswordSaveButton.Press
                 /// Password Save Button.Press
                 /// </summary>
-                public const uint PasswordSaveButton_PressEvent = 4;
+                public const uint PasswordSaveButton_PressEvent = 3;
 
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Settings.PasswordSavedText.Visibility_fb
+                /// Password Saved Text.Visibility
+                /// </summary>
+                public const uint PasswordSavedText_Visibility_fbState = 1;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: SettingsVisibilityJoin
                 /// Settings.VisibilityJoin
                 /// </summary>
-                public const uint Settings_VisibilityJoinState = 1;
+                public const uint Settings_VisibilityJoinState = 2;
 
             }
             /// <summary>
@@ -198,11 +204,6 @@ namespace SLRCTech.Settings
                 /// Password Text.Indirect Rich Text
                 /// </summary>
                 public const uint PasswordText_IndirectRichTextState = 1;
-                /// <summary>
-                /// Input or Feedback serial joinInfo from Control System to panel: Settings.UserPasswordInstructions.IndirectRichText
-                /// User Password Instructions.Indirect Rich Text
-                /// </summary>
-                public const uint UserPasswordInstructions_IndirectRichTextState = 2;
             }
         }
 
@@ -255,14 +256,14 @@ namespace SLRCTech.Settings
  
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PasswordClearButton_PressEvent, onPasswordClearButton_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PasswordSaveButton_PressEvent, onPasswordSaveButton_Press);
-            ONTime2ButtonList = new SLRCTech.Settings.ONTime2ButtonList(ComponentMediator, 123);
-            OFFTime2ButtonList = new SLRCTech.Settings.OFFTime2ButtonList(ComponentMediator, 124);
-            OFFTime1ButtonList = new SLRCTech.Settings.OFFTime1ButtonList(ComponentMediator, 125);
-            DaySelectTabButton = new SLRCTech.Settings.DaySelectTabButton(ComponentMediator, 126);
-            ONTime1ButtonList = new SLRCTech.Settings.ONTime1ButtonList(ComponentMediator, 127);
-            BuildingMute = new SLRCTech.Settings.BuildingMute(ComponentMediator, 128);
-            PasswordSetKeypad = new SLRCTech.Settings.PasswordSetKeypad(ComponentMediator, 129);
-            Header = new SLRCTech.Settings.Header(ComponentMediator, 130);
+            ONTime2ButtonList = new SLRCTech.Settings.ONTime2ButtonList(ComponentMediator, 133);
+            OFFTime2ButtonList = new SLRCTech.Settings.OFFTime2ButtonList(ComponentMediator, 134);
+            OFFTime1ButtonList = new SLRCTech.Settings.OFFTime1ButtonList(ComponentMediator, 135);
+            DaySelectTabButton = new SLRCTech.Settings.DaySelectTabButton(ComponentMediator, 136);
+            ONTime1ButtonList = new SLRCTech.Settings.ONTime1ButtonList(ComponentMediator, 138);
+            BuildingMute = new SLRCTech.Settings.BuildingMute(ComponentMediator, 139);
+            PasswordSetKeypad = new SLRCTech.Settings.PasswordSetKeypad(ComponentMediator, 140);
+            Header = new SLRCTech.Settings.Header(ComponentMediator, 141);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -332,6 +333,20 @@ namespace SLRCTech.Settings
         }
 
         /// <inheritdoc/>
+        public void PasswordSavedText_Visibility_fb(SettingsBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.PasswordSavedText_Visibility_fbState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void PasswordSavedText_Visibility_fb(bool digital)
+        {
+            PasswordSavedText_Visibility_fb((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
         public void Settings_VisibilityJoin(SettingsBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -360,20 +375,6 @@ namespace SLRCTech.Settings
         public void PasswordText_IndirectRichText(string serial)
         {
             PasswordText_IndirectRichText((sig, component) => sig.StringValue = serial);
-        }
-        /// <inheritdoc/>
-        public void UserPasswordInstructions_IndirectRichText(SettingsStringInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.UserPasswordInstructions_IndirectRichTextState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void UserPasswordInstructions_IndirectRichText(string serial)
-        {
-            UserPasswordInstructions_IndirectRichText((sig, component) => sig.StringValue = serial);
         }
 
         /// <summary>

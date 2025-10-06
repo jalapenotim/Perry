@@ -164,10 +164,10 @@ namespace SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            SecondFloorWidgetList = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.SecondFloorWidgetList.SecondFloorWidgetList(ComponentMediator, 33);
-            FirstFloorWidgetList = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.FirstFloorWidgetList.FirstFloorWidgetList(ComponentMediator, 38);
-            LowerLevelWidgetList = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.LowerLevelWidgetList.LowerLevelWidgetList(ComponentMediator, 43);
-            ThirdFloorWidgetList = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetList.ThirdFloorWidgetList(ComponentMediator, 47);
+            SecondFloorWidgetList = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.SecondFloorWidgetList.SecondFloorWidgetList(ComponentMediator, 40);
+            FirstFloorWidgetList = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.FirstFloorWidgetList.FirstFloorWidgetList(ComponentMediator, 45);
+            LowerLevelWidgetList = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.LowerLevelWidgetList.LowerLevelWidgetList(ComponentMediator, 50);
+            ThirdFloorWidgetList = new SLRCTech.BackgroundMusic.BackgroundMusicZoneLevels.ThirdFloorWidgetList.ThirdFloorWidgetList(ComponentMediator, 54);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

@@ -185,11 +185,11 @@ namespace SLRCTech.Classrooms.ThirdFloorClassroom
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            LeftPowerTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.LeftPowerTabButton(ComponentMediator, 20);
-            LeftInputTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.LeftInputTabButton(ComponentMediator, 21);
-            RightPowerTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.RightPowerTabButton(ComponentMediator, 22);
-            CombineSeparateTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.CombineSeparateTabButton(ComponentMediator, 23);
-            RightInputTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.RightInputTabButton(ComponentMediator, 24);
+            LeftPowerTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.LeftPowerTabButton(ComponentMediator, 26);
+            LeftInputTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.LeftInputTabButton(ComponentMediator, 27);
+            RightPowerTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.RightPowerTabButton(ComponentMediator, 28);
+            CombineSeparateTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.CombineSeparateTabButton(ComponentMediator, 29);
+            RightInputTabButton = new SLRCTech.Classrooms.ThirdFloorClassroom.RightInputTabButton(ComponentMediator, 30);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

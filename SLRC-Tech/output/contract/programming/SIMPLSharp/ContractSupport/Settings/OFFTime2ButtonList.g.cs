@@ -37,6 +37,20 @@ namespace SLRCTech.Settings
         event EventHandler<IndexedButtonEventArgs> Button_PressEvent;
 
         /// <summary>
+        /// Button1.ItemSelected Feedback
+        /// </summary>
+        /// <param name="buttonIndex">The index of the button (0 based).</param>
+        /// <param name="callback">The delegate to set the feedback.</param>
+        void Button_Selected(ushort buttonIndex, OFFTime2ButtonListBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Helper Button1.ItemSelected Feedback
+        /// </summary>
+        /// <param name="buttonIndex">The index of the button (0 based).</param>
+        /// <param name="digital">The <see="bool"/> value to set on the panel.</param>
+        void Button_Selected(ushort buttonIndex, bool digital);
+
+        /// <summary>
         /// Button1.Text Feedback
         /// </summary>
         /// <param name="buttonIndex">The index of the button (0 based).</param>
@@ -68,6 +82,20 @@ namespace SLRCTech.Settings
                 handler(this, new IndexedButtonEventArgs((SmartObjectEventArgs)eventArgs.SigArgs, eventArgs.JoinIndex));
         }
                 
+        /// <inheritdoc/>
+        public void Button_Selected(ushort buttonIndex, OFFTime2ButtonListBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_1_Button_SelectedState + (uint) buttonIndex], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void Button_Selected(ushort buttonIndex, bool digital)
+        {
+            Button_Selected(buttonIndex, (sig, component) => sig.BoolValue = digital);
+        }
 
 
         /// <inheritdoc/>
@@ -114,6 +142,54 @@ namespace SLRCTech.Settings
         /// Event Button4.ItemPress (from panel to Control System)
         /// </summary>
         event EventHandler<UIEventArgs> Button_4_Button_PressEvent;
+
+        /// <summary>
+        /// Button1.ItemSelected Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void Button_1_Button_Selected(OFFTime2ButtonListBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Button1.ItemSelected Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void Button_1_Button_Selected(bool digital);
+
+        /// <summary>
+        /// Button2.ItemSelected Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void Button_2_Button_Selected(OFFTime2ButtonListBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Button2.ItemSelected Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void Button_2_Button_Selected(bool digital);
+
+        /// <summary>
+        /// Button3.ItemSelected Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void Button_3_Button_Selected(OFFTime2ButtonListBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Button3.ItemSelected Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void Button_3_Button_Selected(bool digital);
+
+        /// <summary>
+        /// Button4.ItemSelected Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void Button_4_Button_Selected(OFFTime2ButtonListBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Button4.ItemSelected Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void Button_4_Button_Selected(bool digital);
 
         /// <summary>
         /// OFF Time 2 Button List.List Number Of Items Feedback
@@ -259,6 +335,30 @@ namespace SLRCTech.Settings
                 /// </summary>
                 public const uint Button_4_Button_PressEvent = 1004;
 
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Settings.OFFTime2ButtonList.Button1ItemSelected
+                /// Button1.ItemSelected
+                /// </summary>
+                public const uint Button_1_Button_SelectedState = 1001;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Settings.OFFTime2ButtonList.Button2ItemSelected
+                /// Button2.ItemSelected
+                /// </summary>
+                public const uint Button_2_Button_SelectedState = 1002;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Settings.OFFTime2ButtonList.Button3ItemSelected
+                /// Button3.ItemSelected
+                /// </summary>
+                public const uint Button_3_Button_SelectedState = 1003;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Settings.OFFTime2ButtonList.Button4ItemSelected
+                /// Button4.ItemSelected
+                /// </summary>
+                public const uint Button_4_Button_SelectedState = 1004;
 
             }
             /// <summary>
@@ -426,6 +526,62 @@ namespace SLRCTech.Settings
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
+        /// <inheritdoc/>
+        public void Button_1_Button_Selected(OFFTime2ButtonListBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_1_Button_SelectedState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void Button_1_Button_Selected(bool digital)
+        {
+            Button_1_Button_Selected((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void Button_2_Button_Selected(OFFTime2ButtonListBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_2_Button_SelectedState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void Button_2_Button_Selected(bool digital)
+        {
+            Button_2_Button_Selected((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void Button_3_Button_Selected(OFFTime2ButtonListBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_3_Button_SelectedState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void Button_3_Button_Selected(bool digital)
+        {
+            Button_3_Button_Selected((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void Button_4_Button_Selected(OFFTime2ButtonListBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_4_Button_SelectedState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void Button_4_Button_Selected(bool digital)
+        {
+            Button_4_Button_Selected((sig, component) => sig.BoolValue = digital);
+        }
 
         /// <inheritdoc/>
         public void OFFTime2ButtonList_ListNumberOfItems(OFFTime2ButtonListUShortInputSigDelegate callback)

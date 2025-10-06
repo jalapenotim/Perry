@@ -1,0 +1,22 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.601.10.0"
+Created = 2025-10-06 12:55:06.064494-05:00
+LastModifiedByAppHost = "2.601.10.0"
+Modified = 2025-10-06 12:55:06.064491-05:00
+CreatedByProjectApp = "1.4201.17.0"
+LastModifiedByProjectApp = "1.4201.17.0"
+MinimumProjectApp = ""
+MinimumAppHost = "2.0.0"
+
+{AssetAttributes}
+
+[Attributes]
+Id = "d7eee752-bd22-4230-b209-7ff4b6b175f7"
+Name = "ONU-Logo-360"
+SourceUri = "ONU-Logo-360.png"
+AspectRatio = "2.490272373540856"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

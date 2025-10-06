@@ -57,6 +57,9 @@ namespace SLRCTech
         public SLRCTech.PoolAudio.IPoolAudio PoolAudio { get { return (SLRCTech.PoolAudio.IPoolAudio)InternalPoolAudio; } }
         private SLRCTech.PoolAudio.PoolAudio InternalPoolAudio { get; set; }
 
+        public SLRCTech.ISystemInitializing SystemInitializing { get { return (SLRCTech.ISystemInitializing)InternalSystemInitializing; } }
+        private SLRCTech.SystemInitializing InternalSystemInitializing { get; set; }
+
         public SLRCTech.Classrooms.IClassrooms Classrooms { get { return (SLRCTech.Classrooms.IClassrooms)InternalClassrooms; } }
         private SLRCTech.Classrooms.Classrooms InternalClassrooms { get; set; }
 
@@ -99,21 +102,23 @@ namespace SLRCTech
 
             InternalLocked = new SLRCTech.Locked.Locked(ComponentMediator, 1);
 
-            InternalMain = new SLRCTech.Main.Main(ComponentMediator, 3);
+            InternalMain = new SLRCTech.Main.Main(ComponentMediator, 4);
 
-            InternalPoolAudio = new SLRCTech.PoolAudio.PoolAudio(ComponentMediator, 6);
+            InternalPoolAudio = new SLRCTech.PoolAudio.PoolAudio(ComponentMediator, 8);
 
-            InternalClassrooms = new SLRCTech.Classrooms.Classrooms(ComponentMediator, 16);
+            InternalSystemInitializing = new SLRCTech.SystemInitializing(ComponentMediator, 19);
 
-            InternalBackgroundMusic = new SLRCTech.BackgroundMusic.BackgroundMusic(ComponentMediator, 31);
+            InternalClassrooms = new SLRCTech.Classrooms.Classrooms(ComponentMediator, 21);
 
-            InternalCableTV = new SLRCTech.CableTV.CableTV(ComponentMediator, 56);
+            InternalBackgroundMusic = new SLRCTech.BackgroundMusic.BackgroundMusic(ComponentMediator, 37);
 
-            InternalFieldhouseAudio = new SLRCTech.FieldhouseAudio.FieldhouseAudio(ComponentMediator, 66);
+            InternalCableTV = new SLRCTech.CableTV.CableTV(ComponentMediator, 63);
 
-            InternalPublicDisplays = new SLRCTech.PublicDisplays.PublicDisplays(ComponentMediator, 93);
+            InternalFieldhouseAudio = new SLRCTech.FieldhouseAudio.FieldhouseAudio(ComponentMediator, 74);
 
-            InternalSettings = new SLRCTech.Settings.Settings(ComponentMediator, 122);
+            InternalPublicDisplays = new SLRCTech.PublicDisplays.PublicDisplays(ComponentMediator, 102);
+
+            InternalSettings = new SLRCTech.Settings.Settings(ComponentMediator, 132);
 
 
             for (int index = 0; index < devices.Length; index++)
@@ -143,6 +148,7 @@ namespace SLRCTech
             InternalLocked.AddDevice(device);
             InternalMain.AddDevice(device);
             InternalPoolAudio.AddDevice(device);
+            InternalSystemInitializing.AddDevice(device);
             InternalClassrooms.AddDevice(device);
             InternalBackgroundMusic.AddDevice(device);
             InternalCableTV.AddDevice(device);
@@ -157,6 +163,7 @@ namespace SLRCTech
             InternalLocked.RemoveDevice(device);
             InternalMain.RemoveDevice(device);
             InternalPoolAudio.RemoveDevice(device);
+            InternalSystemInitializing.RemoveDevice(device);
             InternalClassrooms.RemoveDevice(device);
             InternalBackgroundMusic.RemoveDevice(device);
             InternalCableTV.RemoveDevice(device);
@@ -181,6 +188,7 @@ namespace SLRCTech
             InternalLocked.Dispose();
             InternalMain.Dispose();
             InternalPoolAudio.Dispose();
+            InternalSystemInitializing.Dispose();
             InternalClassrooms.Dispose();
             InternalBackgroundMusic.Dispose();
             InternalCableTV.Dispose();

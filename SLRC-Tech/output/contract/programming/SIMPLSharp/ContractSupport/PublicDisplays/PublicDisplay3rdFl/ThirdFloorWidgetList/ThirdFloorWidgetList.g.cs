@@ -301,10 +301,10 @@ namespace SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Items_0_ = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList.Items_0_(ComponentMediator, 105, 3);
-            Items_1_ = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList.Items_1_(ComponentMediator, 106, 3);
-            Items_2_ = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList.Items_2_(ComponentMediator, 107, 3);
-            Item = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList.Item(ComponentMediator, 105, 3);
+            Items_0_ = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList.Items_0_(ComponentMediator, 114, 3);
+            Items_1_ = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList.Items_1_(ComponentMediator, 115, 3);
+            Items_2_ = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList.Items_2_(ComponentMediator, 116, 3);
+            Item = new SLRCTech.PublicDisplays.PublicDisplay3rdFl.ThirdFloorWidgetList.Item(ComponentMediator, 114, 3);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

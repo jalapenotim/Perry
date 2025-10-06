@@ -103,18 +103,6 @@ namespace SLRCTech.BackgroundMusic
         event EventHandler<UIEventArgs> Tab_2_Item_PressEvent;
 
         /// <summary>
-        /// Page Select Tab Button.List Visible Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void PageSelectTabButton_Visible(PageSelectTabButtonBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Page Select Tab Button.List Visible Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void PageSelectTabButton_Visible(bool digital);
-
-        /// <summary>
         /// Tab1._Selected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -194,22 +182,16 @@ namespace SLRCTech.BackgroundMusic
 
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.PageSelectTabButton.Visible
-                /// Page Select Tab Button.List Visible
-                /// </summary>
-                public const uint PageSelectTabButton_VisibleState = 1;
-
-                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.PageSelectTabButton.Tab1_Selected
                 /// Tab1._Selected
                 /// </summary>
-                public const uint Tab_1_Item_SelectedState = 18;
+                public const uint Tab_1_Item_SelectedState = 31;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.PageSelectTabButton.Tab2_Selected
                 /// Tab2._Selected
                 /// </summary>
-                public const uint Tab_2_Item_SelectedState = 19;
+                public const uint Tab_2_Item_SelectedState = 32;
 
             }
         }
@@ -318,20 +300,6 @@ namespace SLRCTech.BackgroundMusic
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
-        /// <inheritdoc/>
-        public void PageSelectTabButton_Visible(PageSelectTabButtonBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.PageSelectTabButton_VisibleState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void PageSelectTabButton_Visible(bool digital)
-        {
-            PageSelectTabButton_Visible((sig, component) => sig.BoolValue = digital);
-        }
         /// <inheritdoc/>
         public void Tab_1_Item_Selected(PageSelectTabButtonBoolInputSigDelegate callback)
         {

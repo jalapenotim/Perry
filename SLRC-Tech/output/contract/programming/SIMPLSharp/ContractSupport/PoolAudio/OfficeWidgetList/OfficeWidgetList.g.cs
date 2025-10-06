@@ -128,9 +128,9 @@ namespace SLRCTech.PoolAudio.OfficeWidgetList
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Items_0_ = new SLRCTech.PoolAudio.OfficeWidgetList.Items_0_(ComponentMediator, 12, 2);
-            Items_1_ = new SLRCTech.PoolAudio.OfficeWidgetList.Items_1_(ComponentMediator, 13, 2);
-            Item = new SLRCTech.PoolAudio.OfficeWidgetList.Item(ComponentMediator, 12, 2);
+            Items_0_ = new SLRCTech.PoolAudio.OfficeWidgetList.Items_0_(ComponentMediator, 14, 2);
+            Items_1_ = new SLRCTech.PoolAudio.OfficeWidgetList.Items_1_(ComponentMediator, 15, 2);
+            Item = new SLRCTech.PoolAudio.OfficeWidgetList.Item(ComponentMediator, 14, 2);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

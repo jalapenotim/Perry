@@ -1,0 +1,32 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.601.10.0"
+Created = 2025-10-06 13:15:10.899972-05:00
+LastModifiedByAppHost = "2.601.10.0"
+Modified = 2025-10-06 13:15:10.899969-05:00
+CreatedByProjectApp = "1.4201.17.0"
+LastModifiedByProjectApp = "1.4201.17.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{DeviceResolutionSource}
+[]
+
+{ProjectAttributes}
+
+[Attributes]
+ComponentKey = "UiEditor"
+Name = "SLRC-Fieldhouse"
+ThemeId = "dark-theme.css"
+ProjectThemeIds = "dark-theme.css"
+ThemePageColor = "#000000"
+IncludeUnusedAsset = "False"
+OverrideThemeColor = "True"
+SdkId = "CH5:2.16.0"
+Id = "64890956-66b8-47c3-a63a-adb88d406601"
+RuntimeThemeJoin = "0"
+RuntimeLanguageJoin = "0"
+DeviceResolutionIds = "G-L-4KMONIT-2560-1440,G-L-IPAD000-1080-0810,G-L-IPAIR00-1024-0768,G-P-IPAD000-0810-1080,G-P-IPAIR00-0768-1024"
+ipId = "80"
+ProjectSchemaVersion = "6"
+

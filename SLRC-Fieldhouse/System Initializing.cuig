@@ -1,0 +1,97 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.601.10.0"
+Created = 2025-10-06 13:22:48.391394-05:00
+LastModifiedByAppHost = "2.601.10.0"
+Modified = 2025-10-06 13:22:48.391389-05:00
+CreatedByProjectApp = "1.4201.17.0"
+LastModifiedByProjectApp = "1.4201.17.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{Html}
+<ch5-template transitionduration="1s" transitiondelay="0s" templateid="wafb08489-6c5c-43d9-8a03-aa6eab6d929b" id="ip3d" componentName="System Disconnected" devicesVisited="[&quot;4K Monitor&quot;]" pd-receivestateshow="Csig.Control_Systems_Offline_fb"></ch5-template><ch5-slider nohandle="true" size="custom" orientation="horizontal" tapsettable="false" handleshape="rounded-rectangle" handlesize="regular" tooltipshowtype="off" tooltipdisplaytype="%" value="50" slidertype="gauge" min="0" max="65535" step="1" id="iv9r" componentName="System Initializing Gauge" ccid_linkSendReceive="False" range="false" valueHigh="70" affectedByPreviewState="True" ccid_themeCSSSet="true" devicesVisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" previousSliderType="fader" showtickvalues="false" oldID="infx" pd-receivestatevalue="Contract Enabled" customvstheme="custom"></ch5-slider><ch5-text clearLabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="System Initializing" id="iylj" componentName="System Initializing Text" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" ccid_themeCSSSet="true" oldID="iyg7" ccid_Label="System Initializing" ccid_ActiveFont="'Roboto'">
+              </ch5-text>
+
+{Css}
+@media (max-width: 99999px){#iylj{Label_font-size:60px;--ch5-text--font-size:60px;Label_color:#0080ff;--ch5-text--font-color:#0080ff;display:block;width:600px;--ch5-text--width:600px;height:79px;--ch5-text--height:79px;z-index:1;left:350px;top:300px;position:absolute;}#infx .noUi-touch-area{slidertouchareapadding_padding:0px;}#iylj .ch5-text{min-height:10px;min-width:10px;padding:0px;}#iylj .ch5-text :not(i):not(svg){font-family:"Roboto";}#iv9r{Appearance_handle_border-color:#efefef;--ch5-slider--handle-border-color:#efefef;Appearance_handle_background-color:#efefef;--ch5-slider--handle-background-color:#efefef;Appearance_handle_border-width:1px;--ch5-slider--handle-border-width:1px;Appearance_handle_border-style:solid;--ch5-slider--handle-border-style:solid;Appearance_active_border-color:black;--ch5-slider--connect-border-color:black;Appearance_active_background-color:#0080ff;--ch5-slider--connect-background-color:#0080ff;Appearance_active_border-style:solid;--ch5-slider--connect-border-style:solid;Appearance_active_border-width:0;--ch5-slider--connect-border-width:0;Appearance_border-color:#ffffff00;--ch5-slider--target-border-color:#ffffff00;Appearance_background-color:#767676;--ch5-slider--target-background-color:#767676;Appearance_border-width:0;--ch5-slider--target-border-width:0;Appearance_border-style:solid;--ch5-slider--target-border-style:solid;display:block;width:800px;--ch5-slider--width-regular:800px;left:240px;top:410px;position:absolute;z-index:2;sliderActiveTarget_border-style:solid;sliderActiveTarget_background-color:#0080ff;sliderTarget_border-width:0;sliderTarget_background-color:#767676;sliderTarget_border-style:solid;sliderActiveTarget_border-width:0;sliderTarget_border-color:#ffffff00;height:30px;}#ip3d{display:block;left:0;top:0;position:absolute;z-index:3;}#wrapper{background-color:#000000;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#iv9r{Appearance_handle_border-color:#efefef;--ch5-slider--handle-border-color:#efefef;Appearance_handle_background-color:#efefef;--ch5-slider--handle-background-color:#efefef;Appearance_handle_border-width:1px;--ch5-slider--handle-border-width:1px;Appearance_handle_border-style:solid;--ch5-slider--handle-border-style:solid;Appearance_active_border-color:black;--ch5-slider--connect-border-color:black;Appearance_active_background-color:#0080ff;--ch5-slider--connect-background-color:#0080ff;Appearance_active_border-style:solid;--ch5-slider--connect-border-style:solid;Appearance_active_border-width:0;--ch5-slider--connect-border-width:0;Appearance_border-color:#ffffff00;--ch5-slider--target-border-color:#ffffff00;Appearance_background-color:#767676;--ch5-slider--target-background-color:#767676;Appearance_border-width:0;--ch5-slider--target-border-width:0;Appearance_border-style:solid;--ch5-slider--target-border-style:solid;display:block;width:800px;--ch5-slider--width-regular:800px;left:240px;top:410px;position:absolute;z-index:2;sliderActiveTarget_border-style:solid;sliderActiveTarget_background-color:#0080ff;sliderTarget_border-width:0;sliderTarget_background-color:#767676;sliderTarget_border-style:solid;sliderActiveTarget_border-width:0;sliderTarget_border-color:#ffffff00;height:30px;}#ip3d{display:block;left:0;top:0;position:absolute;z-index:3;}}@media (orientation: landscape) and (max-width: 1181px) and (max-height: 777px), (orientation: landscape) and (max-width: 1179px){#iylj{position:absolute;left:300px;z-index:1;}#iv9r{left:190px;width:800px;--ch5-slider--width-regular:800px;top:410px;z-index:2;}}@media (orientation: portrait) and (max-height: 1137px) and (max-width: 821px), (orientation: portrait) and (max-height: 1135px){#iylj{left:110px;z-index:1;}#iv9r{width:700px;--ch5-slider--width-regular:700px;left:60px;height:30px;z-index:2;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "System Initializing"
+PageMode = "absolute"
+Id = "e29f4b37-2784-4fb9-9966-ecb54627a306"
+StartPage = "False"
+PreloadPage = "True"
+CachePage = "False"
+VisibilityJoin = "VisibilityJoin"
+DisplayBackgroundColor = "False"
+
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "wafb08489-6c5c-43d9-8a03-aa6eab6d929b"
+id = "ip3d"
+componentName = "System Disconnected"
+devicesVisited = "[\"4K Monitor\"]"
+pd-receivestateshow = "Csig.Control_Systems_Offline_fb"
+[[Elements]]
+Type = "Ch5 Slider"
+Editable = true
+
+[Elements.Attributes]
+nohandle = "true"
+size = "custom"
+orientation = "horizontal"
+tapsettable = "false"
+handleshape = "rounded-rectangle"
+handlesize = "regular"
+tooltipshowtype = "off"
+tooltipdisplaytype = "%"
+value = "50"
+slidertype = "gauge"
+min = "0"
+max = "65535"
+step = "1"
+id = "iv9r"
+componentName = "System Initializing Gauge"
+ccid_linkSendReceive = "False"
+range = "false"
+valueHigh = "70"
+affectedByPreviewState = "True"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+previousSliderType = "fader"
+showtickvalues = "false"
+oldID = "infx"
+pd-receivestatevalue = "Contract Enabled"
+customvstheme = "custom"
+[[Elements]]
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "System Initializing"
+id = "iylj"
+componentName = "System Initializing Text"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+ccid_themeCSSSet = "true"
+oldID = "iyg7"
+ccid_Label = "System Initializing"
+ccid_ActiveFont = "'Roboto'"
+

@@ -133,10 +133,10 @@ namespace SLRCTech.FieldhouseAudio.WirelessWidgetList
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Items_0_ = new SLRCTech.FieldhouseAudio.WirelessWidgetList.Items_0_(ComponentMediator, 90, 3);
-            Items_1_ = new SLRCTech.FieldhouseAudio.WirelessWidgetList.Items_1_(ComponentMediator, 91, 3);
-            Items_2_ = new SLRCTech.FieldhouseAudio.WirelessWidgetList.Items_2_(ComponentMediator, 92, 3);
-            Item = new SLRCTech.FieldhouseAudio.WirelessWidgetList.Item(ComponentMediator, 90, 3);
+            Items_0_ = new SLRCTech.FieldhouseAudio.WirelessWidgetList.Items_0_(ComponentMediator, 99, 3);
+            Items_1_ = new SLRCTech.FieldhouseAudio.WirelessWidgetList.Items_1_(ComponentMediator, 100, 3);
+            Items_2_ = new SLRCTech.FieldhouseAudio.WirelessWidgetList.Items_2_(ComponentMediator, 101, 3);
+            Item = new SLRCTech.FieldhouseAudio.WirelessWidgetList.Item(ComponentMediator, 99, 3);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

@@ -1,0 +1,195 @@
+{
+  "name": "SLRC-Pool",
+  "timestamp": "2025-10-06T18:25:51.4463749+00:00",
+  "version": "1.0.0.0",
+  "schema_version": 1,
+  "extra_value": "",
+  "signals": {
+    "states": {
+      "boolean": {
+        "1": {
+          "1": "SystemInitializingVisibilityJoin"
+        },
+        "3": {
+          "1": "PoolAudioVisibilityJoin",
+          "4": "PoolAudio.BleachersOffButton.Selected",
+          "5": "PoolAudio.BleachersOnButton.Selected",
+          "6": "PoolAudio.PerimeterOffButton.Selected",
+          "7": "PoolAudio.PerimeterOnButton.Selected"
+        },
+        "5": {
+          "1201": "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "6": {
+          "1201": "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "8": {
+          "1201": "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "9": {
+          "1201": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
+        },
+        "10": {
+          "1": "PoolAudio.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "2": "PoolAudio.BuildingMute.MuteOffButton.Enable",
+          "3": "PoolAudio.BuildingMute.MuteOnButton.Enable",
+          "4": "PoolAudio.BuildingMute.MuteOffButton.Selected",
+          "5": "PoolAudio.BuildingMute.MuteOnButton.Selected"
+        },
+        "11": {
+          "1": "PoolAudio.Header.MainPageButton.Visibility_fb"
+        },
+        "13": {
+          "3": "PoolAudio.BuildingProgramWidget.ZoneVolumeMuteButton.Selected"
+        }
+      },
+      "numeric": {
+        "1": {
+          "4": "SystemInitializing.SystemInitializingGauge.LowerTouchfb"
+        },
+        "5": {
+          "1801": "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "6": {
+          "1801": "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "8": {
+          "1801": "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "9": {
+          "1801": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeGauge.LowerTouchfb"
+        },
+        "13": {
+          "4": "PoolAudio.BuildingProgramWidget.ZoneVolumeGauge.LowerTouchfb"
+        }
+      },
+      "string": {
+        "5": {
+          "1": "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "6": {
+          "1": "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "8": {
+          "1": "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "9": {
+          "1": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Icon"
+        },
+        "10": {
+          "1": "PoolAudio.BuildingMute.BuildingMuteStatus.IndirectRichText",
+          "2": "PoolAudio.BuildingMute.BuildingMuteText.IndirectRichText"
+        },
+        "11": {
+          "1": "PoolAudio.Header.PageNameText.IndirectRichText"
+        },
+        "13": {
+          "1": "PoolAudio.BuildingProgramWidget.ZoneLabel.IndirectRichText",
+          "2": "PoolAudio.BuildingProgramWidget.ZoneVolumeMuteButton.Icon"
+        }
+      }
+    },
+    "events": {
+      "boolean": {
+        "PoolAudio.BleachersOffButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 3
+        },
+        "PoolAudio.BleachersOnButton.Press": {
+          "joinId": 4,
+          "smartObjectId": 3
+        },
+        "PoolAudio.PerimeterOffButton.Press": {
+          "joinId": 5,
+          "smartObjectId": 3
+        },
+        "PoolAudio.PerimeterOnButton.Press": {
+          "joinId": 6,
+          "smartObjectId": 3
+        },
+        "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 5
+        },
+        "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 5
+        },
+        "PoolAudio.BoothWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 5
+        },
+        "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 6
+        },
+        "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 6
+        },
+        "PoolAudio.BoothWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 6
+        },
+        "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 8
+        },
+        "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 8
+        },
+        "PoolAudio.OfficeWidgetList.Items[0].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 8
+        },
+        "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeDownButton.Press": {
+          "joinId": 1201,
+          "smartObjectId": 9
+        },
+        "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Press": {
+          "joinId": 1202,
+          "smartObjectId": 9
+        },
+        "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeUpButton.Press": {
+          "joinId": 1203,
+          "smartObjectId": 9
+        },
+        "PoolAudio.BuildingMute.MuteOffButton.Press": {
+          "joinId": 1,
+          "smartObjectId": 10
+        },
+        "PoolAudio.BuildingMute.MuteOnButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 10
+        },
+        "PoolAudio.Header.LockButton.Press": {
+          "joinId": 2,
+          "smartObjectId": 11
+        },
+        "PoolAudio.Header.MainPageButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 11
+        },
+        "PoolAudio.BuildingProgramWidget.ZoneVolumeDownButton.Press": {
+          "joinId": 3,
+          "smartObjectId": 13
+        },
+        "PoolAudio.BuildingProgramWidget.ZoneVolumeMuteButton.Press": {
+          "joinId": 4,
+          "smartObjectId": 13
+        },
+        "PoolAudio.BuildingProgramWidget.ZoneVolumeUpButton.Press": {
+          "joinId": 5,
+          "smartObjectId": 13
+        }
+      },
+      "numeric": {},
+      "string": {}
+    }
+  }
+}

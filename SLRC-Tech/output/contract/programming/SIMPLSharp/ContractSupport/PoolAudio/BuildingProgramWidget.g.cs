@@ -49,6 +49,18 @@ namespace SLRCTech.PoolAudio
         event EventHandler<UIEventArgs> ZoneVolumeUpButton_PressEvent;
 
         /// <summary>
+        /// PoolAudio.BuildingProgramWidget.Zone Volume Mute Button.Selected Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void ZoneVolumeMuteButton_Selected(BuildingProgramWidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// PoolAudio.BuildingProgramWidget.Zone Volume Mute Button.Selected Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void ZoneVolumeMuteButton_Selected(bool digital);
+
+        /// <summary>
         /// PoolAudio.BuildingProgramWidget.Zone Volume Gauge.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The ushort delegate to update the panel.</param>
@@ -162,6 +174,12 @@ namespace SLRCTech.PoolAudio
                 /// </summary>
                 public const uint ZoneVolumeUpButton_PressEvent = 5;
 
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.BuildingProgramWidget.ZoneVolumeMuteButton.Selected
+                /// PoolAudio.BuildingProgramWidget.Zone Volume Mute Button.Selected
+                /// </summary>
+                public const uint ZoneVolumeMuteButton_SelectedState = 3;
 
             }
             /// <summary>
@@ -291,6 +309,20 @@ namespace SLRCTech.PoolAudio
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
+        /// <inheritdoc/>
+        public void ZoneVolumeMuteButton_Selected(BuildingProgramWidgetBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.ZoneVolumeMuteButton_SelectedState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void ZoneVolumeMuteButton_Selected(bool digital)
+        {
+            ZoneVolumeMuteButton_Selected((sig, component) => sig.BoolValue = digital);
+        }
 
         /// <inheritdoc/>
         public void ZoneVolumeGauge_LowerTouchfb(BuildingProgramWidgetUShortInputSigDelegate callback)

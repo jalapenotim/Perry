@@ -796,246 +796,6 @@ namespace SLRCTech.PublicDisplays
         void PublicDisplayRouting_Visibility_fb(bool digital);
 
         /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 10 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display10Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 10 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display10Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 11 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display11Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 11 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display11Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 12 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display12Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 12 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display12Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 13 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display13Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 13 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display13Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 14 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display14Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 14 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display14Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 15 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display15Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 15 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display15Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 16 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display16Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 16 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display16Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 17 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display17Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 17 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display17Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 18 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display18Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 18 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display18Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 19 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display19Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 19 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display19Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 1 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display1Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 1 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display1Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 20 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display20Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 20 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display20Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 2 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display2Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 2 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display2Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 3 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display3Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 3 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display3Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 4 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display4Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 4 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display4Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 5 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display5Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 5 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display5Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 6 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display6Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 6 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display6Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 7 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display7Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 7 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display7Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 8 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display8Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 8 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display8Button_Selected(bool digital);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 9 Button.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Display9Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// PublicDisplays.PublicDisplayRouting.Display 9 Button.Selected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Display9Button_Selected(bool digital);
-
-        /// <summary>
         /// PublicDisplays.PublicDisplayRouting.Source 1 Button.Selected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -2411,184 +2171,64 @@ namespace SLRCTech.PublicDisplays
                 public const uint PublicDisplayRouting_Visibility_fbState = 51;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display10Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 10 Button.Selected
-                /// </summary>
-                public const uint Display10Button_SelectedState = 53;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display11Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 11 Button.Selected
-                /// </summary>
-                public const uint Display11Button_SelectedState = 54;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display12Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 12 Button.Selected
-                /// </summary>
-                public const uint Display12Button_SelectedState = 55;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display13Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 13 Button.Selected
-                /// </summary>
-                public const uint Display13Button_SelectedState = 56;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display14Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 14 Button.Selected
-                /// </summary>
-                public const uint Display14Button_SelectedState = 57;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display15Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 15 Button.Selected
-                /// </summary>
-                public const uint Display15Button_SelectedState = 58;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display16Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 16 Button.Selected
-                /// </summary>
-                public const uint Display16Button_SelectedState = 59;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display17Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 17 Button.Selected
-                /// </summary>
-                public const uint Display17Button_SelectedState = 60;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display18Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 18 Button.Selected
-                /// </summary>
-                public const uint Display18Button_SelectedState = 61;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display19Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 19 Button.Selected
-                /// </summary>
-                public const uint Display19Button_SelectedState = 62;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display1Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 1 Button.Selected
-                /// </summary>
-                public const uint Display1Button_SelectedState = 63;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display20Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 20 Button.Selected
-                /// </summary>
-                public const uint Display20Button_SelectedState = 64;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display2Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 2 Button.Selected
-                /// </summary>
-                public const uint Display2Button_SelectedState = 65;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display3Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 3 Button.Selected
-                /// </summary>
-                public const uint Display3Button_SelectedState = 66;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display4Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 4 Button.Selected
-                /// </summary>
-                public const uint Display4Button_SelectedState = 67;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display5Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 5 Button.Selected
-                /// </summary>
-                public const uint Display5Button_SelectedState = 68;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display6Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 6 Button.Selected
-                /// </summary>
-                public const uint Display6Button_SelectedState = 69;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display7Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 7 Button.Selected
-                /// </summary>
-                public const uint Display7Button_SelectedState = 70;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display8Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 8 Button.Selected
-                /// </summary>
-                public const uint Display8Button_SelectedState = 71;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Display9Button.Selected
-                /// PublicDisplays.PublicDisplayRouting.Display 9 Button.Selected
-                /// </summary>
-                public const uint Display9Button_SelectedState = 72;
-
-                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source1Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 1 Button.Selected
                 /// </summary>
-                public const uint Source1Button_SelectedState = 73;
+                public const uint Source1Button_SelectedState = 53;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source2Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 2 Button.Selected
                 /// </summary>
-                public const uint Source2Button_SelectedState = 74;
+                public const uint Source2Button_SelectedState = 54;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source3Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 3 Button.Selected
                 /// </summary>
-                public const uint Source3Button_SelectedState = 75;
+                public const uint Source3Button_SelectedState = 55;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source4Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 4 Button.Selected
                 /// </summary>
-                public const uint Source4Button_SelectedState = 76;
+                public const uint Source4Button_SelectedState = 56;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source5Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 5 Button.Selected
                 /// </summary>
-                public const uint Source5Button_SelectedState = 77;
+                public const uint Source5Button_SelectedState = 57;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source6Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 6 Button.Selected
                 /// </summary>
-                public const uint Source6Button_SelectedState = 78;
+                public const uint Source6Button_SelectedState = 58;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source7Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 7 Button.Selected
                 /// </summary>
-                public const uint Source7Button_SelectedState = 79;
+                public const uint Source7Button_SelectedState = 59;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source8Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 8 Button.Selected
                 /// </summary>
-                public const uint Source8Button_SelectedState = 80;
+                public const uint Source8Button_SelectedState = 60;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.Source9Button.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source 9 Button.Selected
                 /// </summary>
-                public const uint Source9Button_SelectedState = 81;
+                public const uint Source9Button_SelectedState = 61;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayRouting.SourceClearButton.Selected
                 /// PublicDisplays.PublicDisplayRouting.Source Clear Button.Selected
                 /// </summary>
-                public const uint SourceClearButton_SelectedState = 82;
+                public const uint SourceClearButton_SelectedState = 62;
 
             }
             /// <summary>
@@ -3266,20 +2906,6 @@ namespace SLRCTech.PublicDisplays
         }
 
         /// <inheritdoc/>
-        public void Display10Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display10Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display10Button_Selected(bool digital)
-        {
-            Display10Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display10Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3306,20 +2932,6 @@ namespace SLRCTech.PublicDisplays
         public void Display10Label_Visibility_fb(bool digital)
         {
             Display10Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display11Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display11Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display11Button_Selected(bool digital)
-        {
-            Display11Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display11Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -3350,20 +2962,6 @@ namespace SLRCTech.PublicDisplays
             Display11Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display12Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display12Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display12Button_Selected(bool digital)
-        {
-            Display12Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display12Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3390,20 +2988,6 @@ namespace SLRCTech.PublicDisplays
         public void Display12Label_Visibility_fb(bool digital)
         {
             Display12Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display13Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display13Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display13Button_Selected(bool digital)
-        {
-            Display13Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display13Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -3434,20 +3018,6 @@ namespace SLRCTech.PublicDisplays
             Display13Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display14Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display14Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display14Button_Selected(bool digital)
-        {
-            Display14Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display14Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3474,20 +3044,6 @@ namespace SLRCTech.PublicDisplays
         public void Display14Label_Visibility_fb(bool digital)
         {
             Display14Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display15Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display15Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display15Button_Selected(bool digital)
-        {
-            Display15Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display15Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -3518,20 +3074,6 @@ namespace SLRCTech.PublicDisplays
             Display15Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display16Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display16Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display16Button_Selected(bool digital)
-        {
-            Display16Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display16Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3558,20 +3100,6 @@ namespace SLRCTech.PublicDisplays
         public void Display16Label_Visibility_fb(bool digital)
         {
             Display16Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display17Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display17Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display17Button_Selected(bool digital)
-        {
-            Display17Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display17Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -3602,20 +3130,6 @@ namespace SLRCTech.PublicDisplays
             Display17Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display18Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display18Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display18Button_Selected(bool digital)
-        {
-            Display18Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display18Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3642,20 +3156,6 @@ namespace SLRCTech.PublicDisplays
         public void Display18Label_Visibility_fb(bool digital)
         {
             Display18Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display19Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display19Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display19Button_Selected(bool digital)
-        {
-            Display19Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display19Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -3686,20 +3186,6 @@ namespace SLRCTech.PublicDisplays
             Display19Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display1Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display1Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display1Button_Selected(bool digital)
-        {
-            Display1Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display1Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3726,20 +3212,6 @@ namespace SLRCTech.PublicDisplays
         public void Display1Label_Visibility_fb(bool digital)
         {
             Display1Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display20Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display20Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display20Button_Selected(bool digital)
-        {
-            Display20Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display20Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -3770,20 +3242,6 @@ namespace SLRCTech.PublicDisplays
             Display20Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display2Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display2Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display2Button_Selected(bool digital)
-        {
-            Display2Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display2Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3810,20 +3268,6 @@ namespace SLRCTech.PublicDisplays
         public void Display2Label_Visibility_fb(bool digital)
         {
             Display2Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display3Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display3Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display3Button_Selected(bool digital)
-        {
-            Display3Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display3Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -3854,20 +3298,6 @@ namespace SLRCTech.PublicDisplays
             Display3Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display4Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display4Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display4Button_Selected(bool digital)
-        {
-            Display4Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display4Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3894,20 +3324,6 @@ namespace SLRCTech.PublicDisplays
         public void Display4Label_Visibility_fb(bool digital)
         {
             Display4Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display5Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display5Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display5Button_Selected(bool digital)
-        {
-            Display5Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display5Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -3938,20 +3354,6 @@ namespace SLRCTech.PublicDisplays
             Display5Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display6Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display6Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display6Button_Selected(bool digital)
-        {
-            Display6Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display6Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -3978,20 +3380,6 @@ namespace SLRCTech.PublicDisplays
         public void Display6Label_Visibility_fb(bool digital)
         {
             Display6Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display7Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display7Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display7Button_Selected(bool digital)
-        {
-            Display7Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display7Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
@@ -4022,20 +3410,6 @@ namespace SLRCTech.PublicDisplays
             Display7Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Display8Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display8Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display8Button_Selected(bool digital)
-        {
-            Display8Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void Display8Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -4062,20 +3436,6 @@ namespace SLRCTech.PublicDisplays
         public void Display8Label_Visibility_fb(bool digital)
         {
             Display8Label_Visibility_fb((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Display9Button_Selected(PublicDisplayRoutingBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Display9Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Display9Button_Selected(bool digital)
-        {
-            Display9Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Display9Button_Visibility_fb(PublicDisplayRoutingBoolInputSigDelegate callback)

@@ -163,10 +163,10 @@ namespace SLRCTech.Classrooms
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            Header = new SLRCTech.Classrooms.Header(ComponentMediator, 17);
-            BuildingMute = new SLRCTech.Classrooms.BuildingMute(ComponentMediator, 18);
-            ThirdFloorClassroom = new SLRCTech.Classrooms.ThirdFloorClassroom.ThirdFloorClassroom(ComponentMediator, 19);
-            SecondFloorClassroom = new SLRCTech.Classrooms.SecondFloorClassroom.SecondFloorClassroom(ComponentMediator, 25);
+            Header = new SLRCTech.Classrooms.Header(ComponentMediator, 22);
+            BuildingMute = new SLRCTech.Classrooms.BuildingMute(ComponentMediator, 24);
+            ThirdFloorClassroom = new SLRCTech.Classrooms.ThirdFloorClassroom.ThirdFloorClassroom(ComponentMediator, 25);
+            SecondFloorClassroom = new SLRCTech.Classrooms.SecondFloorClassroom.SecondFloorClassroom(ComponentMediator, 31);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

@@ -1,0 +1,491 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.601.10.0"
+Created = 2025-10-06 13:14:23.765204-05:00
+LastModifiedByAppHost = "2.601.10.0"
+Modified = 2025-10-06 13:14:23.765201-05:00
+CreatedByProjectApp = "1.4201.17.0"
+LastModifiedByProjectApp = "1.4201.17.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{Html}
+<ch5-template transitionduration="1s" transitiondelay="0s" templateid="w5b914f10-abb7-4486-ba07-e4daec6565ff" id="ibvtf" componentname="System Disconnected" devicesvisited="[&quot;4K Monitor&quot;]" pd-receivestateshow="Csig.Control_Systems_Offline_fb"></ch5-template><ch5-template transitionduration="1s" transitiondelay="0s" templateid="w5f76b387-227a-4a54-9cf3-072b050d915b" id="i1mj" componentname="Header" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" oldid="izwk"></ch5-template><ch5-tab-button numberofitems="3" usecontractforcustomstyle="false" usecontractforcustomclass="false" orientation="horizontal" previewstate="buttonnormal" indexid="idx" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="top" buttonshape="rounded-rectangle" buttontype="default" pd-receivestateenable="" pd-receivestateshow="" affectedbypreviewstate="True" customvstheme="custom" id="ihr6" componentname="Tuner Select Tab Button" ccid_activefont="'Roboto'" ccid_label="" ccid_linksendreceive="True" assetid="0" ccid_imageicontype="iconclass" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" oldid="i0udika08e9bo" pd-buttonreceivestateselected="Contract Enabled" buttonsendeventonclick="Contract Enabled" buttonselected="false"><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1" id="ix83" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="Tuner 1" labelinnerhtml="Tuner 1" iconclass="fas fa-tv"></ch5-tab-button-individual-button><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2" id="i0ld" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" ccid_label="Tuner 2" labelinnerhtml="Tuner 2" iconclass="fas fa-tv"></ch5-tab-button-individual-button><ch5-tab-button-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 3" id="iytw" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" iconclass="fas fa-tv" ccid_label="Tuner 3" labelinnerhtml="Tuner 3"></ch5-tab-button-individual-button></ch5-tab-button><ch5-button-list centeritems="false" columns="1" endless="true" numberofitems="50" orientation="vertical" previewstate="buttonnormal" usecontractforcustomstyle="false" usecontractforcustomclass="false" rows="1" scrollbar="false" scrolltoposition="0" stretch="null" indexid="idx" customclass="ccid-custom" buttoncheckboxposition="left" buttoncheckboxshow="false" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="first" buttonmode="0" buttonshape="rounded-rectangle" buttontype="default" buttoniconurlfilltype="initial" pd-receivestateenable="" pd-receivestateshow="" pd-receivestatescrolltoposition="" pd-receivestatenumberofitems="" pd-buttonreceivestateselected="Contract Enabled" pd-buttonreceivestatescriptlabelhtml="Contract Enabled" pd-buttonreceivestateiconclass="" buttonsendeventonclick="Contract Enabled" pd-buttonreceivestateenable="" pd-buttonreceivestateshow="" usecontractforeachbuttonselection="false" affectedbypreviewstate="True" customvstheme="custom" loaditems="all" id="i686" componentname="CATV Presets" ccid_activefont="'Roboto'" ccid_label="<p>AppleTV+ Friday Night Baseball</p>" ccid_linksendreceive="True" ccid_imageicontype="iconclass" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;]" assetid="0" pd-receivestateselectedbutton="" contractitemlabeltype="innerHTML" labelmodebtnlist="advanced" buttonlabelinnerhtml="<p>AppleTV+ Friday Night Baseball</p>" buttonselected="false"><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 3"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 4"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 5"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 6"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 7"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 8"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 9"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 10"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 11"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 12"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 13"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 14"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 15"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 16"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 17"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 18"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 19"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 20"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 21"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 22"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 23"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 24"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 25"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 26"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 27"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 28"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 29"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 30"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 31"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 32"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 33"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 34"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 35"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 36"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 37"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 38"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 39"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 40"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 41"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 42"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 43"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 44"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 45"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 46"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 47"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 48"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 49"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 50"></ch5-button-list-individual-button></ch5-button-list><ch5-template transitionduration="1s" transitiondelay="0s" templateid="wda3e3077-2877-4acc-8973-66cb20949004" id="i150" componentname="Building Mute" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Landscape), iPad Air (Landscape)&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" oldid="iebb"></ch5-template>
+
+{Css}
+@media (max-width: 99999px){#i150{display:block;left:0px;top:676px;position:absolute;z-index:2;width:auto;height:auto;}#i1mj{display:block;left:0;top:0;position:absolute;z-index:12;width:auto;height:auto;}#ihr6 .ch5-tab-button :not(i):not(svg){font-family:"Roboto";}#ihr6 ch5-button{--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;--ch5-button--regular-font-size:20px;--ch5-button--label-margin-top:4px;Label_margin-top:2px;--ch5-button--label-margin-bottom:0;--ch5-button--regular-icon-size:20px;--ch5-button--regular-pressed-font-size:18px;--ch5-button--pressed-label-margin-top:4px;pressedLabel_margin-top:2px;--ch5-button--pressed-label-margin-bottom:0;--ch5-button--regular-pressed-icon-size:18px;--ch5-button--default-selected-border-color:#000000;--ch5-button--default-selected-background-color:#003cfb;--ch5-button--selected-label-margin-top:4px;selectedLabel_margin-top:2px;--ch5-button--selected-label-margin-bottom:0;--ch5-button--regular-selected-icon-size:20px;--ch5-button--regular-selected-font-size:20px;--ch5-button--default-pressed-border-color:#000000;}#i686 ch5-button{--ch5-button--default-background-color:#262829;--ch5-button--default-border-style:none;--ch5-button--default-border-width:0;--ch5-button--default-pressed-border-style:none;--ch5-button--default-pressed-border-width:0;--ch5-button--default-pressed-border-color:rgba(0,153,255,0);--ch5-button--default-selected-background-color:#003cfb;--ch5-button--default-selected-border-style:none;--ch5-button--default-selected-border-width:0;--ch5-button--default-selected-border-color:rgba(0,153,255,0);--ch5-button--default-border-color:rgba(0,153,255,0);--ch5-button--regular-font-size:30px;--ch5-button--regular-icon-size:30px;--ch5-button--regular-pressed-font-size:26px;--ch5-button--regular-pressed-icon-size:26px;--ch5-button--regular-selected-font-size:30px;--ch5-button--regular-selected-icon-size:35px;}#ibvtf{display:block;left:0;top:0;position:absolute;z-index:13;}#wrapper{background-color:#000000;}#ihr6{width:424px;--ch5-tab-button--button-container-width:424px;height:85px;--ch5-tab-button--button-container-height:85px;display:block;left:378px;top:105px;position:absolute;z-index:11;Appearance_background-color:#262829;Appearance_border-color:#000000;--ch5-button--default-background-color:#262829;--ch5-button--default-border-color:#000000;Label_font-size:20px;Label_margin-top:2px;Label_margin-bottom:0;Icon_font-size:20px;pressedLabel_font-size:18px;pressedLabel_margin-top:2px;pressedLabel_margin-bottom:0;pressedIcon_font-size:18px;selectedAppearance_border-color:#000000;selectedAppearance_background-color:#003cfb;selectedLabel_margin-top:2px;selectedLabel_margin-bottom:0;selectedIcon_font-size:20px;selectedLabel_font-size:20px;pressedAppearance_border-color:#000000;}#i686{width:550px;height:476px;listbuttonHSize_width:100px;listbuttonVSize_height:60px;listbuttonSpacing_row-gap:0px;listbuttonSpacing_column-gap:0px;buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;display:block;left:315px;top:195px;position:absolute;z-index:10;Appearance_background-color:#262829;Appearance_border-style:none;Appearance_border-width:0;--ch5-button--default-background-color:#262829;--ch5-button--default-border-style:none;--ch5-button--default-border-width:0;pressedAppearance_border-style:none;pressedAppearance_border-width:0;pressedAppearance_border-color:rgba(0,153,255,0);selectedAppearance_background-color:#003cfb;selectedAppearance_border-style:none;selectedAppearance_border-width:0;selectedAppearance_border-color:rgba(0,153,255,0);Appearance_border-color:rgba(0,153,255,0);--ch5-button--default-pressed-border-style:none;--ch5-button--default-pressed-border-width:0;--ch5-button--default-pressed-border-color:rgba(0,153,255,0);--ch5-button--default-selected-background-color:#003cfb;--ch5-button--default-selected-border-style:none;--ch5-button--default-selected-border-width:0;--ch5-button--default-selected-border-color:rgba(0,153,255,0);--ch5-button--default-border-color:rgba(0,153,255,0);--ch5-button-list--button-container-height:60px;Label_font-size:30px;Icon_font-size:30px;pressedLabel_font-size:26px;pressedIcon_font-size:26px;selectedLabel_font-size:30px;selectedIcon_font-size:35px;}}@media (orientation: landscape) and (max-width: 1181px) and (max-height: 777px), (orientation: landscape) and (max-width: 1179px){#ihr6{z-index:11;}#i686{z-index:10;}}@media (orientation: portrait) and (max-height: 1137px) and (max-width: 821px), (orientation: portrait) and (max-height: 1135px){#i150{top:1036px;z-index:2;left:0;position:absolute;width:auto;height:auto;}#i1mj{display:block;position:absolute;z-index:12;width:auto;height:auto;}#ihr6{left:198px;z-index:11;top:105px;position:absolute;}#i686{left:135px;top:200px;position:absolute;width:550px;height:826px;z-index:10;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "Cable TV"
+PageMode = "absolute"
+Id = "853a6e1c-f62e-469c-a3e4-de5f180224ff"
+StartPage = "False"
+PreloadPage = "True"
+CachePage = "False"
+VisibilityJoin = "VisibilityJoin"
+DisplayBackgroundColor = "False"
+
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "w5b914f10-abb7-4486-ba07-e4daec6565ff"
+id = "ibvtf"
+componentName = "System Disconnected"
+devicesVisited = "[\"4K Monitor\"]"
+pd-receivestateshow = "Csig.Control_Systems_Offline_fb"
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "w5f76b387-227a-4a54-9cf3-072b050d915b"
+id = "i1mj"
+componentName = "Header"
+devicesVisited = "[\"4K Monitor\",\"iPad (Landscape), iPad Air (Landscape)\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+oldID = "izwk"
+[[Elements]]
+Type = "Ch5 Tab Button"
+Editable = true
+
+[[Elements.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+id = "ix83"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "Tuner 1"
+labelinnerhtml = "Tuner 1"
+iconclass = "fas fa-tv"
+[[Elements.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+id = "i0ld"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+ccid_Label = "Tuner 2"
+labelinnerhtml = "Tuner 2"
+iconclass = "fas fa-tv"
+[[Elements.Components]]
+Type = "Ch5 Tab Button Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 3"
+id = "iytw"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+iconclass = "fas fa-tv"
+ccid_Label = "Tuner 3"
+labelinnerhtml = "Tuner 3"
+
+[Elements.Attributes]
+numberofitems = "3"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+orientation = "horizontal"
+previewstate = "buttonnormal"
+indexid = "idx"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "top"
+buttonshape = "rounded-rectangle"
+buttontype = "default"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+affectedByPreviewState = "True"
+customvstheme = "custom"
+id = "ihr6"
+componentName = "Tuner Select Tab Button"
+ccid_ActiveFont = "'Roboto'"
+ccid_Label = ""
+ccid_linkSendReceive = "True"
+assetid = "0"
+ccid_imageIconType = "iconclass"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+oldID = "i0udika08e9bo"
+pd-buttonreceivestateselected = "Contract Enabled"
+buttonsendeventonclick = "Contract Enabled"
+buttonselected = "false"
+[[Elements]]
+Type = "Ch5 Button List"
+Editable = true
+
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 3"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 4"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 5"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 6"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 7"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 8"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 9"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 10"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 11"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 12"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 13"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 14"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 15"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 16"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 17"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 18"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 19"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 20"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 21"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 22"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 23"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 24"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 25"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 26"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 27"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 28"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 29"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 30"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 31"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 32"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 33"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 34"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 35"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 36"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 37"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 38"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 39"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 40"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 41"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 42"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 43"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 44"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 45"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 46"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 47"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 48"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 49"
+[[Elements.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 50"
+
+[Elements.Attributes]
+centeritems = "false"
+columns = "1"
+endless = "true"
+numberofitems = "50"
+orientation = "vertical"
+previewstate = "buttonnormal"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+rows = "1"
+scrollbar = "false"
+scrolltoposition = "0"
+stretch = "null"
+indexid = "idx"
+customclass = "ccid-custom"
+buttoncheckboxposition = "left"
+buttoncheckboxshow = "false"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "first"
+buttonmode = "0"
+buttonshape = "rounded-rectangle"
+buttontype = "default"
+buttoniconurlfilltype = "initial"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+pd-receivestatescrolltoposition = ""
+pd-receivestatenumberofitems = ""
+pd-buttonreceivestateselected = "Contract Enabled"
+pd-buttonreceivestatescriptlabelhtml = "Contract Enabled"
+pd-buttonreceivestateiconclass = ""
+buttonsendeventonclick = "Contract Enabled"
+pd-buttonreceivestateenable = ""
+pd-buttonreceivestateshow = ""
+usecontractforeachbuttonselection = "false"
+affectedByPreviewState = "True"
+customvstheme = "custom"
+loaditems = "all"
+id = "i686"
+componentName = "CATV Presets"
+ccid_ActiveFont = "'Roboto'"
+ccid_Label = "<p>AppleTV+ Friday Night Baseball</p>"
+ccid_linkSendReceive = "True"
+ccid_imageIconType = "iconclass"
+devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\",\"iPad (Landscape), iPad Air (Landscape)\"]"
+assetid = "0"
+pd-receivestateselectedbutton = ""
+contractitemlabeltype = "innerHTML"
+labelmodeBtnList = "advanced"
+buttonlabelinnerhtml = "<p>AppleTV+ Friday Night Baseball</p>"
+buttonselected = "false"
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "wda3e3077-2877-4acc-8973-66cb20949004"
+id = "i150"
+componentName = "Building Mute"
+devicesVisited = "[\"4K Monitor\",\"iPad (Landscape), iPad Air (Landscape)\",\"iPad (Portrait), iPad Air (Portrait)\"]"
+oldID = "iebb"
+

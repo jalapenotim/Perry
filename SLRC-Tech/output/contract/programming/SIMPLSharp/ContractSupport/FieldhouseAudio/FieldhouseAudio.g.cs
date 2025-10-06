@@ -46,6 +46,18 @@ namespace SLRCTech.FieldhouseAudio
         void FieldhouseAudio_VisibilityJoin(bool digital);
 
         /// <summary>
+        /// Please Wait Popup.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void PleaseWaitPopup_Visibility_fb(FieldhouseAudioBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Please Wait Popup.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void PleaseWaitPopup_Visibility_fb(bool digital);
+
+        /// <summary>
         /// ComplexComponent Fieldhouse-Pool Audio Controls
         /// </summary>
         SLRCTech.FieldhouseAudio.FloorboxesOuterWidgetList.IFloorboxesOuterWidgetList FloorboxesOuterWidgetList { get; }
@@ -127,11 +139,18 @@ namespace SLRCTech.FieldhouseAudio
             /// </summary>
             internal static class Booleans
             {
+
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: FieldhouseAudioVisibilityJoin
                 /// Fieldhouse Audio.VisibilityJoin
                 /// </summary>
                 public const uint FieldhouseAudio_VisibilityJoinState = 1;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: FieldhouseAudio.PleaseWaitPopup.Visibility_fb
+                /// Please Wait Popup.Visibility
+                /// </summary>
+                public const uint PleaseWaitPopup_Visibility_fbState = 2;
 
             }
         }
@@ -183,14 +202,14 @@ namespace SLRCTech.FieldhouseAudio
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            FloorboxesOuterWidgetList = new SLRCTech.FieldhouseAudio.FloorboxesOuterWidgetList.FloorboxesOuterWidgetList(ComponentMediator, 67);
-            SpeakerConfigTabButton = new SLRCTech.FieldhouseAudio.SpeakerConfigTabButton(ComponentMediator, 73);
-            FloorboxesInnerWidgetList = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.FloorboxesInnerWidgetList(ComponentMediator, 74);
-            Header = new SLRCTech.FieldhouseAudio.Header(ComponentMediator, 83);
-            BuildingMute = new SLRCTech.FieldhouseAudio.BuildingMute(ComponentMediator, 84);
-            ZonesTabButton = new SLRCTech.FieldhouseAudio.ZonesTabButton(ComponentMediator, 85);
-            BoothWidgetList = new SLRCTech.FieldhouseAudio.BoothWidgetList.BoothWidgetList(ComponentMediator, 86);
-            WirelessWidgetList = new SLRCTech.FieldhouseAudio.WirelessWidgetList.WirelessWidgetList(ComponentMediator, 89);
+            FloorboxesOuterWidgetList = new SLRCTech.FieldhouseAudio.FloorboxesOuterWidgetList.FloorboxesOuterWidgetList(ComponentMediator, 76);
+            SpeakerConfigTabButton = new SLRCTech.FieldhouseAudio.SpeakerConfigTabButton(ComponentMediator, 82);
+            FloorboxesInnerWidgetList = new SLRCTech.FieldhouseAudio.FloorboxesInnerWidgetList.FloorboxesInnerWidgetList(ComponentMediator, 83);
+            Header = new SLRCTech.FieldhouseAudio.Header(ComponentMediator, 92);
+            BuildingMute = new SLRCTech.FieldhouseAudio.BuildingMute(ComponentMediator, 93);
+            ZonesTabButton = new SLRCTech.FieldhouseAudio.ZonesTabButton(ComponentMediator, 94);
+            BoothWidgetList = new SLRCTech.FieldhouseAudio.BoothWidgetList.BoothWidgetList(ComponentMediator, 95);
+            WirelessWidgetList = new SLRCTech.FieldhouseAudio.WirelessWidgetList.WirelessWidgetList(ComponentMediator, 98);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -254,6 +273,20 @@ namespace SLRCTech.FieldhouseAudio
         public void FieldhouseAudio_VisibilityJoin(bool digital)
         {
             FieldhouseAudio_VisibilityJoin((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void PleaseWaitPopup_Visibility_fb(FieldhouseAudioBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.PleaseWaitPopup_Visibility_fbState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void PleaseWaitPopup_Visibility_fb(bool digital)
+        {
+            PleaseWaitPopup_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
 
         /// <summary>
