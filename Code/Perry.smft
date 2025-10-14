@@ -28,7 +28,7 @@
       <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="80" Name="Tech"/>
       <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="81" Name="User"/>
       <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="82" Name="Fieldhouse"/>
-      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="83" Name="User"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="83" Name="Pool"/>
       <Device Model="Crestron One" DeviceId="90" Name="Tech"/>
       <Device Model="Crestron One" DeviceId="91" Name="User"/>
       <Device Model="Crestron One" DeviceId="92" Name="Fieldhouse"/>
