@@ -23,40 +23,45 @@ using Crestron.SimplSharpPro;
 using Crestron.SimplSharpPro.DeviceSupport;
 using SLRCUser;
 
-namespace SLRCUser.BackgroundMusic
+namespace SLRCUser.PublicDisplays.PublicDisplay1stFloor
 {
 
     /// <summary>
-    /// BackgroundMusicZoneLevels
+    /// PublicDisplay1stFloor
     /// </summary>
-    public partial interface IBackgroundMusicZoneLevels 
+    public partial interface IPublicDisplay1stFloor 
     {
         object UserObject { get; set; }
 
         /// <summary>
-        /// Background Music Zone Levels.Visibility Feedback
+        /// Public Display 1st Floor.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void BackgroundMusicZoneLevels_Visibility_fb(BackgroundMusicZoneLevelsBoolInputSigDelegate callback);
+        void PublicDisplay1stFloor_Visibility_fb(PublicDisplay1stFloorBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Background Music Zone Levels.Visibility Feedback
+        /// Public Display 1st Floor.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void BackgroundMusicZoneLevels_Visibility_fb(bool digital);
+        void PublicDisplay1stFloor_Visibility_fb(bool digital);
+
+        /// <summary>
+        /// ComplexComponent Display Controls
+        /// </summary>
+        SLRCUser.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.ILoWidgetList LoWidgetList { get; }
     }
 
     /// <summary>
     /// Digital callback used in feedback events.
     /// </summary>
     /// <param name="boolInputSig">The <see cref="BoolInputSig"/> joinInfo data.</param>
-    /// <param name="backgroundmusiczonelevels">The <see cref="IBackgroundMusicZoneLevels"/> on which to apply the feedback.</param>
-    public delegate void BackgroundMusicZoneLevelsBoolInputSigDelegate(BoolInputSig boolInputSig, IBackgroundMusicZoneLevels backgroundmusiczonelevels);
+    /// <param name="publicdisplay1stfloor">The <see cref="IPublicDisplay1stFloor"/> on which to apply the feedback.</param>
+    public delegate void PublicDisplay1stFloorBoolInputSigDelegate(BoolInputSig boolInputSig, IPublicDisplay1stFloor publicdisplay1stfloor);
 
     /// <summary>
-    /// BackgroundMusicZoneLevels
+    /// PublicDisplay1stFloor
     /// </summary>
-    internal partial class BackgroundMusicZoneLevels : IBackgroundMusicZoneLevels, IDisposable
+    internal partial class PublicDisplay1stFloor : IPublicDisplay1stFloor, IDisposable
     {
         #region Standard CH5 Component members
 
@@ -89,10 +94,10 @@ namespace SLRCUser.BackgroundMusic
             {
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: BackgroundMusic.BackgroundMusicZoneLevels.Visibility_fb
-                /// Background Music Zone Levels.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplay1stFloor.Visibility_fb
+                /// Public Display 1st Floor.Visibility
                 /// </summary>
-                public const uint BackgroundMusicZoneLevels_Visibility_fbState = 1;
+                public const uint PublicDisplay1stFloor_Visibility_fbState = 1;
 
             }
         }
@@ -102,23 +107,23 @@ namespace SLRCUser.BackgroundMusic
         #region Construction and Initialization
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BackgroundMusicZoneLevels"/> component class.
+        /// Initializes a new instance of the <see cref="PublicDisplay1stFloor"/> component class.
         /// </summary>
         /// <param name="componentMediator">The <see cref="ComponentMediator"/> used to instantiate the component.</param>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
         /// <param name="itemCount">The number of items.</param>
-        internal BackgroundMusicZoneLevels(ComponentMediator componentMediator, uint controlJoinId, uint? itemCount)
+        internal PublicDisplay1stFloor(ComponentMediator componentMediator, uint controlJoinId, uint? itemCount)
         {
             ComponentMediator = componentMediator;
             Initialize(controlJoinId, itemCount);
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BackgroundMusicZoneLevels"/> component class.
+        /// Initializes a new instance of the <see cref="PublicDisplay1stFloor"/> component class.
         /// </summary>
         /// <param name="componentMediator">The <see cref="ComponentMediator"/> used to instantiate the component.</param>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
-        internal BackgroundMusicZoneLevels(ComponentMediator componentMediator, uint controlJoinId) : this(componentMediator, controlJoinId, null)
+        internal PublicDisplay1stFloor(ComponentMediator componentMediator, uint controlJoinId) : this(componentMediator, controlJoinId, null)
         {
         }
 
@@ -134,7 +139,7 @@ namespace SLRCUser.BackgroundMusic
         private Dictionary<string, Indexes> _indexLookup = new Dictionary<string, Indexes>();
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BackgroundMusicZoneLevels"/> component class.
+        /// Initializes a new instance of the <see cref="PublicDisplay1stFloor"/> component class.
         /// </summary>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
         /// <param name="itemCount">The number of items.</param>
@@ -144,18 +149,23 @@ namespace SLRCUser.BackgroundMusic
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
+            LoWidgetList = new SLRCUser.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.LoWidgetList(ComponentMediator, 97);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
         {
             Devices.Add(device);
             ComponentMediator.HookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
+
+            ((SLRCUser.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.LoWidgetList)LoWidgetList).AddDevice(device);
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
         {
             Devices.Remove(device);
             ComponentMediator.UnHookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
+
+            ((SLRCUser.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.LoWidgetList)LoWidgetList).RemoveDevice(device);
         }
 
         #endregion
@@ -163,19 +173,24 @@ namespace SLRCUser.BackgroundMusic
         #region CH5 Contract
 
         /// <inheritdoc/>
-        public void BackgroundMusicZoneLevels_Visibility_fb(BackgroundMusicZoneLevelsBoolInputSigDelegate callback)
+        public void PublicDisplay1stFloor_Visibility_fb(PublicDisplay1stFloorBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BackgroundMusicZoneLevels_Visibility_fbState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.PublicDisplay1stFloor_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void BackgroundMusicZoneLevels_Visibility_fb(bool digital)
+        public void PublicDisplay1stFloor_Visibility_fb(bool digital)
         {
-            BackgroundMusicZoneLevels_Visibility_fb((sig, component) => sig.BoolValue = digital);
+            PublicDisplay1stFloor_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
+
+        /// <summary>
+        /// ComplexComponent LoWidgetList
+        /// </summary>
+        public SLRCUser.PublicDisplays.PublicDisplay1stFloor.LoWidgetList.ILoWidgetList LoWidgetList { get; private set; }
 
         #endregion
 
@@ -188,7 +203,7 @@ namespace SLRCUser.BackgroundMusic
 
         public override string ToString()
         {
-            return string.Format("Contract: {0} Component: {1} HashCode: {2} {3}", "BackgroundMusicZoneLevels", GetType().Name, GetHashCode(), UserObject != null ? "UserObject: " + UserObject : null);
+            return string.Format("Contract: {0} Component: {1} HashCode: {2} {3}", "PublicDisplay1stFloor", GetType().Name, GetHashCode(), UserObject != null ? "UserObject: " + UserObject : null);
         }
 
         #endregion

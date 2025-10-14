@@ -163,10 +163,10 @@ namespace SLRCUser.CableTV
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
-            BuildingMute = new SLRCUser.CableTV.BuildingMute(ComponentMediator, 56);
-            Header = new SLRCUser.CableTV.Header(ComponentMediator, 57);
-            CATVPresets = new SLRCUser.CableTV.CATVPresets(ComponentMediator, 58);
-            TunerSelectTabButton = new SLRCUser.CableTV.TunerSelectTabButton(ComponentMediator, 60);
+            BuildingMute = new SLRCUser.CableTV.BuildingMute(ComponentMediator, 74);
+            Header = new SLRCUser.CableTV.Header(ComponentMediator, 75);
+            CATVPresets = new SLRCUser.CableTV.CATVPresets(ComponentMediator, 76);
+            TunerSelectTabButton = new SLRCUser.CableTV.TunerSelectTabButton(ComponentMediator, 78);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

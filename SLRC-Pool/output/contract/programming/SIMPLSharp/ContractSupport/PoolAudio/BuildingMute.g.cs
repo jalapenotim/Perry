@@ -44,6 +44,18 @@ namespace SLRCPool.PoolAudio
         event EventHandler<UIEventArgs> MuteOnButton_PressEvent;
 
         /// <summary>
+        /// Building Mute.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void BuildingMute_Visibility_fb(BuildingMuteBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Building Mute.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void BuildingMute_Visibility_fb(bool digital);
+
+        /// <summary>
         /// PoolAudio.BuildingMute.Building Mute Status.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -189,34 +201,40 @@ namespace SLRCPool.PoolAudio
 
 
                 /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.BuildingMute.Visibility_fb
+                /// Building Mute.Visibility
+                /// </summary>
+                public const uint BuildingMute_Visibility_fbState = 1;
+
+                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.BuildingMute.BuildingMuteStatus.Visibility_fb
                 /// PoolAudio.BuildingMute.Building Mute Status.Visibility
                 /// </summary>
-                public const uint BuildingMuteStatus_Visibility_fbState = 1;
+                public const uint BuildingMuteStatus_Visibility_fbState = 2;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.BuildingMute.MuteOffButton.Enable
                 /// PoolAudio.BuildingMute.Mute Off Button.Enable
                 /// </summary>
-                public const uint MuteOffButton_EnableState = 2;
+                public const uint MuteOffButton_EnableState = 3;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.BuildingMute.MuteOnButton.Enable
                 /// PoolAudio.BuildingMute.Mute On Button.Enable
                 /// </summary>
-                public const uint MuteOnButton_EnableState = 3;
+                public const uint MuteOnButton_EnableState = 4;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.BuildingMute.MuteOffButton.Selected
                 /// PoolAudio.BuildingMute.Mute Off Button.Selected
                 /// </summary>
-                public const uint MuteOffButton_SelectedState = 4;
+                public const uint MuteOffButton_SelectedState = 5;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.BuildingMute.MuteOnButton.Selected
                 /// PoolAudio.BuildingMute.Mute On Button.Selected
                 /// </summary>
-                public const uint MuteOnButton_SelectedState = 5;
+                public const uint MuteOnButton_SelectedState = 6;
 
             }
             /// <summary>
@@ -323,6 +341,20 @@ namespace SLRCPool.PoolAudio
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
+        /// <inheritdoc/>
+        public void BuildingMute_Visibility_fb(BuildingMuteBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BuildingMute_Visibility_fbState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void BuildingMute_Visibility_fb(bool digital)
+        {
+            BuildingMute_Visibility_fb((sig, component) => sig.BoolValue = digital);
+        }
         /// <inheritdoc/>
         public void BuildingMuteStatus_Visibility_fb(BuildingMuteBoolInputSigDelegate callback)
         {

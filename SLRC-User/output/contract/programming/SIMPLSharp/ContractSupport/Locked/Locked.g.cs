@@ -221,7 +221,7 @@ namespace SLRCUser.Locked
  
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.ClearButton_PressEvent, onClearButton_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.EnterButton_PressEvent, onEnterButton_Press);
-            Keypad = new SLRCUser.Locked.Keypad(ComponentMediator, 50);
+            Keypad = new SLRCUser.Locked.Keypad(ComponentMediator, 68);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

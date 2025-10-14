@@ -1,0 +1,37 @@
+<Device Model="CP4N">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="GLS-ODT-C-CN" DeviceId="05" Name="Rm222"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="06" Name="Rm226"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="07" Name="Rm317"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="08" Name="Rm322"/>
+      <Device Model="C2N-IO" DeviceId="09"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="DM-MD32x32" DeviceId="10" Name="DM Switcher"/>
+      <Device Model="Fusion Room" DeviceId="52" Name="222"/>
+      <Device Model="Fusion Room" DeviceId="53" Name="226"/>
+      <Device Model="Fusion Room" DeviceId="54" Name="317"/>
+      <Device Model="Fusion Room" DeviceId="55" Name="322"/>
+      <Device Model="Fusion Room" DeviceId="56" Name="228"/>
+      <Device Model="TSW-770" DeviceId="62" Name="222"/>
+      <Device Model="TSW-770" DeviceId="63" Name="226"/>
+      <Device Model="TSW-770" DeviceId="64" Name="317"/>
+      <Device Model="TSW-770" DeviceId="65" Name="322"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="70" Name="222"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="71" Name="226"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="72" Name="317"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="73" Name="322"/>
+      <Device Model="Crestron One" DeviceId="76" Name="222"/>
+      <Device Model="Crestron One" DeviceId="77" Name="226"/>
+      <Device Model="Crestron One" DeviceId="78" Name="317"/>
+      <Device Model="Crestron One" DeviceId="79" Name="322"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="80" Name="Tech"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="81" Name="User"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="82" Name="Fieldhouse"/>
+      <Device Model="XPanel 3.0 Crestron HTML5" DeviceId="83" Name="User"/>
+      <Device Model="Crestron One" DeviceId="90" Name="Tech"/>
+      <Device Model="Crestron One" DeviceId="91" Name="User"/>
+      <Device Model="Crestron One" DeviceId="92" Name="Fieldhouse"/>
+      <Device Model="Crestron One" DeviceId="93" Name="Pool"/>
+   </Network>
+</Device>

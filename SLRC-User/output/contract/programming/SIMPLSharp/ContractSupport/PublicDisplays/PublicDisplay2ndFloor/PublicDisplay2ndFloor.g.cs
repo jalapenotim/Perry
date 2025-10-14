@@ -23,7 +23,7 @@ using Crestron.SimplSharpPro;
 using Crestron.SimplSharpPro.DeviceSupport;
 using SLRCUser;
 
-namespace SLRCUser.PublicDisplays
+namespace SLRCUser.PublicDisplays.PublicDisplay2ndFloor
 {
 
     /// <summary>
@@ -44,6 +44,11 @@ namespace SLRCUser.PublicDisplays
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void PublicDisplay2ndFloor_Visibility_fb(bool digital);
+
+        /// <summary>
+        /// ComplexComponent Display Controls
+        /// </summary>
+        SLRCUser.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.ISecondFloorWidgetList SecondFloorWidgetList { get; }
     }
 
     /// <summary>
@@ -144,18 +149,23 @@ namespace SLRCUser.PublicDisplays
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
+            SecondFloorWidgetList = new SLRCUser.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.SecondFloorWidgetList(ComponentMediator, 106);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
         {
             Devices.Add(device);
             ComponentMediator.HookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
+
+            ((SLRCUser.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.SecondFloorWidgetList)SecondFloorWidgetList).AddDevice(device);
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
         {
             Devices.Remove(device);
             ComponentMediator.UnHookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
+
+            ((SLRCUser.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.SecondFloorWidgetList)SecondFloorWidgetList).RemoveDevice(device);
         }
 
         #endregion
@@ -176,6 +186,11 @@ namespace SLRCUser.PublicDisplays
         {
             PublicDisplay2ndFloor_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
+
+        /// <summary>
+        /// ComplexComponent SecondFloorWidgetList
+        /// </summary>
+        public SLRCUser.PublicDisplays.PublicDisplay2ndFloor.SecondFloorWidgetList.ISecondFloorWidgetList SecondFloorWidgetList { get; private set; }
 
         #endregion
 

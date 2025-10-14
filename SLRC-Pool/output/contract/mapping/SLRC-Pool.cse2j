@@ -1,6 +1,6 @@
 {
   "name": "SLRC-Pool",
-  "timestamp": "2025-10-06T18:25:51.4463749+00:00",
+  "timestamp": "2025-10-14T15:05:33.7098459+00:00",
   "version": "1.0.0.0",
   "schema_version": 1,
   "extra_value": "",
@@ -30,14 +30,16 @@
           "1201": "PoolAudio.OfficeWidgetList.Items[1].FieldhousePoolAudioControlsCONTRACT.ZoneVolumeMuteButton.Selected"
         },
         "10": {
-          "1": "PoolAudio.BuildingMute.BuildingMuteStatus.Visibility_fb",
-          "2": "PoolAudio.BuildingMute.MuteOffButton.Enable",
-          "3": "PoolAudio.BuildingMute.MuteOnButton.Enable",
-          "4": "PoolAudio.BuildingMute.MuteOffButton.Selected",
-          "5": "PoolAudio.BuildingMute.MuteOnButton.Selected"
+          "1": "PoolAudio.BuildingMute.Visibility_fb",
+          "2": "PoolAudio.BuildingMute.BuildingMuteStatus.Visibility_fb",
+          "3": "PoolAudio.BuildingMute.MuteOffButton.Enable",
+          "4": "PoolAudio.BuildingMute.MuteOnButton.Enable",
+          "5": "PoolAudio.BuildingMute.MuteOffButton.Selected",
+          "6": "PoolAudio.BuildingMute.MuteOnButton.Selected"
         },
         "11": {
-          "1": "PoolAudio.Header.MainPageButton.Visibility_fb"
+          "1": "PoolAudio.Header.LockButton.Visibility_fb",
+          "2": "PoolAudio.Header.MainPageButton.Visibility_fb"
         },
         "13": {
           "3": "PoolAudio.BuildingProgramWidget.ZoneVolumeMuteButton.Selected"

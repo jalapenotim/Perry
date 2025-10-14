@@ -100,15 +100,15 @@ namespace SLRCUser
 
             InternalBackgroundMusic = new SLRCUser.BackgroundMusic.BackgroundMusic(ComponentMediator, 40);
 
-            InternalLocked = new SLRCUser.Locked.Locked(ComponentMediator, 48);
+            InternalLocked = new SLRCUser.Locked.Locked(ComponentMediator, 66);
 
-            InternalMain = new SLRCUser.Main.Main(ComponentMediator, 51);
+            InternalMain = new SLRCUser.Main.Main(ComponentMediator, 69);
 
-            InternalCableTV = new SLRCUser.CableTV.CableTV(ComponentMediator, 55);
+            InternalCableTV = new SLRCUser.CableTV.CableTV(ComponentMediator, 73);
 
-            InternalPublicDisplays = new SLRCUser.PublicDisplays.PublicDisplays(ComponentMediator, 61);
+            InternalPublicDisplays = new SLRCUser.PublicDisplays.PublicDisplays(ComponentMediator, 79);
 
-            InternalSystemInitializing = new SLRCUser.SystemInitializing(ComponentMediator, 71);
+            InternalSystemInitializing = new SLRCUser.SystemInitializing(ComponentMediator, 109);
 
 
             for (int index = 0; index < devices.Length; index++)

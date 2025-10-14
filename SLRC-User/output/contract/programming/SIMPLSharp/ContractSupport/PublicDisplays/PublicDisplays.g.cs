@@ -70,7 +70,7 @@ namespace SLRCUser.PublicDisplays
         /// <summary>
         /// ComplexComponent Public Display 3rd Fl
         /// </summary>
-        SLRCUser.PublicDisplays.IPublicDisplay3rdFl PublicDisplay3rdFl { get; }
+        SLRCUser.PublicDisplays.PublicDisplay3rdFl.IPublicDisplay3rdFl PublicDisplay3rdFl { get; }
 
         /// <summary>
         /// ComplexComponent Page Select Tab Button
@@ -80,7 +80,7 @@ namespace SLRCUser.PublicDisplays
         /// <summary>
         /// ComplexComponent Public Display Lower Level
         /// </summary>
-        SLRCUser.PublicDisplays.IPublicDisplayLowerLevel PublicDisplayLowerLevel { get; }
+        SLRCUser.PublicDisplays.PublicDisplayLowerLevel.IPublicDisplayLowerLevel PublicDisplayLowerLevel { get; }
 
         /// <summary>
         /// ComplexComponent Public Display Routing
@@ -90,7 +90,7 @@ namespace SLRCUser.PublicDisplays
         /// <summary>
         /// ComplexComponent Public Display 1st Floor
         /// </summary>
-        SLRCUser.PublicDisplays.IPublicDisplay1stFloor PublicDisplay1stFloor { get; }
+        SLRCUser.PublicDisplays.PublicDisplay1stFloor.IPublicDisplay1stFloor PublicDisplay1stFloor { get; }
 
         /// <summary>
         /// ComplexComponent Building Mute
@@ -100,7 +100,7 @@ namespace SLRCUser.PublicDisplays
         /// <summary>
         /// ComplexComponent Public Display 2nd Floor
         /// </summary>
-        SLRCUser.PublicDisplays.IPublicDisplay2ndFloor PublicDisplay2ndFloor { get; }
+        SLRCUser.PublicDisplays.PublicDisplay2ndFloor.IPublicDisplay2ndFloor PublicDisplay2ndFloor { get; }
     }
 
     /// <summary>
@@ -214,14 +214,14 @@ namespace SLRCUser.PublicDisplays
             _devices = new List<BasicTriListWithSmartObject>(); 
  
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.RS232Button_PressEvent, onRS232Button_Press);
-            Header = new SLRCUser.PublicDisplays.Header(ComponentMediator, 62);
-            PublicDisplay3rdFl = new SLRCUser.PublicDisplays.PublicDisplay3rdFl(ComponentMediator, 63);
-            PageSelectTabButton = new SLRCUser.PublicDisplays.PageSelectTabButton(ComponentMediator, 64);
-            PublicDisplayLowerLevel = new SLRCUser.PublicDisplays.PublicDisplayLowerLevel(ComponentMediator, 65);
-            PublicDisplayRouting = new SLRCUser.PublicDisplays.PublicDisplayRouting(ComponentMediator, 66);
-            PublicDisplay1stFloor = new SLRCUser.PublicDisplays.PublicDisplay1stFloor(ComponentMediator, 68);
-            BuildingMute = new SLRCUser.PublicDisplays.BuildingMute(ComponentMediator, 69);
-            PublicDisplay2ndFloor = new SLRCUser.PublicDisplays.PublicDisplay2ndFloor(ComponentMediator, 70);
+            Header = new SLRCUser.PublicDisplays.Header(ComponentMediator, 80);
+            PublicDisplay3rdFl = new SLRCUser.PublicDisplays.PublicDisplay3rdFl.PublicDisplay3rdFl(ComponentMediator, 81);
+            PageSelectTabButton = new SLRCUser.PublicDisplays.PageSelectTabButton(ComponentMediator, 86);
+            PublicDisplayLowerLevel = new SLRCUser.PublicDisplays.PublicDisplayLowerLevel.PublicDisplayLowerLevel(ComponentMediator, 87);
+            PublicDisplayRouting = new SLRCUser.PublicDisplays.PublicDisplayRouting(ComponentMediator, 94);
+            PublicDisplay1stFloor = new SLRCUser.PublicDisplays.PublicDisplay1stFloor.PublicDisplay1stFloor(ComponentMediator, 96);
+            BuildingMute = new SLRCUser.PublicDisplays.BuildingMute(ComponentMediator, 104);
+            PublicDisplay2ndFloor = new SLRCUser.PublicDisplays.PublicDisplay2ndFloor.PublicDisplay2ndFloor(ComponentMediator, 105);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -231,19 +231,19 @@ namespace SLRCUser.PublicDisplays
 
             ((SLRCUser.PublicDisplays.Header)Header).AddDevice(device);
 
-            ((SLRCUser.PublicDisplays.PublicDisplay3rdFl)PublicDisplay3rdFl).AddDevice(device);
+            ((SLRCUser.PublicDisplays.PublicDisplay3rdFl.PublicDisplay3rdFl)PublicDisplay3rdFl).AddDevice(device);
 
             ((SLRCUser.PublicDisplays.PageSelectTabButton)PageSelectTabButton).AddDevice(device);
 
-            ((SLRCUser.PublicDisplays.PublicDisplayLowerLevel)PublicDisplayLowerLevel).AddDevice(device);
+            ((SLRCUser.PublicDisplays.PublicDisplayLowerLevel.PublicDisplayLowerLevel)PublicDisplayLowerLevel).AddDevice(device);
 
             ((SLRCUser.PublicDisplays.PublicDisplayRouting)PublicDisplayRouting).AddDevice(device);
 
-            ((SLRCUser.PublicDisplays.PublicDisplay1stFloor)PublicDisplay1stFloor).AddDevice(device);
+            ((SLRCUser.PublicDisplays.PublicDisplay1stFloor.PublicDisplay1stFloor)PublicDisplay1stFloor).AddDevice(device);
 
             ((SLRCUser.PublicDisplays.BuildingMute)BuildingMute).AddDevice(device);
 
-            ((SLRCUser.PublicDisplays.PublicDisplay2ndFloor)PublicDisplay2ndFloor).AddDevice(device);
+            ((SLRCUser.PublicDisplays.PublicDisplay2ndFloor.PublicDisplay2ndFloor)PublicDisplay2ndFloor).AddDevice(device);
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
@@ -253,19 +253,19 @@ namespace SLRCUser.PublicDisplays
 
             ((SLRCUser.PublicDisplays.Header)Header).RemoveDevice(device);
 
-            ((SLRCUser.PublicDisplays.PublicDisplay3rdFl)PublicDisplay3rdFl).RemoveDevice(device);
+            ((SLRCUser.PublicDisplays.PublicDisplay3rdFl.PublicDisplay3rdFl)PublicDisplay3rdFl).RemoveDevice(device);
 
             ((SLRCUser.PublicDisplays.PageSelectTabButton)PageSelectTabButton).RemoveDevice(device);
 
-            ((SLRCUser.PublicDisplays.PublicDisplayLowerLevel)PublicDisplayLowerLevel).RemoveDevice(device);
+            ((SLRCUser.PublicDisplays.PublicDisplayLowerLevel.PublicDisplayLowerLevel)PublicDisplayLowerLevel).RemoveDevice(device);
 
             ((SLRCUser.PublicDisplays.PublicDisplayRouting)PublicDisplayRouting).RemoveDevice(device);
 
-            ((SLRCUser.PublicDisplays.PublicDisplay1stFloor)PublicDisplay1stFloor).RemoveDevice(device);
+            ((SLRCUser.PublicDisplays.PublicDisplay1stFloor.PublicDisplay1stFloor)PublicDisplay1stFloor).RemoveDevice(device);
 
             ((SLRCUser.PublicDisplays.BuildingMute)BuildingMute).RemoveDevice(device);
 
-            ((SLRCUser.PublicDisplays.PublicDisplay2ndFloor)PublicDisplay2ndFloor).RemoveDevice(device);
+            ((SLRCUser.PublicDisplays.PublicDisplay2ndFloor.PublicDisplay2ndFloor)PublicDisplay2ndFloor).RemoveDevice(device);
         }
 
         #endregion
@@ -318,7 +318,7 @@ namespace SLRCUser.PublicDisplays
         /// <summary>
         /// ComplexComponent PublicDisplay3rdFl
         /// </summary>
-        public SLRCUser.PublicDisplays.IPublicDisplay3rdFl PublicDisplay3rdFl { get; private set; }
+        public SLRCUser.PublicDisplays.PublicDisplay3rdFl.IPublicDisplay3rdFl PublicDisplay3rdFl { get; private set; }
 
         /// <summary>
         /// ComplexComponent Page Select Tab Button
@@ -328,7 +328,7 @@ namespace SLRCUser.PublicDisplays
         /// <summary>
         /// ComplexComponent PublicDisplayLowerLevel
         /// </summary>
-        public SLRCUser.PublicDisplays.IPublicDisplayLowerLevel PublicDisplayLowerLevel { get; private set; }
+        public SLRCUser.PublicDisplays.PublicDisplayLowerLevel.IPublicDisplayLowerLevel PublicDisplayLowerLevel { get; private set; }
 
         /// <summary>
         /// ComplexComponent PublicDisplayRouting
@@ -338,7 +338,7 @@ namespace SLRCUser.PublicDisplays
         /// <summary>
         /// ComplexComponent PublicDisplay1stFloor
         /// </summary>
-        public SLRCUser.PublicDisplays.IPublicDisplay1stFloor PublicDisplay1stFloor { get; private set; }
+        public SLRCUser.PublicDisplays.PublicDisplay1stFloor.IPublicDisplay1stFloor PublicDisplay1stFloor { get; private set; }
 
         /// <summary>
         /// ComplexComponent BuildingMute
@@ -348,7 +348,7 @@ namespace SLRCUser.PublicDisplays
         /// <summary>
         /// ComplexComponent PublicDisplay2ndFloor
         /// </summary>
-        public SLRCUser.PublicDisplays.IPublicDisplay2ndFloor PublicDisplay2ndFloor { get; private set; }
+        public SLRCUser.PublicDisplays.PublicDisplay2ndFloor.IPublicDisplay2ndFloor PublicDisplay2ndFloor { get; private set; }
 
         #endregion
 

@@ -3,7 +3,7 @@ Schema = "1.0.0.0"
 CreatedByAppHost = "2.601.10.0"
 Created = 2025-10-06 12:55:05.915216-05:00
 LastModifiedByAppHost = "2.601.10.0"
-Modified = 2025-10-06 12:55:05.915209-05:00
+Modified = 2025-10-07 09:30:33.099138-05:00
 CreatedByProjectApp = "1.4201.17.0"
 LastModifiedByProjectApp = "1.4201.17.0"
 MinimumProjectApp = "1.2600.1"
@@ -15,7 +15,6 @@ MinimumAppHost = "2.0.0"
 {ProjectAttributes}
 
 [Attributes]
-ComponentKey = "UiEditor"
 Name = "SLRC-User"
 ThemeId = "dark-theme.css"
 ProjectThemeIds = "dark-theme.css"
@@ -23,10 +22,11 @@ ThemePageColor = "#000000"
 IncludeUnusedAsset = "False"
 OverrideThemeColor = "True"
 SdkId = "CH5:2.16.0"
+ComponentKey = "UiEditor"
 Id = "84389e1d-c4bc-4c8e-8638-07bf6a88c744"
 RuntimeThemeJoin = "0"
 RuntimeLanguageJoin = "0"
 DeviceResolutionIds = "G-L-4KMONIT-2560-1440,G-L-IPAD000-1080-0810,G-L-IPAIR00-1024-0768,G-P-IPAD000-0810-1080,G-P-IPAIR00-0768-1024"
-ipId = "80"
+ipId = "81"
 ProjectSchemaVersion = "6"
 

@@ -80,7 +80,7 @@ namespace SLRCUser.BackgroundMusic
         /// <summary>
         /// ComplexComponent Background Music Zone Levels
         /// </summary>
-        SLRCUser.BackgroundMusic.IBackgroundMusicZoneLevels BackgroundMusicZoneLevels { get; }
+        SLRCUser.BackgroundMusic.BackgroundMusicZoneLevels.IBackgroundMusicZoneLevels BackgroundMusicZoneLevels { get; }
 
         /// <summary>
         /// ComplexComponent Building Mute
@@ -202,8 +202,8 @@ namespace SLRCUser.BackgroundMusic
             PageSelectTabButton = new SLRCUser.BackgroundMusic.PageSelectTabButton(ComponentMediator, 41);
             Header = new SLRCUser.BackgroundMusic.Header(ComponentMediator, 42);
             AudioRouting = new SLRCUser.BackgroundMusic.AudioRouting.AudioRouting(ComponentMediator, 44);
-            BackgroundMusicZoneLevels = new SLRCUser.BackgroundMusic.BackgroundMusicZoneLevels(ComponentMediator, 46);
-            BuildingMute = new SLRCUser.BackgroundMusic.BuildingMute(ComponentMediator, 47);
+            BackgroundMusicZoneLevels = new SLRCUser.BackgroundMusic.BackgroundMusicZoneLevels.BackgroundMusicZoneLevels(ComponentMediator, 46);
+            BuildingMute = new SLRCUser.BackgroundMusic.BuildingMute(ComponentMediator, 65);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -217,7 +217,7 @@ namespace SLRCUser.BackgroundMusic
 
             ((SLRCUser.BackgroundMusic.AudioRouting.AudioRouting)AudioRouting).AddDevice(device);
 
-            ((SLRCUser.BackgroundMusic.BackgroundMusicZoneLevels)BackgroundMusicZoneLevels).AddDevice(device);
+            ((SLRCUser.BackgroundMusic.BackgroundMusicZoneLevels.BackgroundMusicZoneLevels)BackgroundMusicZoneLevels).AddDevice(device);
 
             ((SLRCUser.BackgroundMusic.BuildingMute)BuildingMute).AddDevice(device);
         }
@@ -233,7 +233,7 @@ namespace SLRCUser.BackgroundMusic
 
             ((SLRCUser.BackgroundMusic.AudioRouting.AudioRouting)AudioRouting).RemoveDevice(device);
 
-            ((SLRCUser.BackgroundMusic.BackgroundMusicZoneLevels)BackgroundMusicZoneLevels).RemoveDevice(device);
+            ((SLRCUser.BackgroundMusic.BackgroundMusicZoneLevels.BackgroundMusicZoneLevels)BackgroundMusicZoneLevels).RemoveDevice(device);
 
             ((SLRCUser.BackgroundMusic.BuildingMute)BuildingMute).RemoveDevice(device);
         }
@@ -298,7 +298,7 @@ namespace SLRCUser.BackgroundMusic
         /// <summary>
         /// ComplexComponent BackgroundMusicZoneLevels
         /// </summary>
-        public SLRCUser.BackgroundMusic.IBackgroundMusicZoneLevels BackgroundMusicZoneLevels { get; private set; }
+        public SLRCUser.BackgroundMusic.BackgroundMusicZoneLevels.IBackgroundMusicZoneLevels BackgroundMusicZoneLevels { get; private set; }
 
         /// <summary>
         /// ComplexComponent BuildingMute

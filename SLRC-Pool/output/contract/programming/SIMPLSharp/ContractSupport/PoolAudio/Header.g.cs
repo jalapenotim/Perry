@@ -44,6 +44,18 @@ namespace SLRCPool.PoolAudio
         event EventHandler<UIEventArgs> MainPageButton_PressEvent;
 
         /// <summary>
+        /// PoolAudio.Header.Lock Button.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void LockButton_Visibility_fb(HeaderBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// PoolAudio.Header.Lock Button.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void LockButton_Visibility_fb(bool digital);
+
+        /// <summary>
         /// PoolAudio.Header.Main Page Button.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -129,10 +141,16 @@ namespace SLRCPool.PoolAudio
 
 
                 /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.Header.LockButton.Visibility_fb
+                /// PoolAudio.Header.Lock Button.Visibility
+                /// </summary>
+                public const uint LockButton_Visibility_fbState = 1;
+
+                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: PoolAudio.Header.MainPageButton.Visibility_fb
                 /// PoolAudio.Header.Main Page Button.Visibility
                 /// </summary>
-                public const uint MainPageButton_Visibility_fbState = 1;
+                public const uint MainPageButton_Visibility_fbState = 2;
 
             }
             /// <summary>
@@ -234,6 +252,20 @@ namespace SLRCPool.PoolAudio
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
+        /// <inheritdoc/>
+        public void LockButton_Visibility_fb(HeaderBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.LockButton_Visibility_fbState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void LockButton_Visibility_fb(bool digital)
+        {
+            LockButton_Visibility_fb((sig, component) => sig.BoolValue = digital);
+        }
         /// <inheritdoc/>
         public void MainPageButton_Visibility_fb(HeaderBoolInputSigDelegate callback)
         {

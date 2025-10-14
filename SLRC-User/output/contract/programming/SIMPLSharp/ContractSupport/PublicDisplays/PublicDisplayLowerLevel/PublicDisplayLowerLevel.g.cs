@@ -23,40 +23,45 @@ using Crestron.SimplSharpPro;
 using Crestron.SimplSharpPro.DeviceSupport;
 using SLRCUser;
 
-namespace SLRCUser.PublicDisplays
+namespace SLRCUser.PublicDisplays.PublicDisplayLowerLevel
 {
 
     /// <summary>
-    /// PublicDisplay3rdFl
+    /// PublicDisplayLowerLevel
     /// </summary>
-    public partial interface IPublicDisplay3rdFl 
+    public partial interface IPublicDisplayLowerLevel 
     {
         object UserObject { get; set; }
 
         /// <summary>
-        /// Public Display 3rd Fl.Visibility Feedback
+        /// Public Display Lower Level.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void PublicDisplay3rdFl_Visibility_fb(PublicDisplay3rdFlBoolInputSigDelegate callback);
+        void PublicDisplayLowerLevel_Visibility_fb(PublicDisplayLowerLevelBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Public Display 3rd Fl.Visibility Feedback
+        /// Public Display Lower Level.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void PublicDisplay3rdFl_Visibility_fb(bool digital);
+        void PublicDisplayLowerLevel_Visibility_fb(bool digital);
+
+        /// <summary>
+        /// ComplexComponent Display Controls
+        /// </summary>
+        SLRCUser.PublicDisplays.PublicDisplayLowerLevel.LowerLevelWidgetList.ILowerLevelWidgetList LowerLevelWidgetList { get; }
     }
 
     /// <summary>
     /// Digital callback used in feedback events.
     /// </summary>
     /// <param name="boolInputSig">The <see cref="BoolInputSig"/> joinInfo data.</param>
-    /// <param name="publicdisplay3rdfl">The <see cref="IPublicDisplay3rdFl"/> on which to apply the feedback.</param>
-    public delegate void PublicDisplay3rdFlBoolInputSigDelegate(BoolInputSig boolInputSig, IPublicDisplay3rdFl publicdisplay3rdfl);
+    /// <param name="publicdisplaylowerlevel">The <see cref="IPublicDisplayLowerLevel"/> on which to apply the feedback.</param>
+    public delegate void PublicDisplayLowerLevelBoolInputSigDelegate(BoolInputSig boolInputSig, IPublicDisplayLowerLevel publicdisplaylowerlevel);
 
     /// <summary>
-    /// PublicDisplay3rdFl
+    /// PublicDisplayLowerLevel
     /// </summary>
-    internal partial class PublicDisplay3rdFl : IPublicDisplay3rdFl, IDisposable
+    internal partial class PublicDisplayLowerLevel : IPublicDisplayLowerLevel, IDisposable
     {
         #region Standard CH5 Component members
 
@@ -89,10 +94,10 @@ namespace SLRCUser.PublicDisplays
             {
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplay3rdFl.Visibility_fb
-                /// Public Display 3rd Fl.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: PublicDisplays.PublicDisplayLowerLevel.Visibility_fb
+                /// Public Display Lower Level.Visibility
                 /// </summary>
-                public const uint PublicDisplay3rdFl_Visibility_fbState = 1;
+                public const uint PublicDisplayLowerLevel_Visibility_fbState = 1;
 
             }
         }
@@ -102,23 +107,23 @@ namespace SLRCUser.PublicDisplays
         #region Construction and Initialization
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="PublicDisplay3rdFl"/> component class.
+        /// Initializes a new instance of the <see cref="PublicDisplayLowerLevel"/> component class.
         /// </summary>
         /// <param name="componentMediator">The <see cref="ComponentMediator"/> used to instantiate the component.</param>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
         /// <param name="itemCount">The number of items.</param>
-        internal PublicDisplay3rdFl(ComponentMediator componentMediator, uint controlJoinId, uint? itemCount)
+        internal PublicDisplayLowerLevel(ComponentMediator componentMediator, uint controlJoinId, uint? itemCount)
         {
             ComponentMediator = componentMediator;
             Initialize(controlJoinId, itemCount);
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="PublicDisplay3rdFl"/> component class.
+        /// Initializes a new instance of the <see cref="PublicDisplayLowerLevel"/> component class.
         /// </summary>
         /// <param name="componentMediator">The <see cref="ComponentMediator"/> used to instantiate the component.</param>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
-        internal PublicDisplay3rdFl(ComponentMediator componentMediator, uint controlJoinId) : this(componentMediator, controlJoinId, null)
+        internal PublicDisplayLowerLevel(ComponentMediator componentMediator, uint controlJoinId) : this(componentMediator, controlJoinId, null)
         {
         }
 
@@ -134,7 +139,7 @@ namespace SLRCUser.PublicDisplays
         private Dictionary<string, Indexes> _indexLookup = new Dictionary<string, Indexes>();
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="PublicDisplay3rdFl"/> component class.
+        /// Initializes a new instance of the <see cref="PublicDisplayLowerLevel"/> component class.
         /// </summary>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
         /// <param name="itemCount">The number of items.</param>
@@ -144,18 +149,23 @@ namespace SLRCUser.PublicDisplays
  
             _devices = new List<BasicTriListWithSmartObject>(); 
  
+            LowerLevelWidgetList = new SLRCUser.PublicDisplays.PublicDisplayLowerLevel.LowerLevelWidgetList.LowerLevelWidgetList(ComponentMediator, 88);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
         {
             Devices.Add(device);
             ComponentMediator.HookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
+
+            ((SLRCUser.PublicDisplays.PublicDisplayLowerLevel.LowerLevelWidgetList.LowerLevelWidgetList)LowerLevelWidgetList).AddDevice(device);
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
         {
             Devices.Remove(device);
             ComponentMediator.UnHookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
+
+            ((SLRCUser.PublicDisplays.PublicDisplayLowerLevel.LowerLevelWidgetList.LowerLevelWidgetList)LowerLevelWidgetList).RemoveDevice(device);
         }
 
         #endregion
@@ -163,19 +173,24 @@ namespace SLRCUser.PublicDisplays
         #region CH5 Contract
 
         /// <inheritdoc/>
-        public void PublicDisplay3rdFl_Visibility_fb(PublicDisplay3rdFlBoolInputSigDelegate callback)
+        public void PublicDisplayLowerLevel_Visibility_fb(PublicDisplayLowerLevelBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.PublicDisplay3rdFl_Visibility_fbState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.PublicDisplayLowerLevel_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void PublicDisplay3rdFl_Visibility_fb(bool digital)
+        public void PublicDisplayLowerLevel_Visibility_fb(bool digital)
         {
-            PublicDisplay3rdFl_Visibility_fb((sig, component) => sig.BoolValue = digital);
+            PublicDisplayLowerLevel_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
+
+        /// <summary>
+        /// ComplexComponent LowerLevelWidgetList
+        /// </summary>
+        public SLRCUser.PublicDisplays.PublicDisplayLowerLevel.LowerLevelWidgetList.ILowerLevelWidgetList LowerLevelWidgetList { get; private set; }
 
         #endregion
 
@@ -188,7 +203,7 @@ namespace SLRCUser.PublicDisplays
 
         public override string ToString()
         {
-            return string.Format("Contract: {0} Component: {1} HashCode: {2} {3}", "PublicDisplay3rdFl", GetType().Name, GetHashCode(), UserObject != null ? "UserObject: " + UserObject : null);
+            return string.Format("Contract: {0} Component: {1} HashCode: {2} {3}", "PublicDisplayLowerLevel", GetType().Name, GetHashCode(), UserObject != null ? "UserObject: " + UserObject : null);
         }
 
         #endregion

@@ -364,8 +364,8 @@ namespace SLRCUser.Main
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PoolAudioButton_PressEvent, onPoolAudioButton_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.PublicDisplaysButton_PressEvent, onPublicDisplaysButton_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.SettingsButton_PressEvent, onSettingsButton_Press);
-            BuildingMute = new SLRCUser.Main.BuildingMute(ComponentMediator, 53);
-            Header = new SLRCUser.Main.Header(ComponentMediator, 54);
+            BuildingMute = new SLRCUser.Main.BuildingMute(ComponentMediator, 71);
+            Header = new SLRCUser.Main.Header(ComponentMediator, 72);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
