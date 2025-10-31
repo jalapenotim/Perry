@@ -1,18 +1,18 @@
 {FileMetadata}
 Schema = "1.0.0.0"
-CreatedByAppHost = "2.601.10.0"
-Created = 2025-10-14 10:10:37.829231-05:00
-LastModifiedByAppHost = "2.601.10.0"
-Modified = 2025-10-14 10:10:37.829224-05:00
-CreatedByProjectApp = "1.4201.17.0"
-LastModifiedByProjectApp = "1.4201.17.0"
+CreatedByAppHost = "2.701.5.0"
+Created = 2025-10-28 11:15:35.777498-05:00
+LastModifiedByAppHost = "2.701.5.0"
+Modified = 2025-10-28 11:15:35.777493-05:00
+CreatedByProjectApp = "1.4301.17.0"
+LastModifiedByProjectApp = "1.4301.17.0"
 MinimumProjectApp = "1.2600.1"
 MinimumAppHost = "2.0.0"
 
 {Html}
-<div categoryname="Widget Components" id="iih60mp9kk" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" defaultwidth="1100px" defaultheight="476px" class="widget-container"><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ic9v" componentname="Third Floor Label" ccid_activefont="'Roboto'" ccid_label="3rd Floor" labelinnerhtml="3rd Floor" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" oldid="ifofp3irgu09y"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="iiny" componentname="Second Floor Label" ccid_activefont="'Roboto'" ccid_label="2nd Floor" labelinnerhtml="2nd Floor" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" oldid="ilzzfur0lks9g"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="inzr" componentname="First Floor Label" ccid_activefont="'Roboto'" ccid_label="1st Floor" labelinnerhtml="1st Floor" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" oldid="i4o1h"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="idyl" componentname="Lower Level Label" ccid_activefont="'Roboto'" ccid_label="Lower Level" labelinnerhtml="Lower Level" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true">
-              </ch5-text><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="3" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="true" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" loaditems="visible-only" id="i2sq" componentname="Third Floor Widget List" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" pd-receivestatenumberofitems="Contract Enabled" oldid="i1isywlrfz" widgetid="w12c5d593-67eb-467c-88eb-0c6c1de54691"></ch5-subpage-reference-list><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="4" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="true" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" loaditems="visible-only" id="i1vm" componentname="Second Floor Widget List" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" pd-receivestatenumberofitems="Contract Enabled" oldid="i8nos0tp63" widgetid="w12c5d593-67eb-467c-88eb-0c6c1de54691"></ch5-subpage-reference-list><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="4" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="true" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" loaditems="visible-only" id="i2tr" componentname="First Floor Widget List" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" pd-receivestatenumberofitems="Contract Enabled" oldid="ikph" widgetid="w12c5d593-67eb-467c-88eb-0c6c1de54691"></ch5-subpage-reference-list><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="3" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="true" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" loaditems="visible-only" id="i3d7" componentname="Lower Level Widget List" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" pd-receivestatenumberofitems="Contract Enabled" widgetid="w12c5d593-67eb-467c-88eb-0c6c1de54691">
-              </ch5-subpage-reference-list><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="izjg" componentname="Background" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" backgroundcolor="#000000" componentwasresized="true" imgbackgroundcolor="transparent">
+<div categoryname="Widget Components" ccid_componenttype="Widget Canvas" id="iih60mp9kk" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" defaultwidth="1100px" defaultheight="476px" class="widget-container"><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ic9v" componentname="Third Floor Label" ccid_activefont="'Roboto'" ccid_label="3rd Floor" labelinnerhtml="3rd Floor" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" oldid="ifofp3irgu09y" ccid_componenttype="Formatted-Text"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="iiny" componentname="Second Floor Label" ccid_activefont="'Roboto'" ccid_label="2nd Floor" labelinnerhtml="2nd Floor" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" oldid="ilzzfur0lks9g" ccid_componenttype="Formatted-Text"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="inzr" componentname="First Floor Label" ccid_activefont="'Roboto'" ccid_label="1st Floor" labelinnerhtml="1st Floor" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" oldid="i4o1h" ccid_componenttype="Formatted-Text"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="idyl" componentname="Lower Level Label" ccid_activefont="'Roboto'" ccid_label="Lower Level" labelinnerhtml="Lower Level" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_themecssset="true" ccid_componenttype="Formatted-Text">
+              </ch5-text><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="3" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="false" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" loaditems="visible-only" id="i2sq" componentname="Third Floor Levels" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" oldid="i1isywlrfz" ccid_componenttype="Widget List" widgetid="w12c5d593-67eb-467c-88eb-0c6c1de54691"></ch5-subpage-reference-list><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="4" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="false" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" loaditems="visible-only" id="i1vm" componentname="First Floor Levels" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" oldid="i8nos0tp63" ccid_componenttype="Widget List" widgetid="w12c5d593-67eb-467c-88eb-0c6c1de54691"></ch5-subpage-reference-list><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="4" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="false" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" loaditems="visible-only" id="i2tr" componentname="Second Floor Levels Widget List" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" oldid="ikph" ccid_componenttype="Widget List" widgetid="w12c5d593-67eb-467c-88eb-0c6c1de54691"></ch5-subpage-reference-list><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="3" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="false" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" loaditems="visible-only" id="i3d7" componentname="Lower Level Levels" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" ccid_componenttype="Widget List" widgetid="w12c5d593-67eb-467c-88eb-0c6c1de54691">
+              </ch5-subpage-reference-list><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="izjg" componentname="Background" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;iPad (Portrait), iPad Air (Portrait)&quot;]" backgroundcolor="#000000" componentwasresized="true" imgbackgroundcolor="transparent" ccid_componenttype="Background">
               </ch5-background></div>
 
 {Css}
@@ -50,6 +50,7 @@ ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
 ccid_themeCSSSet = "true"
 oldID = "ifofp3irgu09y"
+ccid_ComponentType = "Formatted-Text"
 [[Elements.Components]]
 Type = "Ch5 Text"
 Editable = true
@@ -70,6 +71,7 @@ ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
 ccid_themeCSSSet = "true"
 oldID = "ilzzfur0lks9g"
+ccid_ComponentType = "Formatted-Text"
 [[Elements.Components]]
 Type = "Ch5 Text"
 Editable = true
@@ -90,6 +92,7 @@ ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
 ccid_themeCSSSet = "true"
 oldID = "i4o1h"
+ccid_ComponentType = "Formatted-Text"
 [[Elements.Components]]
 Type = "Ch5 Text"
 Editable = true
@@ -113,6 +116,7 @@ labelinnerhtml = "Lower Level"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
 ccid_themeCSSSet = "true"
+ccid_ComponentType = "Formatted-Text"
 [[Elements.Components]]
 Type = "Ch5 Subpage Reference List"
 Editable = true
@@ -131,17 +135,17 @@ useContractForCustomStyle = "false"
 useContractForCustomClass = "false"
 useContractForEnable = "false"
 useContractForShow = "false"
-useContractForNumItems = "true"
+useContractForNumItems = "false"
 useContractForItemEnable = "false"
 useContractForItemShow = "false"
 customvstheme = "custom"
 loaditems = "visible-only"
 id = "i2sq"
-componentName = "Third Floor Widget List"
+componentName = "Third Floor Levels"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
-pd-receivestatenumberofitems = "Contract Enabled"
 oldID = "i1isywlrfz"
+ccid_ComponentType = "Widget List"
 widgetid = "w12c5d593-67eb-467c-88eb-0c6c1de54691"
 [[Elements.Components]]
 Type = "Ch5 Subpage Reference List"
@@ -161,17 +165,17 @@ useContractForCustomStyle = "false"
 useContractForCustomClass = "false"
 useContractForEnable = "false"
 useContractForShow = "false"
-useContractForNumItems = "true"
+useContractForNumItems = "false"
 useContractForItemEnable = "false"
 useContractForItemShow = "false"
 customvstheme = "custom"
 loaditems = "visible-only"
 id = "i1vm"
-componentName = "Second Floor Widget List"
+componentName = "First Floor Levels"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
-pd-receivestatenumberofitems = "Contract Enabled"
 oldID = "i8nos0tp63"
+ccid_ComponentType = "Widget List"
 widgetid = "w12c5d593-67eb-467c-88eb-0c6c1de54691"
 [[Elements.Components]]
 Type = "Ch5 Subpage Reference List"
@@ -191,17 +195,17 @@ useContractForCustomStyle = "false"
 useContractForCustomClass = "false"
 useContractForEnable = "false"
 useContractForShow = "false"
-useContractForNumItems = "true"
+useContractForNumItems = "false"
 useContractForItemEnable = "false"
 useContractForItemShow = "false"
 customvstheme = "custom"
 loaditems = "visible-only"
 id = "i2tr"
-componentName = "First Floor Widget List"
+componentName = "Second Floor Levels Widget List"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
-pd-receivestatenumberofitems = "Contract Enabled"
 oldID = "ikph"
+ccid_ComponentType = "Widget List"
 widgetid = "w12c5d593-67eb-467c-88eb-0c6c1de54691"
 [[Elements.Components]]
 Type = "Ch5 Subpage Reference List"
@@ -225,16 +229,16 @@ useContractForCustomStyle = "false"
 useContractForCustomClass = "false"
 useContractForEnable = "false"
 useContractForShow = "false"
-useContractForNumItems = "true"
+useContractForNumItems = "false"
 useContractForItemEnable = "false"
 useContractForItemShow = "false"
 customvstheme = "custom"
 loaditems = "visible-only"
 id = "i3d7"
-componentName = "Lower Level Widget List"
+componentName = "Lower Level Levels"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
-pd-receivestatenumberofitems = "Contract Enabled"
+ccid_ComponentType = "Widget List"
 widgetid = "w12c5d593-67eb-467c-88eb-0c6c1de54691"
 [[Elements.Components]]
 Type = "Ch5 Background"
@@ -257,9 +261,11 @@ devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
 backgroundcolor = "#000000"
 componentWasResized = "true"
 imgbackgroundcolor = "transparent"
+ccid_ComponentType = "Background"
 
 [Elements.Attributes]
 categoryname = "Widget Components"
+ccid_ComponentType = "Widget Canvas"
 id = "iih60mp9kk"
 devicesVisited = "[\"4K Monitor\",\"iPad (Portrait), iPad Air (Portrait)\"]"
 defaultWidth = "1100px"
